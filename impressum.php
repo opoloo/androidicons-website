@@ -85,8 +85,8 @@ $(document).ready(function(){
 
 <!-- Begin Content -->
 
-<div id="content">
-	<h1 class="nomargin">Impressum</h1>
+<div id="content" class="impressum">
+	<div id="headline"><h1><span>Impressum</span></h1></div>
 	<p>
 	<strong>Antje Pulinckx-Maurer</strong><br/>
 	Markt 31<br/>
@@ -108,7 +108,7 @@ $(document).ready(function(){
 	<p>Opoloo GbR</p>
 	<p><a href="http://www.opoloo.de" class="link">www.opoloo.de</a></p>
 
-	<h1 class="margin">Rechtliche Hinweise</h1>
+	<div id="headline"><h1><span>Rechtliche Hinweise</span></h1></div>
 	<p>Links von anderen Internet-Angeboten auf diese Homepage oder ihre Unterseiten sind ohne weitere Informationen oder Anfragen erlaubt, sofern sie das Anliegen dieser Homepage unterst&uuml;tzen und sie oder eine ihrer Unterseiten im gesamten bisherigen oder einem neuen Browserfenster zeigen. Aufrufe in einem Frame-Teilfenster, die so die verlinkte Seite dieser Website als Teil der fremden Internet-Site erscheinen lassen, sind nicht statthaft.</p>
 	<br/><br/>
 	<h2>Haftungsausschluss</h2>

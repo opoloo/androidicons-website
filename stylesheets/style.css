@@ -143,25 +143,34 @@ a:hover {
 	color:#666;
 }
 
-
-h1 {
-	font-family: 'GentiumItalic';
-	font-weight:normal;
-	font-size:45px;
+.headline {
+	background:url('../images/bg_h1.png') center center repeat-x;
+	height:80px;
+	text-align:center;
 	line-height:80px;
 	margin:0px 0 0px 0;
 	color:#567d80;
-	background:url('../images/bg_h1.png') center center repeat-x;
-	height:80px;
+	font-family: 'GentiumItalic';
+	font-weight:normal;
+	width:100%;
+	display:block;
 }
 
-h1 span {
+#content.impressum .headline {
+	margin:40px 0 0 0;
+}
+
+
+h1 {
+	font-family: 'GentiumItalic';
+	font-weight:normal;	
+	font-size:45px;
+}
+
+.headline span {
 	background-color:#f3f2ef;
 	padding:0 15px 0 15px;
-	text-align:center;
-	margin:0px auto;
 	height:80px;
-	display:inline-block;
 }
 
 
@@ -176,6 +185,11 @@ h2 {
 	text-align:center;
 	text-transform:uppercase;
 	color:#666;
+}
+
+#content.impressum h2 {
+	margin:50px 0 15px 0;
+	text-align:left;
 }
 
 #mediation h2 {
@@ -232,9 +246,9 @@ i {
 /*-----------------------------------------------------------*/
 
 #header {
-	height:387px;
+	height:385px;
 	width:100%;
-	background-color:#668f9b;
+	background:url(../images/bg_header.jpg) bottom center no-repeat #668f9b;
 	font-size:17px;
 	padding:85px 0 0 0;
 }
@@ -244,6 +258,14 @@ span.teaser {
 	display:block;
 	font-size:30px;
 	font-family: 'OpenSansBold';
+	line-height:40px;
+	margin:0 0 10px 0;
+}
+
+div#intro {
+	width:400px;
+	padding:50px 0 0 40px;
+	line-height:30px;
 }
 
 #meta {

@@ -96,7 +96,7 @@ $(document).ready(function(){
 <div id="meta">
 	<div class="wrapper">
 		<div id="logo">
-			<a href="#nav-start"><img src="images/logo.png" /></a>
+			<a href="#nav-start"><img src="images/logo.png" alt="Logo Rechtsanwältin Antje Pulinckx-Maurer" /></a>
 		</div>
 		<div id="nav">
 			<ul>
@@ -111,9 +111,11 @@ $(document).ready(function(){
 </div>
 <div id="header">
 	<div class="wrapper">
+		<div id="intro">
 		<span class="teaser">Fairness, Fachkenntnis & Engagement.</span>
 		<p>Als Rechtsanwältin für Eherecht und Familienrecht, finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten.
 		Wenn die Liebe stolpert, sollten Sie miteinander streiten – nicht gegeneinander. Ich helfe Ihnen dabei.</p>
+		</div>
 	</div>
 </div>
 <!-- End Header -->
@@ -122,7 +124,7 @@ $(document).ready(function(){
 <div id="content">
 	<a id="nav-leistungen" name="nav-leistungen"></a>
 	<div id="leistungen">
-		<h1><span>Leistungen</span></h1>
+		<div class="headline"><h1><span>Leistungen</span></h1></div>
 		<ul>
 			<li class="l1">
 				<h2>Ehescheidung</h2>
@@ -151,7 +153,7 @@ $(document).ready(function(){
 		</ul>
 	</div>
 	<a id="nav-mediation" name="nav-mediation"></a>
-	<h1>Mediation</h1>
+	<div class="headline"><h1><span>Mediation</span></h1></div>
 	<div id="mediation">
 		<div>
 			<div class="two-cols margin-2cols">
@@ -175,7 +177,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 	<a id="nav-vita" name="nav-vita"></a>
-	<h1>Vita</h1>
+	<div class="headline"><h1><span>Vita</span></h1></div>
 	<div id="vita">	
 		<div class="two-cols margin-2cols">
 			<h2>Schwerpunkte</h2>
@@ -243,7 +245,7 @@ $(document).ready(function(){
 					<input class="validate[required] field" name="fromtelefon" id="fromtelefon"  value="<?= $from_telefon; ?>" type="text"  /></p>
 					
 					<p><label for="frommail">Ihre E-Mailadresse</label>
-					<input class="validate[required] field"name="frommail" id="frommail"  value="<?= $from_mail; ?>" type="text"  /></p>
+					<input class="validate[required] field" name="frommail" id="frommail"  value="<?= $from_mail; ?>" type="text"  /></p>
 					
 					<p><label for="mailtext">Ihre Nachricht</label>
 					<textarea class="validate[required,maxSize[2500]]" name="mailtext" id="mailtext"><?= $mail_text; ?></textarea></p>
