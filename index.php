@@ -51,7 +51,8 @@ $mail_text=stripslashes($mail_text);
 <!-- Fallback Stylesheet -->
 <link href="stylesheets/no-fontface.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="scripts/jquery-1.6.1.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.infieldlabel.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.slides.min.js"></script>
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
@@ -61,13 +62,11 @@ $mail_text=stripslashes($mail_text);
 <script>
 <!--
 $(document).ready(function(){
-
-
 	$('#start').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-start').addClass('active'); } else { $('#nav li').removeClass('active'); }}, { offset: "0px" });
-	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 120 });
-	$('#mediation').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 120 });
-	$('#vita').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 120 });
-	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 120 });
+	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 70 });
+	$('#mediation-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 70 });
+	$('#vita-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 70 });
+	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 70 });
 
 	$("#nav a").smoothScroll({offset: -70, afterScroll: function() {
 		$('#nav li').removeClass('active');
@@ -75,18 +74,43 @@ $(document).ready(function(){
 
 	}});
 
+	$("label").inFieldLabels();
+
+	var parent_orig_height = $("#leistungen ul li").parent().height();
+	var li_orig_height = 125;
+	$("#leistungen ul li").click(function(e){e.preventDefault();});
+	$("#leistungen ul li").click(function(e){
+		var parent_el = $(this).parent();
+		var parent_height = parent_el.height();
+		$.smoothScroll({ scrollTarget: '#leistungen' });
+		if ($(this).hasClass('current')) {
+			$(this).css('position', 'static');
+			$(this).removeClass('current');
+			$(this).children('p:first').show(200);
+			$(this).height(li_orig_height);
+			parent_el.height(parent_orig_height);
+		} else {
+			var el_offset = $(this).position();
+			var anim_dur = 1000;
+			$(this).children('p:first').hide(200);
+			$(this).children('.extended_content p').show(100);
+			$(this).css({'position': 'absolute', 'top': el_offset.top, 'left': el_offset.left});
+
+			$(this).animate( {top: 0, left: 0}, {duration: 200, queue: true } );
+
+			$(this).addClass('current', 399, function() {
+				if ( $(this).height() > parent_orig_height ) {
+					parent_el.height($(this).height() + 100);
+				} else {
+					$(this).height(parent_orig_height);
+				}
+			});
+		}
+	});
+
 });
 -->
 </script>
-
-<script type="text/javascript">
-<!--
-$(document).ready(function(){
-  $("label").inFieldLabels();
-});
--->
-</script>
-
 </head>
 
 
@@ -100,11 +124,11 @@ $(document).ready(function(){
 		</div>
 		<div id="nav">
 			<ul>
-				<li><a href="#nav-start">Start</a></li>
-				<li><a href="#nav-leistungen">Leistungen</a></li>
-				<li><a href="#nav-mediation">Mediation</a></li>
-				<li><a href="#nav-vita">Vita</a></li>
-				<li><a href="#nav-kontakt">Kontakt</a></li>
+				<li id="nav-start"><a href="#start">Start</a></li>
+				<li id="nav-leistungen"><a href="#leistungen">Leistungen</a></li>
+				<li id="nav-mediation"><a href="#mediation-wrapper">Mediation</a></li>
+				<li id="nav-vita"><a href="#vita-wrapper">Vita</a></li>
+				<li id="nav-kontakt"><a href="#kontakt">Kontakt</a></li>
 			</ul>
 		</div>
 	</div>
@@ -122,63 +146,122 @@ $(document).ready(function(){
 
 <!-- Begin Content -->
 <div id="content">
-	<a id="nav-leistungen" name="nav-leistungen"></a>
 	<div id="leistungen">
 		<div class="headline"><h1><span>Leistungen</span></h1></div>
 		<ul>
 			<li class="l1">
 				<h2>Ehescheidung</h2>
-				<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="">Erfahren Sie mehr</a></p>
+				<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Berücksichtigen Sie die gesetzlichen Vorgaben für eine Ehescheidung. Es gilt, eine ganze Reihe von Voraussetzungen zu erfüllen.</p>
+
+					<h3>Voraussetzungen einer Ehescheidung</h3>
+					<p>Nach deutschem Recht wird eine Ehe geschieden, wenn sie zerrüttet ist. Das heißt, wenn die Lebensgemeinschaft der Ehepartner nicht mehr besteht und auch nicht erwartet werden kann, dass die Partner die Ehe wiederherstellen.</p>
+
+					<h3>Wie lange dauert die Trennungszeit?</h3>
+					<p>Wollen beide Ehepartner geschieden werden, so gilt die Ehe nach einem Jahr Getrenntleben als zerrüttet. Will jedoch ein Ehepartner an der Ehe festhalten, so verlängert sich die Trennungszeit auf drei Jahre. Nach Ablauf von drei Jahren wird dann die Ehe geschieden, auch wenn ein Partner die Ehe fortsetzen möchte.</p>
+
+					<h3>Wie kann die Trennungszeit nachgewiesen werden?</h3>
+					<p>Nach dem Gesetz leben die Ehepartner dann getrennt, wenn zwischen ihnen keine häusliche Gemeinschaft mehr besteht. In der Regel erfolgt dies durch den Auszug eines Ehepartners aus der Ehewohnung. Eine häusliche Gemeinschaft besteht jedoch auch dann nicht mehr, wenn die Scheidungswilligen innerhalb der ehelichen Wohnung getrennt leben. Dann ist jedoch eine strikte räumliche Trennung Voraussetzung und sämtliche Versorgungsleistungen für den anderen müssen eingestellt werden.</p>
+
+					<h3>Gibt es Besonderheiten bei der Ehescheidung von Ausländern?</h3>
+					<p>Auch wenn kein Ehepartner die deutsche Staatsangehörigkeit besitzt, sind die deutschen Gerichte örtlich zuständig und wenden für die Ehescheidung deutsches Recht an, wenn die Ehepartner in Deutschland leben.</p>
+
+					<h3>Braucht man zur Scheidung immer einen Anwalt?</h3>
+					<p>Vor den deutschen Familiengerichten herrscht Anwaltszwang. Nur wenn die Ehe einvernehmlich geschieden werden soll, kann sich nur ein Ehepartner anwaltlich vertreten lassen und der andere kann dem Antrag zustimmen. Nicht-Vertretene dürfen jedoch keine eigenen Anträge vor Gericht stellen.</p>
+				</div>
 			</li>
 			<li class="l2">
 				<h2>Ehevertrag</h2>
-				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="">Erfahren Sie mehr</a></p>
+				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich vereinbaren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
+				</div>
 			</li>
 			<li class="l3">
 				<h2>Unterhalt</h2>
-				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="">Erfahren Sie mehr</a></p>
+				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Wenn die Ehepartner oder die nichtehelichen Eltern auseinander gehen, ist ab dem Zeitpunkt der Trennung der Parteien die Frage des Unterhaltes zu klären.</p>
+
+					<p>Es wird zwischen verschiedenen Unterhaltsarten unterschieden: Zum Kindesunterhalt gilt, dass zunächst derjenige, bei dem die gemeinsamen Kinder nicht dauerhaft leben, an den betreuenden Elternteil Kindesunterhalt zahlen muss. Für das erste Jahr der Trennung kann der bedürftige Ehepartner von dem anderen Trennungsunterhalt verlangen, sofern dieser leistungsfähig ist. Auch Eltern können mit Unterhaltsansprüchen an ihre Kinder herantreten.</p>
+
+					<h3>I. Kindesunterhalt</h3>
+					<p>Als ranghöchster Unterhaltsberechtigter ist zunächst der Unterhalt für die gemeinsamen minderjährigen Kinder zu berücksichtigen. Derjenige, bei dem die gemeinsamen Kinder nicht dauerhaft leben, muss an den betreuenden Elternteil Kindesunterhalt zahlen.</p>
+
+					<p>Dieser richtet sich nach dem Einkommen des barunterhaltspflichtigen Elternteils. Erst wenn die Kinder volljährig werden, sind beide Elternteile ihrem Einkommen entsprechend zum Unterhalt verpflichtet.</p>
+
+					<p>Das Einkommen des Pflichtigen errechnet sich aus 1/12 seines Jahresnettoeinkommens, wobei aber auch ehebedingte Verbindlichkeiten berücksichtigt werden, jedoch sind nicht alle Verbindlichkeiten des Unterhaltspflichtigen abzugsfähig.</p>
+
+					<p>Der Kindesunterhalt errechnet sich anhand der Düsseldorfer Tabelle. Hierbei ist jedoch noch das hälftige staatliche Kindergeld in Abzug zu bringen.</p>
+
+					<h3>II. Ehegattenunterhalt</h3>
+					<p>Für das erste Jahr der Trennung kann der bedürftige Ehepartner von dem anderen Trennungsunterhalt verlangen, sofern dieser leistungsfähig ist.</p>
+
+					<p>Auch der nichteheliche Lebenspartner, der ein gemeinsames Kind betreut, hat grundsätzlich während der ersten drei Lebensjahre des gemeinsamen Kindes Anspruch auf Betreuungsunterhalt, sofern er bedürftig und der andere leistungsfähig ist. Sobald die Kinder alt genug sind und nicht mehr der Rund-um-die-Uhr-Betreuung bedürfen, kann der Mutter zugemutet werden, wieder eine Erwerbstätigkeit auszuüben.</p>
+
+					<p>Sollten die Ehepartner mit dieser Regelung nicht einverstanden sein, so empfiehlt sich der Abschluss eines Ehevertrages, der diese Nachteile berücksichtigt und andere Möglichkeiten, wie z.B. die Einführung eines Alterphasenmodells vorsieht.</p>
+
+					<p>Auch der Unterhaltsanspruch wegen Alters, Krankheit und der Aufstockungsunterhalt ist nach der neuen Unterhaltsreform zu begrenzen und darf derzeit nicht länger als 1/3 bis 1/4 der Ehezeit betragen.</p>
+
+					<p>Nur noch in ganz seltenen Ausnahmefällen erkennt das Gericht einen unbegrenzten Unterhaltsanspruch aus Vertrauensschutz, oder bei ehebedingtem Nachteil an.</p>
+
+					<h3>III. Elternunterhalt</h3>
+					<p>Auch Eltern können mit Unterhaltsansprüchen an ihre Kinder herantreten. Dies geschieht häufig dann, wenn betagte Eltern zum Pflegefall werden und die Rente nicht ausreicht, um die Heimpflegekosten zu decken. Voraussetzung ist jedoch, dass die Kinder leistungsfähig sind, insbesondere wenn noch im Rang vorgehende Unterhaltspflichtige vorhanden sind.</p>
+
+				</div>
 			</li>
 			<li class="l4">
 				<h2>Zugewinn</h2>
-				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="">Erfahren Sie mehr</a></p>
+				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Wenn es zur Verteilung des gemeinsamen Vermögens kommt, ist der gesetzliche Normalfall in Deutschland die Zugewinngemeinschaft (falls Sie mit Ihrem Ehepartner keine anderweitige notarielle Regelung getroffen haben). Nach Scheitern der Ehe wird das während der Ehe hinzugekommene Vermögen zwischen den Eheleuten hälftig aufgeteilt. Übersteigt der Zugewinn eines Ehepartners den Zugewinn des anderen, so steht dem anderen die Hälfte des Überschusses als Ausgleichsforderung zu. Schenkungen oder Erbschaften während der Ehe werden differenziert behandelt. Wenn Sie sich in diesen Fragen uneinig sind, wird ausdrücklich empfohlen, einen Anwalt hinzuzuziehen.</p>
+				</div>
 			</li>
 			<li class="l5">
 				<h2>Testament</h2>
-				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="">Erfahren Sie mehr</a></p>
+				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Es enthält einige Fallstricke, die Sie durch Einrichtung eines Testamentes verhindern können. Durch geschickte Regelungen vermeiden Sie Streit in der nächsten Generation oder sichern den Bestand von Familienvermögen.</p>
+				</div>
 			</li>
 			<li class="l6">
 				<h2>Rentenausgleich</h2>
-				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="">Erfahren Sie mehr</a></p>
+				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#">Erfahren Sie mehr</a></p>
+				<div class="extended_content">
+					<p>Wie beim Zugewinnausgleich sollen hierbei die während der Ehe erwirtschafteten Rentenansprüche aufgeteilt werden. Damit auch der Ehepartner, der während der Ehe durch bsp. Kindererziehung nur wenig Rentenansprüche erworben hat, im Alter versorgt ist, hat der Gesetzgeber veranlasst, dass alle während der Ehezeit erwirtschafteten Rentenanwartschaften, sei es aus einer gesetzlichen, einer betrieblichen oder aber einer privaten Rentenversicherung, zur Hälfte auf den anderen Ehegatten übertragen werden müssen.</p>
+				</div>
 			</li>
 		</ul>
 	</div>
-	<a id="nav-mediation" name="nav-mediation"></a>
-	<div class="headline"><h1><span>Mediation</span></h1></div>
-	<div id="mediation">
-		<div>
-			<div class="two-cols margin-2cols">
-				<h2>Mediation</h2>
-				<p>Mediation ist ein professionelles, vertrauliches und strukturiertes Verfahren, bei dem die Konfliktparteien mit Hilfe einer dritten, unparteiischen Person – dem Mediator – zu einer eigenverantwortlichen und einvernehmlichen Lösung und damit zur Beilegung des Konfliktes gelangen. Die Mediation kann ein verhältnismäßig einfaches, dafür aber umso erfolgreicheres Mittel zur Einigung darstellen.</p>
+	<div id="mediation-wrapper">
+		<div class="headline"><h1><span>Mediation</span></h1></div>
+		<div id="mediation">
+			<div>
+				<div class="two-cols margin-2cols">
+					<h2>Mediation</h2>
+					<p>Mediation ist ein professionelles, vertrauliches und strukturiertes Verfahren, bei dem die Konfliktparteien mit Hilfe einer dritten, unparteiischen Person – dem Mediator – zu einer eigenverantwortlichen und einvernehmlichen Lösung und damit zur Beilegung des Konfliktes gelangen. Die Mediation kann ein verhältnismäßig einfaches, dafür aber umso erfolgreicheres Mittel zur Einigung darstellen.</p>
+				</div>
+				<div class="two-cols">
+					<h2>Zielgruppen & Arbeitsgebiete</h2>
+					<p>Das Mediationsverfahren eignet sich für Personen und Parteien, die festgefahrene Konflikte mit Hilfe einer dritten Person lösen und nicht den Gerichtsweg einschlagen möchten. Als Mediatorin und Expertin für Ehe- und Familienrecht finden Sie in mir eine unabhängige, sachliche und kompetente Beraterin hinsichtlich jeglicher Fragen in diesen komplexen und hochemotionalen Bereichen.</p>
+				</div>
 			</div>
-			<div class="two-cols">
-				<h2>Zielgruppen & Arbeitsgebiete</h2>
-				<p>Das Mediationsverfahren eignet sich für Personen und Parteien, die festgefahrene Konflikte mit Hilfe einer dritten Person lösen und nicht den Gerichtsweg einschlagen möchten. Als Mediatorin und Expertin für Ehe- und Familienrecht finden Sie in mir eine unabhängige, sachliche und kompetente Beraterin hinsichtlich jeglicher Fragen in diesen komplexen und hochemotionalen Bereichen.</p>
-			</div>
-		</div>
-		<div>
-			<div class="two-cols margin-2cols">
-				<h2>Voraussetzungen</h2>
-				<p>Voraussetzung für eine erfolgreiche Mediation ist, dass die Streitenden bereit sind, sich an einen Tisch zu setzen. Mit Hilfe der Mediatorin, die unabhängig und allparteilich ist, haben Sie die Möglichkeit, sich außergerichtlich, angeleitet und strukturiert im Beisein eines Vermittlers zu unterreden, um die jeweils andere Sichtweise wahrzunehmen und sich konstruktiv zu einigen.</p>
-			</div>
-			<div class="two-cols">
-				<h2>Ziele</h2>
-				<p>Bei einer Mediation sollen im Sinne der Fairness Modelle und Absprachen entwickelt werden, die schneller, flexibler und meistens auch kostengünstiger sein können, als langwierige Gerichtsverfahren. Das Bemühen um eine für alle Seiten akzeptable Lösung des Konflikts steht dabei stets im Vordergrund. Ich setze mich explizit dafür ein, dass alle Parteien berücksichtigt werden.</p>
+			<div>
+				<div class="two-cols margin-2cols">
+					<h2>Voraussetzungen</h2>
+					<p>Voraussetzung für eine erfolgreiche Mediation ist, dass die Streitenden bereit sind, sich an einen Tisch zu setzen. Mit Hilfe der Mediatorin, die unabhängig und allparteilich ist, haben Sie die Möglichkeit, sich außergerichtlich, angeleitet und strukturiert im Beisein eines Vermittlers zu unterreden, um die jeweils andere Sichtweise wahrzunehmen und sich konstruktiv zu einigen.</p>
+				</div>
+				<div class="two-cols">
+					<h2>Ziele</h2>
+					<p>Bei einer Mediation sollen im Sinne der Fairness Modelle und Absprachen entwickelt werden, die schneller, flexibler und meistens auch kostengünstiger sein können, als langwierige Gerichtsverfahren. Das Bemühen um eine für alle Seiten akzeptable Lösung des Konflikts steht dabei stets im Vordergrund. Ich setze mich explizit dafür ein, dass alle Parteien berücksichtigt werden.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<a id="nav-vita" name="nav-vita"></a>
+	<div id="vita-wrapper">	
 	<div class="headline"><h1><span>Vita</span></h1></div>
-	<div id="vita">	
+	<div id="vita">
 		<div class="two-cols margin-2cols">
 			<h2>Schwerpunkte</h2>
 				<p>Gern berate ich Sie ehrlich, umfassend und kompetent zu jeglichen Fragen und Anliegen, die das Familien- und Eherecht betreffen. Auf folgenden Gebieten liegt der Schwerpunkt meiner Arbeit und meine besondere Expertise.</p>
@@ -203,12 +286,12 @@ $(document).ready(function(){
 				    <li> Mitgliedschaft im Rheinhessischen Anwaltsverein</li>
 				</ul>
 			</div>	
+		</div>
 	</div>
 </div>
 
-<a id="nav-kontakt" name="nav-kontakt"></a>
 <div id="footer">
-	<div class="wrapper">
+	<div class="wrapper" id="kontakt">
 		<div class="three-cols margin-3cols">
 			<h3>Kontaktadresse</h3>
 			<p>
@@ -237,7 +320,7 @@ $(document).ready(function(){
 				}
 				if(($send!="1") || (isset($err_text))) {
 				?>
-				<form action="<?php echo $_SERVER['PHP_SELF']; ?>#contact" method="post" name="mailform" id="mailform" class="mailform">
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>#kontakt" method="post" name="mailform" id="mailform" class="mailform">
 					<p><label for="fromname">Ihr Name</label>
 					<input class="validate[required] field" type="text" name="fromname" id="fromname" value="<?= $from_name; ?>"  /></p>
 					

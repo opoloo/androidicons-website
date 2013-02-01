@@ -325,6 +325,16 @@ div#intro {
 	padding:0px 0 0px 0;
 }
 
+#leistungen {
+	display: block;	
+}
+
+#leistungen ul {
+	display: table;
+	position: relative;
+	overflow:visible;
+}
+
 #leistungen ul li {
 	float:left;
 	width:410px;
@@ -333,29 +343,30 @@ div#intro {
 	font-family: 'GentiumBold';
 	font-size:18px;
 	line-height:26px;
+	cursor: pointer;
 }
 
-#leistungen ul li.l1 {
+#leistungen ul li.l1, #leistungen ul li.current.l1 {
 	background-color:#e5dbc6;
 }
 
-#leistungen ul li.l2 {
+#leistungen ul li.l2, #leistungen ul li.current.l2 {
 	background-color:#ddd2b9;
 }
 
-#leistungen ul li.l3 {
+#leistungen ul li.l3, #leistungen ul li.current.l3 {
 	background-color:#d3c8ae;
 }
 
-#leistungen ul li.l4 {
+#leistungen ul li.l4, #leistungen ul li.current.l4 {
 	background-color:#cdc1a6;
 }
 
-#leistungen ul li.l5 {
+#leistungen ul li.l5, #leistungen ul li.current.l5 {
 	background-color:#c5b799;
 }
 
-#leistungen ul li.l6 {
+#leistungen ul li.l6, #leistungen ul li.current.l6 {
 	background-color:#bdae8e;
 }
 
@@ -365,7 +376,43 @@ div#intro {
 	padding:35px;
 }
 
+#leistungen ul li.current {
+	background-color:#e5dbc6;
+	position:absolute;
+	top:0px;
+	left:0px;
+	float:none;
+	width:890px;
+	padding:35px;
+	height:auto;
+	display:table;
+	font-family: 'GentiumBold';
+	font-size:18px;
+	line-height:26px;
+}
 
+#leistungen ul li.current p {
+	display:none;
+}
+
+#leistungen ul li div.extended_content {
+	background-color: inherit;
+	display:none;
+}
+
+#leistungen ul li.current div.extended_content {
+	background-color: inherit;
+	display:block;
+}
+
+#leistungen ul li.current div.extended_content p {
+	display:block;
+	padding:0px 0px 10px 0px;
+	font-family: 'OpenSansRegular';
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #333;
+}
 
 #vita {
 	background-color:#fff;
