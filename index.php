@@ -79,6 +79,7 @@ $(document).ready(function(){
 	var parent_orig_height = $("#leistungen ul li").parent().height();
 	var li_orig_height = 125;
 	$("#leistungen ul li").click(function(e){e.preventDefault();});
+
 	$("#leistungen ul li").click(function(e){
 		var parent_el = $(this).parent();
 		var parent_height = parent_el.height();
@@ -93,7 +94,6 @@ $(document).ready(function(){
 			var el_offset = $(this).position();
 			var anim_dur = 1000;
 			$(this).children('p:first').hide(200);
-			$(this).children('.extended_content p').show(100);
 			$(this).css({'position': 'absolute', 'top': el_offset.top, 'left': el_offset.left});
 
 			$(this).animate( {top: 0, left: 0}, {duration: 200, queue: true } );
@@ -106,6 +106,11 @@ $(document).ready(function(){
 				}
 			});
 		}
+	});
+
+	$("#leistungen ul li.current .close").click(function(e){
+		console.log("clock");
+		$(this).parent().trigger('click');
 	});
 
 });

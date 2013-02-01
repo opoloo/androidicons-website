@@ -377,7 +377,7 @@ div#intro {
 }
 
 #leistungen ul li.current {
-	background-color:#e5dbc6;
+	background: url('../images/ic_close.png') 920px 20px no-repeat #e5dbc6;
 	position:absolute;
 	top:0px;
 	left:0px;
