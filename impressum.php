@@ -1,9 +1,44 @@
 <!doctype html>
 <html class="no-js">
+<?php
+// *** Mail Recipe ***
+$mail_to="info@a-maurer.de";
+$mail_subject="[Website Kontaktanfrage]";
+// *************************************
+
+$from_name=$_POST['fromname'];
+$from_mail=strtolower($_POST['frommail']);
+$from_telefon=$_POST['fromtelefon'];
+$mail_text=$_POST['mailtext'];
+$send=$_POST['s'];
+
+// Errorzuweisungen mailform
+if(trim($from_name)=="" || trim($from_name)=="Ihr Name") $err_text.="<li>Bitte tragen Sie Ihren Namen ein.</li>";
+if(trim($from_mail)=="" || strtolower($from_mail)=="Ihre E-Mailadresse") {
+	$err_text.="<li>Bitte tragen Sie Ihre E-Mailadresse ein.</li>";
+	#$from_mail="";
+} else
+	if(!ereg("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})$",$from_mail))
+		$err_text.="<li>Bitte tragen Sie eine g&uuml;ltige E-Mailadresse ein.</li>";
+if(trim($mail_text)=="" || trim($mail_text)=="Ihre Nachricht") $err_text.="<li>Bitte tragen Sie eine Nachricht ein.</li>";
+
+// *** Zu langen Text abschneiden ***
+if(strlen($mail_text)>2500) {
+	$mail_text=substr($mail_text,0,2500)."... (Text wurde gek&uuml;rzt!)";
+}
+$from_name=str_replace(chr(34),"''",$from_name);
+$from_name=stripslashes($from_name);
+$from_telefon=stripslashes($from_telefon);
+$from_mail=stripslashes($from_mail);
+$mail_subject=stripslashes($mail_subject);
+$mail_text=stripslashes($mail_text);
+
+?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Bölli Liegenschaftsverwaltung - Wir verwalten Ihre Immobilien." />
-<meta name="author" content="Michael Bölli" />
+<meta name="description" content="Als Rechtsanwältin für Eherecht und Familienrecht, finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten." />
+<meta name="author" content="Antje Pulinckx-Maurer" />
+<meta name="keywords" content="Antje Pulinckx-Maurer" />
 
 <title>Rechtsanwältin Antje Pulinckx-Maurer</title>
 
@@ -17,7 +52,8 @@
 <!-- Fallback Stylesheet -->
 <link href="stylesheets/no-fontface.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="scripts/jquery-1.6.1.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.infieldlabel.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.slides.min.js"></script>
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
@@ -25,33 +61,62 @@
 <script type="text/javascript" src="scripts/modernizr-2.0.6.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 <script>
+<!--
 $(document).ready(function(){
-
-
 	$('#start').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-start').addClass('active'); } else { $('#nav li').removeClass('active'); }}, { offset: "0px" });
-	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 120 });
-	$('#mediation').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 120 });
-	$('#vita').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 120 });
-	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 120 });
+	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 80 });
+	$('#mediation-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 80 });
+	$('#vita-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 80 });
+	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 80 });
 
-	$("#nav a").smoothScroll({offset: -70, afterScroll: function() {
+	$("#nav a").smoothScroll({offset: -80, afterScroll: function() {
 		$('#nav li').removeClass('active');
 		$(this).parent().addClass('active');
 
 	}});
 
-});
+	$("label").inFieldLabels();
 
-</script>
+	var parent_orig_height = $("#leistungen ul li").parent().height();
+	var li_orig_height = 125;
+	$("#leistungen ul li").click(function(e){e.preventDefault();});
 
-<script type="text/javascript">
-<!--
-$(document).ready(function(){
-  $("label").inFieldLabels();
+	$("#leistungen ul li").click(function(e){
+		var parent_el = $(this).parent();
+		var parent_height = parent_el.height();
+		$.smoothScroll({ scrollTarget: '#leistungen' });
+		if ($(this).hasClass('current')) {
+			$(this).css('position', 'static');
+			$(this).removeClass('current');
+			$(this).children('p:first').show(200);
+			$(this).height(li_orig_height);
+			parent_el.height(parent_orig_height);
+		} else {
+			var el_offset = $(this).position();
+			var anim_dur = 1000;
+			$(this).children('p:first').hide(200);
+			$(this).css({'position': 'absolute', 'top': el_offset.top, 'left': el_offset.left});
+
+			$(this).animate( {top: 0, left: 0}, {duration: 200, queue: true } );
+
+			$(this).addClass('current', 399, function() {
+				if ( $(this).height() > parent_orig_height ) {
+					parent_el.height($(this).height() + 100);
+				} else {
+					$(this).height(parent_orig_height);
+				}
+			});
+		}
+	});
+
+	$("#leistungen ul li.current .close").click(function(e){
+		console.log("clock");
+		$(this).parent().trigger('click');
+	});
+
 });
 -->
 </script>
-
 </head>
 
 
@@ -61,27 +126,30 @@ $(document).ready(function(){
 <div id="meta">
 	<div class="wrapper">
 		<div id="logo">
-			<a href="index.php#nav-start"><img src="images/logo.png" /></a>
+			<a href="#nav-start"><img src="images/logo.png" alt="Logo Rechtsanwältin Antje Pulinckx-Maurer" /></a>
 		</div>
 		<div id="nav">
 			<ul>
-				<li><a href="index.php#nav-start">Start</a></li>
-				<li><a href="index.php#nav-leistungen">Leistungen</a></li>
-				<li><a href="index.php#nav-mediation">Mediation</a></li>
-				<li><a href="index.php#nav-vita">Vita</a></li>
-				<li><a href="index.php#nav-kontakt">Kontakt</a></li>
+				<li id="nav-start"><a href="index.php#start">Start</a></li>
+				<li id="nav-leistungen"><a href="index.php#leistungen">Leistungen</a></li>
+				<li id="nav-mediation"><a href="index.php#mediation-wrapper">Mediation</a></li>
+				<li id="nav-vita"><a href="index.php#vita-wrapper">Vita</a></li>
+				<li id="nav-kontakt"><a href="index.php#kontakt">Kontakt</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
 <div id="header">
 	<div class="wrapper">
+		<div id="intro">
 		<span class="teaser">Fairness, Fachkenntnis & Engagement.</span>
 		<p>Als Rechtsanwältin für Eherecht und Familienrecht, finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten.
 		Wenn die Liebe stolpert, sollten Sie miteinander streiten – nicht gegeneinander. Ich helfe Ihnen dabei.</p>
+		</div>
 	</div>
 </div>
 <!-- End Header -->
+
 
 <!-- Begin Content -->
 

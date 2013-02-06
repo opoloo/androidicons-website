@@ -156,8 +156,9 @@ a:hover {
 	display:block;
 }
 
-#content.impressum .headline {
-	margin:40px 0 0 0;
+#content.impressum .headline, #content.impressum h1 {
+	margin:40px 0 10px 0;
+	line-height:50px;
 }
 
 
@@ -165,6 +166,7 @@ h1 {
 	font-family: 'GentiumItalic';
 	font-weight:normal;	
 	font-size:45px;
+	
 }
 
 .headline span {
@@ -187,6 +189,36 @@ h2 {
 	color:#666;
 }
 
+h2.ic_1 {
+	padding:0 0 0 90px;
+	height:80px;
+	line-height:80px;
+	background:url(../images/ic_mediation.png) left center no-repeat;
+}
+
+h2.ic_2 {
+	padding:0px 0 0 90px;
+	height:80px;
+	line-height:34px;
+	background:url(../images/ic_gebiete.png) left top no-repeat;
+}
+
+h2.ic_3 {
+	padding:0 0 0 90px;
+	height:80px;
+	line-height:80px;
+	background:url(../images/ic_voraussetzungen.png) left center no-repeat;
+	margin:40px 0 0 0;
+}
+
+h2.ic_4 {
+	padding:0 0 0 90px;
+	height:80px;
+	line-height:80px;
+	background:url(../images/ic_ziele.png) left center no-repeat;
+	margin:40px 0 0 0;
+}
+
 #content.impressum h2 {
 	margin:50px 0 15px 0;
 	text-align:left;
@@ -195,7 +227,8 @@ h2 {
 #mediation h2 {
 	font-size:25px;
 	font-family: 'OpenSansBold';
-	color:#ccc;
+	color:#a0bec0;
+	text-align: left;
 }
 
 
@@ -405,12 +438,17 @@ div#intro {
 	display:block;
 }
 
+#leistungen ul li.current div.extended_content h3 {
+	font-size:22px;
+	padding:20px 0 0 20px;
+}
+
 #leistungen ul li.current div.extended_content p {
 	display:block;
-	padding:0px 0px 10px 0px;
+	padding:0px 50px 10px 20px;
 	font-family: 'OpenSansRegular';
 	font-size: 14px;
-	line-height: 1.4em;
+	line-height: 1.7em;
 	color: #333;
 }
 

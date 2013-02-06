@@ -2,7 +2,7 @@
 <html class="no-js">
 <?php
 // *** Mail Recipe ***
-$mail_to="sandra@opoloo.de";
+$mail_to="info@a-maurer.de";
 $mail_subject="[Website Kontaktanfrage]";
 // *************************************
 
@@ -36,8 +36,9 @@ $mail_text=stripslashes($mail_text);
 ?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Bölli Liegenschaftsverwaltung - Wir verwalten Ihre Immobilien." />
-<meta name="author" content="Michael Bölli" />
+<meta name="description" content="Als Rechtsanwältin für Eherecht und Familienrecht, finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten." />
+<meta name="author" content="Antje Pulinckx-Maurer" />
+<meta name="keywords" content="Antje Pulinckx-Maurer" />
 
 <title>Rechtsanwältin Antje Pulinckx-Maurer</title>
 
@@ -63,12 +64,12 @@ $mail_text=stripslashes($mail_text);
 <!--
 $(document).ready(function(){
 	$('#start').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-start').addClass('active'); } else { $('#nav li').removeClass('active'); }}, { offset: "0px" });
-	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 70 });
-	$('#mediation-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 70 });
-	$('#vita-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 70 });
-	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 70 });
+	$('#leistungen').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-leistungen').addClass('active'); } else { $('#nav-start').addClass('active'); }}, { offset: 80 });
+	$('#mediation-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active');	if (direction === 'down') { $('#nav-mediation').addClass('active'); } else { $('#nav-leistungen').addClass('active'); }}, { offset: 80 });
+	$('#vita-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 80 });
+	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 80 });
 
-	$("#nav a").smoothScroll({offset: -70, afterScroll: function() {
+	$("#nav a").smoothScroll({offset: -80, afterScroll: function() {
 		$('#nav li').removeClass('active');
 		$(this).parent().addClass('active');
 
@@ -244,21 +245,21 @@ $(document).ready(function(){
 		<div id="mediation">
 			<div>
 				<div class="two-cols margin-2cols">
-					<h2>Mediation</h2>
+					<h2 class="ic_1">Mediation</h2>
 					<p>Mediation ist ein professionelles, vertrauliches und strukturiertes Verfahren, bei dem die Konfliktparteien mit Hilfe einer dritten, unparteiischen Person – dem Mediator – zu einer eigenverantwortlichen und einvernehmlichen Lösung und damit zur Beilegung des Konfliktes gelangen. Die Mediation kann ein verhältnismäßig einfaches, dafür aber umso erfolgreicheres Mittel zur Einigung darstellen.</p>
 				</div>
 				<div class="two-cols">
-					<h2>Zielgruppen & Arbeitsgebiete</h2>
+					<h2 class="ic_2">Zielgruppen & Arbeitsgebiete</h2>
 					<p>Das Mediationsverfahren eignet sich für Personen und Parteien, die festgefahrene Konflikte mit Hilfe einer dritten Person lösen und nicht den Gerichtsweg einschlagen möchten. Als Mediatorin und Expertin für Ehe- und Familienrecht finden Sie in mir eine unabhängige, sachliche und kompetente Beraterin hinsichtlich jeglicher Fragen in diesen komplexen und hochemotionalen Bereichen.</p>
 				</div>
 			</div>
 			<div>
 				<div class="two-cols margin-2cols">
-					<h2>Voraussetzungen</h2>
+					<h2 class="ic_3">Voraussetzungen</h2>
 					<p>Voraussetzung für eine erfolgreiche Mediation ist, dass die Streitenden bereit sind, sich an einen Tisch zu setzen. Mit Hilfe der Mediatorin, die unabhängig und allparteilich ist, haben Sie die Möglichkeit, sich außergerichtlich, angeleitet und strukturiert im Beisein eines Vermittlers zu unterreden, um die jeweils andere Sichtweise wahrzunehmen und sich konstruktiv zu einigen.</p>
 				</div>
 				<div class="two-cols">
-					<h2>Ziele</h2>
+					<h2 class="ic_4">Ziele</h2>
 					<p>Bei einer Mediation sollen im Sinne der Fairness Modelle und Absprachen entwickelt werden, die schneller, flexibler und meistens auch kostengünstiger sein können, als langwierige Gerichtsverfahren. Das Bemühen um eine für alle Seiten akzeptable Lösung des Konflikts steht dabei stets im Vordergrund. Ich setze mich explizit dafür ein, dass alle Parteien berücksichtigt werden.</p>
 				</div>
 			</div>
