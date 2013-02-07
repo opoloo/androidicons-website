@@ -88,13 +88,15 @@ $(document).ready(function(){
 		if ($(this).hasClass('current')) {
 			$(this).css('position', 'static');
 			$(this).removeClass('current');
-			$(this).children('p:first').show(200);
+			//$(this).children('p:first').show(200);
+			$(this).children('p:first a').show(200);
 			$(this).height(li_orig_height);
 			parent_el.height(parent_orig_height);
 		} else {
 			var el_offset = $(this).position();
 			var anim_dur = 1000;
-			$(this).children('p:first').hide(200);
+			//$(this).children('p:first').hide(200);
+			$(this).children('p:first a').hide(200);
 			$(this).css({'position': 'absolute', 'top': el_offset.top, 'left': el_offset.left});
 
 			$(this).animate( {top: 0, left: 0}, {duration: 200, queue: true } );
