@@ -168,7 +168,7 @@ $(document).ready(function(){
 	<br/>
 	Verantwortlich f&uuml;r den Inhalt: Antje Pulinckx-Maurer
 	<p>
-	Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz: DE</p>
+	Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz: DE193671970</p>
 	<br/><br/>
   	
   	
