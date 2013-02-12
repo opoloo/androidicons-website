@@ -425,6 +425,11 @@ div#intro {
 }
 
 #leistungen ul li.current p {
+	display:block;
+	padding:0px 50px 10px 20px;
+}
+
+#leistungen ul li.current p a {
 	display:none;
 }
 
