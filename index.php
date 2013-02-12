@@ -54,6 +54,7 @@ $mail_text=stripslashes($mail_text);
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="scripts/jquery.infieldlabel.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.slides.min.js"></script>
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
@@ -84,10 +85,10 @@ $(document).ready(function(){
 	
 	$("a.popup").fancybox({
 		'hideOnContentClick': true,
-		'autoDimensions'	: true,
+		'autoDimensions'	: false,
 		'autoScale'			: false,
-		'width'         		: 960,
-		'height'        		: 'auto'
+		'width'         	: 920,
+		'height'        	: 'auto'
 	});
 	
 });
@@ -137,6 +138,7 @@ $(document).ready(function(){
 					<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="#content1" class="popup">Erfahren Sie mehr</a></p>
 			
 				<div class="extended_content" id="content1">
+					<h2>Ehescheidung</h2>
 					<p>Berücksichtigen Sie die gesetzlichen Vorgaben für eine Ehescheidung. Es gilt, eine ganze Reihe von Voraussetzungen zu erfüllen.</p>
 
 					<h3>Voraussetzungen einer Ehescheidung</h3>
@@ -159,6 +161,7 @@ $(document).ready(function(){
 				<h2>Ehevertrag</h2>
 				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#content2" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content2">
+					<h2>Ehevertrag</h2>
 					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich vereinbaren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
 				</div>
 			</li>
@@ -166,6 +169,7 @@ $(document).ready(function(){
 				<h2>Unterhalt</h2>
 				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="#content3" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content3">
+					<h2>Unterhalt</h2>
 					<p>Wenn die Ehepartner oder die nichtehelichen Eltern auseinander gehen, ist ab dem Zeitpunkt der Trennung der Parteien die Frage des Unterhaltes zu klären.</p>
 
 					<p>Es wird zwischen verschiedenen Unterhaltsarten unterschieden: Zum Kindesunterhalt gilt, dass zunächst derjenige, bei dem die gemeinsamen Kinder nicht dauerhaft leben, an den betreuenden Elternteil Kindesunterhalt zahlen muss. Für das erste Jahr der Trennung kann der bedürftige Ehepartner von dem anderen Trennungsunterhalt verlangen, sofern dieser leistungsfähig ist. Auch Eltern können mit Unterhaltsansprüchen an ihre Kinder herantreten.</p>
@@ -199,6 +203,7 @@ $(document).ready(function(){
 				<h2>Zugewinn</h2>
 				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="#content4" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content4">
+					<h2>Zugewinn</h2>
 					<p>Wenn es zur Verteilung des gemeinsamen Vermögens kommt, ist der gesetzliche Normalfall in Deutschland die Zugewinngemeinschaft (falls Sie mit Ihrem Ehepartner keine anderweitige notarielle Regelung getroffen haben). Nach Scheitern der Ehe wird das während der Ehe hinzugekommene Vermögen zwischen den Eheleuten hälftig aufgeteilt. Übersteigt der Zugewinn eines Ehepartners den Zugewinn des anderen, so steht dem anderen die Hälfte des Überschusses als Ausgleichsforderung zu. Schenkungen oder Erbschaften während der Ehe werden differenziert behandelt. Wenn Sie sich in diesen Fragen uneinig sind, wird ausdrücklich empfohlen, einen Anwalt hinzuzuziehen.</p>
 				</div>
 			</li>
@@ -206,6 +211,7 @@ $(document).ready(function(){
 				<h2>Testament</h2>
 				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#content5" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content5">
+					<h2>Testament</h2>
 					<p>Es enthält einige Fallstricke, die Sie durch Einrichtung eines Testamentes verhindern können. Durch geschickte Regelungen vermeiden Sie Streit in der nächsten Generation oder sichern den Bestand von Familienvermögen.</p>
 				</div>
 			</li>
@@ -213,6 +219,7 @@ $(document).ready(function(){
 				<h2>Rentenausgleich</h2>
 				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#content6" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content6">
+					<h2>Rentenausgleich</h2>
 					<p>Wie beim Zugewinnausgleich sollen hierbei die während der Ehe erwirtschafteten Rentenansprüche aufgeteilt werden. Damit auch der Ehepartner, der während der Ehe durch bsp. Kindererziehung nur wenig Rentenansprüche erworben hat, im Alter versorgt ist, hat der Gesetzgeber veranlasst, dass alle während der Ehezeit erwirtschafteten Rentenanwartschaften, sei es aus einer gesetzlichen, einer betrieblichen oder aber einer privaten Rentenversicherung, zur Hälfte auf den anderen Ehegatten übertragen werden müssen.</p>
 				</div>
 			</li>
