@@ -52,14 +52,18 @@ $mail_text=stripslashes($mail_text);
 <!-- Fallback Stylesheet -->
 <link href="stylesheets/no-fontface.css" rel="stylesheet" type="text/css" />
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="scripts/jquery.infieldlabel.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.slides.min.js"></script>
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
 <script type="text/javascript" src="scripts/smooth-scroll.js"></script>
 <script type="text/javascript" src="scripts/modernizr-2.0.6.js"></script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<link rel="stylesheet" href="stylesheets/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 <script>
 <!--
 $(document).ready(function(){
@@ -76,44 +80,18 @@ $(document).ready(function(){
 	}});
 
 	$("label").inFieldLabels();
-
-	var parent_orig_height = $("#leistungen ul li").parent().height();
-	var li_orig_height = 125;
-	$("#leistungen ul li").click(function(e){e.preventDefault();});
-
-	$("#leistungen ul li").click(function(e){
-		var parent_el = $(this).parent();
-		var parent_height = parent_el.height();
-		$.smoothScroll({ scrollTarget: '#leistungen' });
-		if ($(this).hasClass('current')) {
-			$(this).css('position', 'static');
-			$(this).removeClass('current');
-			$(this).children('p:first').show(200);
-			$(this).height(li_orig_height);
-			parent_el.height(parent_orig_height);
-		} else {
-			var el_offset = $(this).position();
-			var anim_dur = 1000;
-			$(this).children('p:first').hide(200);
-			$(this).css({'position': 'absolute', 'top': el_offset.top, 'left': el_offset.left});
-
-			$(this).animate( {top: 0, left: 0}, {duration: 200, queue: true } );
-
-			$(this).addClass('current', 399, function() {
-				if ( $(this).height() > parent_orig_height ) {
-					parent_el.height($(this).height() + 100);
-				} else {
-					$(this).height(parent_orig_height);
-				}
-			});
-		}
+	
+		
+	/* Using custom settings */
+	
+	$("a.popup").fancybox({
+		'hideOnContentClick': true,
+		'autoDimensions'	: true,
+		'autoScale'			: false,
+		'width'         		: 960,
+		'height'        		: 'auto'
 	});
-
-	$("#leistungen ul li.current .close").click(function(e){
-		console.log("clock");
-		$(this).parent().trigger('click');
-	});
-
+	
 });
 -->
 </script>
@@ -156,9 +134,11 @@ $(document).ready(function(){
 		<div class="headline"><h1><span>Leistungen</span></h1></div>
 		<ul>
 			<li class="l1">
-				<h2>Ehescheidung</h2>
-				<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				
+					<h2>Ehescheidung</h2>
+					<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="#content1" class="popup">Erfahren Sie mehr</a></p>
+			
+				<div class="extended_content" id="content1">
 					<p>Berücksichtigen Sie die gesetzlichen Vorgaben für eine Ehescheidung. Es gilt, eine ganze Reihe von Voraussetzungen zu erfüllen.</p>
 
 					<h3>Voraussetzungen einer Ehescheidung</h3>
@@ -179,15 +159,15 @@ $(document).ready(function(){
 			</li>
 			<li class="l2">
 				<h2>Ehevertrag</h2>
-				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#content2" class="popup">Erfahren Sie mehr</a></p>
+				<div class="extended_content" id="content2">
 					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich vereinbaren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
 				</div>
 			</li>
 			<li class="l3">
 				<h2>Unterhalt</h2>
-				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="#content3" class="popup">Erfahren Sie mehr</a></p>
+				<div class="extended_content" id="content3">
 					<p>Wenn die Ehepartner oder die nichtehelichen Eltern auseinander gehen, ist ab dem Zeitpunkt der Trennung der Parteien die Frage des Unterhaltes zu klären.</p>
 
 					<p>Es wird zwischen verschiedenen Unterhaltsarten unterschieden: Zum Kindesunterhalt gilt, dass zunächst derjenige, bei dem die gemeinsamen Kinder nicht dauerhaft leben, an den betreuenden Elternteil Kindesunterhalt zahlen muss. Für das erste Jahr der Trennung kann der bedürftige Ehepartner von dem anderen Trennungsunterhalt verlangen, sofern dieser leistungsfähig ist. Auch Eltern können mit Unterhaltsansprüchen an ihre Kinder herantreten.</p>
@@ -219,22 +199,22 @@ $(document).ready(function(){
 			</li>
 			<li class="l4">
 				<h2>Zugewinn</h2>
-				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="#content4" class="popup">Erfahren Sie mehr</a></p>
+				<div class="extended_content" id="content4">
 					<p>Wenn es zur Verteilung des gemeinsamen Vermögens kommt, ist der gesetzliche Normalfall in Deutschland die Zugewinngemeinschaft (falls Sie mit Ihrem Ehepartner keine anderweitige notarielle Regelung getroffen haben). Nach Scheitern der Ehe wird das während der Ehe hinzugekommene Vermögen zwischen den Eheleuten hälftig aufgeteilt. Übersteigt der Zugewinn eines Ehepartners den Zugewinn des anderen, so steht dem anderen die Hälfte des Überschusses als Ausgleichsforderung zu. Schenkungen oder Erbschaften während der Ehe werden differenziert behandelt. Wenn Sie sich in diesen Fragen uneinig sind, wird ausdrücklich empfohlen, einen Anwalt hinzuzuziehen.</p>
 				</div>
 			</li>
 			<li class="l5">
 				<h2>Testament</h2>
-				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#content5" class="popup">Erfahren Sie mehr</a></p>
+				<div class="extended_content" id="content5">
 					<p>Es enthält einige Fallstricke, die Sie durch Einrichtung eines Testamentes verhindern können. Durch geschickte Regelungen vermeiden Sie Streit in der nächsten Generation oder sichern den Bestand von Familienvermögen.</p>
 				</div>
 			</li>
 			<li class="l6">
 				<h2>Rentenausgleich</h2>
-				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#">Erfahren Sie mehr</a></p>
-				<div class="extended_content">
+				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#content6" class="popup">Erfahren Sie mehr</a></p>
+				<div class="extended_content" id="content6">
 					<p>Wie beim Zugewinnausgleich sollen hierbei die während der Ehe erwirtschafteten Rentenansprüche aufgeteilt werden. Damit auch der Ehepartner, der während der Ehe durch bsp. Kindererziehung nur wenig Rentenansprüche erworben hat, im Alter versorgt ist, hat der Gesetzgeber veranlasst, dass alle während der Ehezeit erwirtschafteten Rentenanwartschaften, sei es aus einer gesetzlichen, einer betrieblichen oder aber einer privaten Rentenversicherung, zur Hälfte auf den anderen Ehegatten übertragen werden müssen.</p>
 				</div>
 			</li>

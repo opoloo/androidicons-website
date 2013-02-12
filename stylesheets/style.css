@@ -307,7 +307,7 @@ div#intro {
 	line-height:78px;
 	overflow:visible;
 	position:fixed;
-	z-index:99999;
+	z-index: 1000;
 	width:100%;
 }
 
@@ -431,6 +431,7 @@ div#intro {
 #leistungen ul li div.extended_content {
 	background-color: inherit;
 	display:none;
+	width:960px;
 }
 
 #leistungen ul li.current div.extended_content {
