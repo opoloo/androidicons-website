@@ -83,12 +83,13 @@ $(document).ready(function(){
 		
 	/* Using custom settings */
 	
-	$("a.popup").fancybox({
+	$("a.popup, #leistungen li").fancybox({
 		'hideOnContentClick': true,
 		'autoDimensions'	: false,
 		'autoScale'			: false,
 		'width'         	: 920,
-		'height'        	: 'auto'
+		'height'        	: 'auto',
+		'padding'			: 30
 	});
 	
 });
@@ -132,7 +133,7 @@ $(document).ready(function(){
 	<div id="leistungen">
 		<div class="headline"><h1><span>Leistungen</span></h1></div>
 		<ul>
-			<li class="l1">
+			<li class="l1" href="#content1">
 				
 					<h2>Ehescheidung</h2>
 					<p>Sie möchten sich scheiden lassen. Das ist Ihr gutes Recht. Es gilt jedoch, einigen Punkten Beachtung zu schenken. <a href="#content1" class="popup">Erfahren Sie mehr</a></p>
@@ -157,7 +158,7 @@ $(document).ready(function(){
 					<p>Vor den deutschen Familiengerichten herrscht Anwaltszwang. Nur wenn die Ehe einvernehmlich geschieden werden soll, kann sich nur ein Ehepartner anwaltlich vertreten lassen und der andere kann dem Antrag zustimmen. Nicht-Vertretene dürfen jedoch keine eigenen Anträge vor Gericht stellen.</p>
 				</div>
 			</li>
-			<li class="l2">
+			<li class="l2" href="#content2">
 				<h2>Ehevertrag</h2>
 				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#content2" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content2">
@@ -165,7 +166,7 @@ $(document).ready(function(){
 					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich vereinbaren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
 				</div>
 			</li>
-			<li class="l3">
+			<li class="l3" href="#content3">
 				<h2>Unterhalt</h2>
 				<p>Die Regelung des Unterhaltes ist oft das Wichtigste. Unter einer Trennung sollten auch Ihre Kinder nicht zu leiden haben. <a href="#content3" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content3">
@@ -199,7 +200,7 @@ $(document).ready(function(){
 
 				</div>
 			</li>
-			<li class="l4">
+			<li class="l4" href="#content4">
 				<h2>Zugewinn</h2>
 				<p>Zu gerechten Teilen teilen. Doch was ist gerecht? Ein Anwalt kann Ihnen helfen, eine für beide Seiten akzeptable Lösung zu finden. <a href="#content4" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content4">
@@ -207,7 +208,7 @@ $(document).ready(function(){
 					<p>Wenn es zur Verteilung des gemeinsamen Vermögens kommt, ist der gesetzliche Normalfall in Deutschland die Zugewinngemeinschaft (falls Sie mit Ihrem Ehepartner keine anderweitige notarielle Regelung getroffen haben). Nach Scheitern der Ehe wird das während der Ehe hinzugekommene Vermögen zwischen den Eheleuten hälftig aufgeteilt. Übersteigt der Zugewinn eines Ehepartners den Zugewinn des anderen, so steht dem anderen die Hälfte des Überschusses als Ausgleichsforderung zu. Schenkungen oder Erbschaften während der Ehe werden differenziert behandelt. Wenn Sie sich in diesen Fragen uneinig sind, wird ausdrücklich empfohlen, einen Anwalt hinzuzuziehen.</p>
 				</div>
 			</li>
-			<li class="l5">
+			<li class="l5" href="#content5">
 				<h2>Testament</h2>
 				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#content5" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content5">
@@ -215,7 +216,7 @@ $(document).ready(function(){
 					<p>Es enthält einige Fallstricke, die Sie durch Einrichtung eines Testamentes verhindern können. Durch geschickte Regelungen vermeiden Sie Streit in der nächsten Generation oder sichern den Bestand von Familienvermögen.</p>
 				</div>
 			</li>
-			<li class="l6">
+			<li class="l6" href="#content6">
 				<h2>Rentenausgleich</h2>
 				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#content6" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content6">

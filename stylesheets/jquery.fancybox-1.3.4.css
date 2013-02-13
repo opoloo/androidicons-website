@@ -72,7 +72,6 @@
 	height: 100%;
 	background: #e5dbc6;
 	overflow: visible;
-
 }
 
 #fancybox-content {
@@ -83,7 +82,7 @@
 	position: relative;
 	overflow: visible;
 	z-index: 1102;
-	border: 0px solid #fff;
+	border: 0px solid #e5dbc6;
 	font-size:15px;
 }
 
