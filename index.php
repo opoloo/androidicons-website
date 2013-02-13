@@ -72,7 +72,7 @@ $(document).ready(function(){
 	$('#vita-wrapper').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-vita').addClass('active'); } else { $('#nav-mediation').addClass('active'); }}, { offset: 80 });
 	$('#kontakt').waypoint(function(event, direction) { $('#nav li').removeClass('active'); if (direction === 'down') { $('#nav-kontakt').addClass('active'); } else { $('#nav-vita').addClass('active'); }}, { offset: 80 });
 
-	$("#nav a").smoothScroll({offset: -80, afterScroll: function() {
+	$("#nav a, #totop a").smoothScroll({offset: -80, afterScroll: function() {
 		$('#nav li').removeClass('active');
 		$(this).parent().addClass('active');
 
