@@ -289,14 +289,18 @@ i {
 span.teaser {
 	text-transform:uppercase;
 	display:block;
-	font-size:30px;
+	font-size:23px;
 	font-family: 'OpenSansBold';
 	line-height:40px;
 	margin:0 0 10px 0;
 }
 
-div#intro {
+p.miniwidth {
 	width:400px;
+}
+
+div#intro {
+	width:500px;
 	padding:50px 0 0 40px;
 	line-height:30px;
 }
@@ -479,7 +483,7 @@ div#intro {
 }
 
 #vita ul li {
-	background:url('../images/ic_li.png') left center no-repeat;
+	background:url('../images/ic_li.png') left 7px no-repeat;
 	padding:0 0 0 20px;
 	font-size:15px;
 	margin:0 0 5px 0;

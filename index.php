@@ -120,9 +120,9 @@ $(document).ready(function(){
 <div id="header">
 	<div class="wrapper">
 		<div id="intro">
-		<span class="teaser">Fairness, Fachkenntnis & Engagement.</span>
-		<p>Als Rechtsanwältin für Eherecht und Familienrecht, finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten.
-		Wenn die Liebe stolpert, sollten Sie miteinander streiten – nicht gegeneinander. Ich helfe Ihnen dabei.</p>
+		<span class="teaser">Fairness, Fachkenntnis, Engagement</span>
+		<p class="miniwidth">Wenn die Liebe stolpert, sollten Sie miteinander streiten , nicht gegeneinander. Ich helfe Ihnen dabei.</p><br/>
+		<p class="miniwidth">Als Rechtsanwältin für Eherecht und Familienrecht finden Sie in mir eine kompetente Beraterin und Unterstützung in allen familienrechtlichen Angelegenheiten.</p>
 		</div>
 	</div>
 </div>
@@ -163,7 +163,7 @@ $(document).ready(function(){
 				<p>Der individuelle Ehevertrag ist die maßgeschneiderte Lösung für den Fall einer Trennung. <a href="#content2" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content2">
 					<h2>Ehevertrag</h2>
-					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich vereinbaren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
+					<p>Der Abschluss eines Ehevertrags ermöglicht es grundsätzlich, andere Regelungen als die gesetzliche Norm zwischen Ihnen und Ihrem Ehegatten zu vereinbaren, solange nicht einer von Ihnen offensichtlich benachteiligt wird. Sie können sowohl Gütertrennung, Zugewinngemeinschaft als auch Unterhaltsregelungen oder den Rentenausgleich modifizieren. Ein Ehevertrag wird explizit empfohlen, falls ein Elternteil seine Berufstätigkeit wegen der Erziehung der gemeinsamen Kinder einschränkt oder zeitweise aussetzt.</p>
 				</div>
 			</li>
 			<li class="l3" href="#content3">
@@ -213,6 +213,7 @@ $(document).ready(function(){
 				<p>Sie entscheiden, was mit Ihrem Vermögen geschieht. Das deutsche Erbrecht ist eine komplexe Materie. <a href="#content5" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content5">
 					<h2>Testament</h2>
+					<p>Das deutsche Erbrecht ist eine komplexe Materie. </p><br/>
 					<p>Es enthält einige Fallstricke, die Sie durch Einrichtung eines Testamentes verhindern können. Durch geschickte Regelungen vermeiden Sie Streit in der nächsten Generation oder sichern den Bestand von Familienvermögen.</p>
 				</div>
 			</li>
@@ -221,7 +222,7 @@ $(document).ready(function(){
 				<p>Wahren Sie Ihre Rentenansprüche. Ein Scheidungsantrag hat zwingend Einfluss auf Ihre Altersversorgung. <a href="#content6" class="popup">Erfahren Sie mehr</a></p>
 				<div class="extended_content" id="content6">
 					<h2>Rentenausgleich</h2>
-					<p>Wie beim Zugewinnausgleich sollen hierbei die während der Ehe erwirtschafteten Rentenansprüche aufgeteilt werden. Damit auch der Ehepartner, der während der Ehe durch bsp. Kindererziehung nur wenig Rentenansprüche erworben hat, im Alter versorgt ist, hat der Gesetzgeber veranlasst, dass alle während der Ehezeit erwirtschafteten Rentenanwartschaften, sei es aus einer gesetzlichen, einer betrieblichen oder aber einer privaten Rentenversicherung, zur Hälfte auf den anderen Ehegatten übertragen werden müssen.</p>
+					<p>Wie beim Zugewinnausgleich sollen hierbei die während der Ehe erwirtschafteten Rentenansprüche aufgeteilt werden. Damit auch der Ehepartner, der während der Ehe durch beispielsweise die Kindererziehung nur wenig Rentenansprüche erworben hat, im Alter versorgt ist, hat der Gesetzgeber veranlasst, dass alle während der Ehezeit erwirtschafteten Rentenanwartschaften, sei es aus einer gesetzlichen, einer betrieblichen oder aber einer privaten Rentenversicherung, zur Hälfte auf den anderen Ehegatten übertragen werden müssen.</p>
 				</div>
 			</li>
 		</ul>
@@ -260,14 +261,15 @@ $(document).ready(function(){
 			    <ul>
 				    <li>Eheverträge</li>
 				    <li>Ehescheidung</li>
-				    <li> Vermögensauseinandersetzung</li>
-				    <li> Testamente </li>
-				    <li> Mediation</li>
+				    <li>Vermögensauseinandersetzung</li>
+				    <li>Testamente </li>
+				    <li>Mediation</li>
+				    <li>Unterhalt</li>
 				</ul>
 			</div>
 			<div class="two-cols">
 				<h2>Karriere</h2>
-				<p>Seit einigen Jahren habe ich mich auf die Vertretung familienrechtlicher Angelegenheiten spezialisiert. Mit der Zertifizierung zur Mediatorin kann ich Ihnen einen umfassenden Service anbieten, der individuell auf Ihre Bedürfnisse zugeschnitten ist.</p>
+				<p>Seit mehr als 20 Jahren habe ich mich ausschließlich auf die Vertretung familienrechtlicher Angelegenheiten spezialisiert. Als Mediatorin kann ich Ihnen einen umfassenden Service anbieten, der individuell auf Ihre Bedürfnisse zugeschnitten ist.</p>
 			    <ul>
 				    <li>Studium der Rechtswissenschaft</li>
 				    <li>1989 Auslandstätigkeit in Amerikanischer Familienrechtskanzlei</li>
