@@ -2,7 +2,7 @@
 <html class="no-js">
 <?php
 // *** Mail Recipe ***
-$mail_to="info@a-maurer.de";
+$mail_to="info@a-maurer.com";
 $mail_subject="[Website Kontaktanfrage]";
 // *************************************
 
@@ -163,7 +163,8 @@ $(document).ready(function(){
 	<strong>Telefon</strong> 06131 221112 <br/>
 	<strong>Fax</strong> 06131 221459<br/>
 	<br/>
-	<p><strong>E-Mail:</strong> <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%61%2d%6d%61%75%72%65%72%2e%64%65%5c%22%3e%69%6e%66%6f%40%61%2d%6d%61%75%72%65%72%2e%64%65%3c%5c%2f%61%3e%27%29%3b'))</script><br/>
+	<p><strong>E-Mail:</strong> <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%61%2d%6d%61%75%72%65%72%2e%63%6f%6d%5c%22%3e%69%6e%66%6f%40%61%2d%6d%61%75%72%65%72%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b'))</script>
+<br/>
 	<strong>Internet:</strong> www.a-maurer.de</p>
 	<br/>
 	Verantwortlich f&uuml;r den Inhalt: Antje Pulinckx-Maurer
