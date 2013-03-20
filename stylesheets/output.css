@@ -1,0 +1,414 @@
+/* Opoloo Standard Style Sheet */
+/*******************************/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:hover,
+a:active {
+  outline: 0; }
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+#map_canvas img,
+.google-maps img {
+  max-width: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle; }
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer; }
+
+input[type="search"] {
+  -webkit-appearance: textfield; }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+@media print {
+  * {
+    text-shadow: none !important;
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important; }
+
+  a, a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2, h3 {
+    page-break-after: avoid; } }
+.span1 {
+  width: 4.51389%; }
+
+.span2 {
+  width: 13.19444%; }
+
+.span3 {
+  width: 21.875%; }
+
+.span4 {
+  width: 30.55556%; }
+
+.span5 {
+  width: 39.23611%; }
+
+.span6 {
+  width: 47.91667%; }
+
+.span7 {
+  width: 56.59722%; }
+
+.span8 {
+  width: 65.27778%; }
+
+.span9 {
+  width: 73.95833%; }
+
+.span10 {
+  width: 82.63889%; }
+
+.span11 {
+  width: 91.31944%; }
+
+.span12 {
+  width: 100%; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.12s ease-in-out;
+  -moz-transition: all 0.12s ease-in-out;
+  -o-transition: all 0.12s ease-in-out;
+  -ms-transition: all 0.12s ease-in-out;
+  transition: all 0.12s ease-in-out; }
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+.row {
+  margin-bottom: 10px;
+  *zoom: 1; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.col {
+  margin-left: 4.16667%;
+  float: left;
+  min-height: 30px;
+  position: relative;
+  clear: none; }
+  .col:first-child {
+    margin-left: 0; }
+
+.col + .col:last-child {
+  float: right; }
+
+.col + .col.end {
+  float: left; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .clearfix:after {
+    clear: both; }
+
+a {
+  text-decoration: none; }
+
+ul li, ol li {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px; }
+
+#loading-indicator {
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 45%;
+  top: 50%;
+  width: 200px;
+  padding: 10px;
+  background: #000;
+  opacity: 0.8;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+#form_errors {
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 45%;
+  top: 50%;
+  width: 600px;
+  padding: 10px;
+  background: #000;
+  opacity: 0.8;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris Font Foundry
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ *
+ *
+ */
+@font-face {
+  font-family: 'Museo300Regular';
+  src: url("../fonts/Museo300-Regular-webfont.eot");
+  src: url("../fonts/Museo300-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo300-Regular-webfont.woff") format("woff"), url("../fonts/Museo300-Regular-webfont.ttf") format("truetype"), url("../fonts/Museo300-Regular-webfont.svg#Museo300Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CabinRegular';
+  src: url("../fonts/Cabin-Regular-webfont.eot");
+  src: url("../fonts/Cabin-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Cabin-Regular-webfont.woff") format("woff"), url("../fonts/Cabin-Regular-webfont.ttf") format("truetype"), url("../fonts/Cabin-Regular-webfont.svg#Cabin-Regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CabinItalic';
+  src: url("../fonts/Cabin-Italic-webfont.eot");
+  src: url("../fonts/Cabin-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Cabin-Italic-webfont.woff") format("woff"), url("../fonts/Cabin-Italic-webfont.ttf") format("truetype"), url("../fonts/Cabin-Italic-webfont.svg#Cabin-Italic-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CabinBold';
+  src: url("../fonts/Cabin-Bold-webfont.eot");
+  src: url("../fonts/Cabin-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Cabin-Bold-webfont.woff") format("woff"), url("../fonts/Cabin-Bold-webfont.ttf") format("truetype"), url("../fonts/Cabin-Bold-webfont.svg#Cabin-Bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'CabinRegular';
+  background: url("../images/bg_body.jpg") top center repeat;
+  font-size: 16px;
+  color: #494949;
+  line-height: 1.6em;
+  border-top: 3px solid #6e7fa1;
+  letter-spacing: 0.01em; }
+
+#meta {
+  background: url("../images/bg_meta.jpg") top center repeat;
+  height: 90px; }
+  #meta #logo {
+    float: left;
+    padding: 16px 0 0 0; }
+  #meta #nav {
+    font-family: 'Museo300Regular';
+    float: right;
+    height: 90px;
+    line-height: 90px; }
+    #meta #nav ul
+    li {
+      float: left;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #e6f0f5; }
+      #meta #nav ul
+      li a {
+        color: #a7b3cb;
+        margin: 0 10px; }
+      #meta #nav ul
+      li a:hover {
+        color: #e6f0f5; }
+
+#header {
+  font-family: 'Museo300Regular';
+  color: #fff;
+  background: url("../images/bg_header.jpg") top center no-repeat;
+  height: 500px;
+  font-size: 65px;
+  padding: 300px 0 0 0; }
+  #header p {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'CabinRegular';
+    margin: 30px 0 0 0; }
+
+.container h1 {
+  font-family: 'Museo300Regular';
+  font-size: 46px;
+  line-height: 46px;
+  font-weight: normal;
+  color: #a6a6a6;
+  margin: 0 0 10px 0; }
+.container h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #333;
+  font-size: 20px;
+  margin: 20px 0px 15px 0px; }
+.container .teaser {
+  font-size: 20px;
+  margin: 0 0 5px 0; }
+.container img.border {
+  border: 2px solid white; }
+
+#intro, #inspiration {
+  padding: 60px 0px;
+  border-bottom: 3px solid white; }
+
+a.button-orange {
+  font-family: 'Museo300Regular';
+  background-color: #df993d;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  padding: 10px 18px;
+  display: inline-block;
+  margin: 40px 0 0 0;
+  text-transform: uppercase; }

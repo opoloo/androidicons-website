@@ -1,0 +1,176 @@
+@import 'opoloo.css.scss';
+
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      exljbris Font Foundry
+ * License URL: http://www.fontspring.com/fflicense/exljbris
+ *
+ *
+ */
+
+@font-face {
+  font-family: 'Museo300Regular';
+  src: url('../fonts/Museo300-Regular-webfont.eot');
+  src: url('../fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Museo300-Regular-webfont.woff') format('woff'),
+  url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+  url('../fonts/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinRegular';
+  src: url('../fonts/Cabin-Regular-webfont.eot');
+  src: url('../fonts/Cabin-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Cabin-Regular-webfont.woff') format('woff'),
+  url('../fonts/Cabin-Regular-webfont.ttf') format('truetype'),
+  url('../fonts/Cabin-Regular-webfont.svg#Cabin-Regular-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinItalic';
+  src: url('../fonts/Cabin-Italic-webfont.eot');
+  src: url('../fonts/Cabin-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Cabin-Italic-webfont.woff') format('woff'),
+  url('../fonts/Cabin-Italic-webfont.ttf') format('truetype'),
+  url('../fonts/Cabin-Italic-webfont.svg#Cabin-Italic-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinBold';
+  src: url('../fonts/Cabin-Bold-webfont.eot');
+  src: url('../fonts/Cabin-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Cabin-Bold-webfont.woff') format('woff'),
+  url('../fonts/Cabin-Bold-webfont.ttf') format('truetype'),
+  url('../fonts/Cabin-Bold-webfont.svg#Cabin-Bold-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: 'CabinRegular';
+  background:url('../images/bg_body.jpg') top center repeat;
+  font-size:16px;
+  color:#494949;
+  line-height:1.6em;
+  border-top: 3px solid #6e7fa1;
+  letter-spacing: 0.01em;
+}
+
+
+#meta {
+  background:url('../images/bg_meta.jpg') top center repeat;
+  height:90px;
+
+  #logo {
+    float:left;
+    padding:16px 0 0 0;
+  }
+  #nav {
+    font-family: 'Museo300Regular';
+    float:right;
+    height:90px;
+    line-height:90px;
+    ul
+      li {
+        float:left;
+        font-size:20px;
+        text-transform: uppercase;
+        color:#e6f0f5;
+        a {
+          color:#a7b3cb;
+          margin:0 10px;
+        }
+        a:hover {
+          color:#e6f0f5;
+        }
+      }
+
+  }
+}
+
+#header {
+  font-family: 'Museo300Regular';
+  color:#fff;
+  background:url('../images/bg_header.jpg') top center no-repeat;
+  height:500px;
+  font-size:65px;
+  padding:300px 0 0 0;
+  p {
+    font-size:23px;
+    text-transform: uppercase;
+    font-family: 'CabinRegular';
+    margin:30px 0 0 0;
+  }
+}
+
+.container {
+  h1 {
+    font-family: 'Museo300Regular';
+    font-size:46px;
+    line-height:46px;
+    font-weight: normal;
+    color:#a6a6a6;
+    margin:0 0 10px 0;
+  }
+
+  h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color:#333;
+    font-size:20px;
+    margin:20px 0px 15px 0px;
+  }
+
+  .teaser {
+    font-size:20px;
+    margin:0 0 5px 0;
+  }
+
+  img.border {
+    border:2px solid #fff;
+  }
+
+}
+
+#intro, #inspiration {
+  padding:60px 0px;
+  border-bottom:3px solid #fff;
+}
+
+a.button-orange {
+  font-family: 'Museo300Regular';
+  background-color:#df993d;
+  color:#fff;
+  font-size:20px;
+  letter-spacing: 0.03em;
+  padding:10px 18px;
+  display:inline-block;
+  margin:40px 0 0 0;
+  text-transform:uppercase;
+}
