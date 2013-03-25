@@ -82,6 +82,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_totop.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_voraussetzungen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_ziele.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.php.orig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery-1.6.1.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.fancybox-1.3.4.pack.js" afterPath="" />
@@ -94,10 +95,15 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/jquery.fancybox-1.3.4.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/no-fontface.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_header.jpg" afterPath="$PROJECT_DIR$/images/bg_header.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_config.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_config.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_grid.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_grid.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_reset.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/opoloo_reset.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/output.css" afterPath="$PROJECT_DIR$/stylesheets/output.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/stylesheets/style.css.scss" />
     </list>
     <ignored path="pulinckx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,22 +125,41 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="26" selection-start="3912" selection-end="3912" vertical-scroll-proportion="0.0">
+            <state line="306" column="170" selection-start="7176" selection-end="7176" vertical-scroll-proportion="-4.1538463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="70" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.85882354">
+            <state line="53" column="26" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.56915545">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="-20.291666">
+              <folding>
+                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,15 +167,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/stylesheets/style.css.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="987" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -233,14 +259,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="987" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26307365" sideWeight="0.99772984" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -308,16 +334,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/output.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="262" column="159" selection-start="6445" selection-end="6445" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Schriften/Museo 300(2)/web fonts/museo_300_english/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1144" vertical-scroll-proportion="0.0">
+        <state line="109" column="140" selection-start="3646" selection-end="3646" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="2" selection-start="3388" selection-end="3416" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -329,9 +362,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/stylesheets/output.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="70" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.85882354">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Schriften/Museo 300(2)/web fonts/museo_300_english/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1144" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../remshagen/app/assets/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="23" selection-start="4942" selection-end="4942" vertical-scroll-proportion="-0.22222222" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="-20.291666">
+          <folding>
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="170" selection-start="7176" selection-end="7176" vertical-scroll-proportion="-4.1538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="26" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.56915545">
           <folding />
         </state>
       </provider>
