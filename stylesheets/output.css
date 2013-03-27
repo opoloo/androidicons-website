@@ -418,12 +418,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #333;
-  font-size: 20px;
+  font-size: 22px;
   margin: 20px 0px 15px 0px; }
 .container h3 {
   font-family: 'Museo300Medium';
   font-weight: normal;
-  font-size: 25px; }
+  font-size: 16px;
+  margin: 0 0 6px 0;
+  color: #333; }
 .container .teaser {
   font-size: 20px;
   margin: 0 0 5px 0; }
@@ -436,12 +438,14 @@ body {
   color: #494949;
   margin: 20px 0 20px 0;
   padding: 0 80px 0 0; }
+.container .float-left {
+  float: left; }
 
-#about, #inspiration {
+.bg-hell, .bg-dunkel {
   padding: 60px 0px;
   border-bottom: 3px solid #fff; }
 
-#inspiration {
+.bg-dunkel {
   background: url("../images/bg_grain_grey.jpg") top center repeat; }
 
 a.button-orange {
@@ -463,14 +467,15 @@ a.button-orange {
   background: url("../images/bg_footer.jpg") top center repeat;
   font-size: 18px;
   color: #909cb7;
-  letter-spacing: 0.03em; }
+  letter-spacing: 0.03em;
+  line-height: 30px; }
   #footer a {
     color: #df993d; }
   #footer .nummer {
     color: #6ac1e5;
     font-size: 48px;
     line-height: 48px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
     letter-spacing: 0.08em; }
   #footer #telefon {
     background: url("../images/ic_telefon.png") top left no-repeat;
@@ -484,6 +489,19 @@ a.button-orange {
     font-size: 12px;
     text-transform: uppercase;
     margin: 40px 0 0 0; }
+  #footer input {
+    margin: 15px 0px;
+    border: none;
+    padding: 9px;
+    width: 300px;
+    font-size: 16px;
+    color: #494949; }
+  #footer h3 {
+    font-family: 'Museo300Medium';
+    font-weight: normal;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    color: #909cb7; }
 
 #totop {
   margin: 70px 0 0 0;

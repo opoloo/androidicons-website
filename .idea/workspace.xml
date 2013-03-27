@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b190f994-be55-48b8-a0da-1b40d7c6f0e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/image/a_paragraph.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/image/apm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/image/back.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/class.phpmailer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/class.smtp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/image/a_paragraph.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/image/apm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/image/back.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/kontakt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/phpmailer.lang-de.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/CHANGES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/INSTALL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/NEWS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/TROUBLESHOOTING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/cookbook" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/extlib/Snoopy.class.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/rss_cache.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/rss_fetch.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/rss_parse.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/rss_utils.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_slashbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/simple_smarty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/smarty_plugin/modifier.rss_date_parse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/scripts/templates/simple.smarty" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/403.shtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/404.shtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/css/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/css/basic1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/datenschutz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/dtbkup20110205/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/ehescheidung.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/ehevertrag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/erbrecht.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/hausrat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/impressum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/kosten.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/rentenausgleich.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/sorgerecht-unterhalt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/unterhalt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/css/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/css/basic1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/danke.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/datenschutz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/ehescheidung.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/ehevertrag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/erbrecht.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/hausrat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/impressum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/kontakt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/kosten.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rentenausgleich.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/cookbook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/sorgerecht-unterhalt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/unterhalt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/web-content/zugewinnausgleich.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_site/zugewinnausgleich.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasB-webfont.eot" afterPath="" />
@@ -121,9 +53,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.ttf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iepngfix.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg_h1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/blank.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_close.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_loading.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_nav_left.png" afterPath="" />
@@ -143,28 +72,90 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox-x.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox-y.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_close.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_gebiete.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_li.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_mediation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_telefon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_totop.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_voraussetzungen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_ziele.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery-1.6.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.fancybox-1.3.4.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.infieldlabel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery.slides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/modernizr-2.0.6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/smooth-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/waypoints.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/impressum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/403.shtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/404.shtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/css/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/css/basic1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/datenschutz.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/dtbkup20110205/index.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/ehescheidung.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/ehevertrag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/erbrecht.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/hausrat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/a_paragraph.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/apm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/back.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/impressum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/kosten.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/news.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/rentenausgleich.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/sorgerecht-unterhalt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/unterhalt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/css/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/css/basic1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/danke.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/datenschutz.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/ehescheidung.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/ehevertrag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/erbrecht.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/hausrat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/a_paragraph.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/apm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/back.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/impressum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kontakt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kontakt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kosten.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/news.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rentenausgleich.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/CHANGES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/NEWS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/TROUBLESHOOTING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/cookbook" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/extlib/Snoopy.class.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/cookbook.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_cache.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_fetch.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_parse.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_utils.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_slashbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/simple_smarty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/smarty_plugin/modifier.rss_date_parse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/templates/simple.smarty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/sorgerecht-unterhalt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/unterhalt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/zugewinnausgleich.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/zugewinnausgleich.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/jquery.fancybox-1.3.4.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/no-fontface.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impressum.php" afterPath="$PROJECT_DIR$/impressum.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/output.css" afterPath="$PROJECT_DIR$/stylesheets/output.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/stylesheets/style.css.scss" />
     </list>
     <ignored path="pulinckx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,16 +177,16 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="170" selection-start="7176" selection-end="7176" vertical-scroll-proportion="0.0">
+            <state line="280" column="18" selection-start="6841" selection-end="6841" vertical-scroll-proportion="0.5769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="15" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.10895884">
+            <state line="174" column="67" selection-start="6238" selection-end="6238" vertical-scroll-proportion="0.7529412">
               <folding />
             </state>
           </provider>
@@ -365,7 +356,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26947704" sideWeight="0.6707865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27267876" sideWeight="0.6707865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -440,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="67" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.0">
@@ -461,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="67" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.0">
@@ -478,13 +455,6 @@
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="262" column="159" selection-start="6445" selection-end="6445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="140" selection-start="3646" selection-end="3646" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -527,14 +497,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="170" selection-start="7176" selection-end="7176" vertical-scroll-proportion="0.0">
+        <state line="280" column="18" selection-start="6841" selection-end="6841" vertical-scroll-proportion="0.5769231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="15" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.10895884">
+        <state line="174" column="67" selection-start="6238" selection-end="6238" vertical-scroll-proportion="0.7529412">
           <folding />
         </state>
       </provider>
