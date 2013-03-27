@@ -291,7 +291,12 @@ a.button-orange {
 
 
 
-
+#slideheader, #slideheader * {
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: color 0 ease-in;
+	transition: none;
+}
 .wrapper {
   width: 960px;
   /*margin: 40px auto;
