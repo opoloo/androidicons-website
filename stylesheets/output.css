@@ -518,6 +518,16 @@ a.button-orange {
   #totop:hover {
     background-color: #08142c; }
 
+hr {
+  height: 1px;
+  font-size: 0;
+  background: #fff;
+  margin: 40px 0px;
+  border: none; }
+
+.margin-top {
+  margin-top: 50px; }
+
 #slideheader, #slideheader * {
   -moz-transition: none;
   -webkit-transition: none;

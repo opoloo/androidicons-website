@@ -68,6 +68,7 @@
                 
             </div>  
         </div>
+        <hr/>
         <div class="row">
             <div class="col span12">
                 <h2>Tipps zur Energieeinsparung und Umweltfreundlichkeit</h2>
@@ -91,7 +92,7 @@
                 <p>Drehzahlgeregelte energieeffiziente Pumpen helfen Energie einzusparen.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row margin-top">
             <div class="col span3">
                 <h3>5. LED Unterwasserbeleuchtung</h3>
                 <p>Statt 300W nur 40W pro Scheinwerfer –  auch in Farbe und ohne Komforteinbußen.</p>
