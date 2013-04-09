@@ -448,6 +448,24 @@ body {
 .bg-dunkel {
   background: url("../images/bg_grain_grey.jpg") top center repeat; }
 
+.bg-hell.inspiration {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+  padding: 110px 0px; }
+  .bg-hell.inspiration h1 {
+    color: #fff; }
+
+.bg-hell.inspiration.garten {
+  background: url("../images/bg_gartenbad.jpg") top center no-repeat; }
+
+.bg-hell.inspiration.halle {
+  background: url("../images/bg_hallenbad.jpg") top center no-repeat; }
+
+.bg-hell.inspiration.hotel {
+  background: url("../images/bg_hotelbad.jpg") top center no-repeat; }
+
 a.button-orange {
   font-family: 'Museo300Regular';
   background: url("../images/ic_arrow_right.png") 12px 13px no-repeat #df993d;
