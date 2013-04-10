@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b190f994-be55-48b8-a0da-1b40d7c6f0e7" name="Default" comment="">
+    <list default="true" id="b190f994-be55-48b8-a0da-1b40d7c6f0e7" name="Default" comment="Merge branch 'master' of heroku.com:wendel&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;# &#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ic_check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_aufmass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_entwurf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_erstkontakt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_rain.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/blank.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
@@ -80,7 +85,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_voraussetzungen.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_ziele.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/impressum.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.php.orig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/403.shtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/404.shtml" afterPath="" />
@@ -155,6 +159,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/jquery.fancybox-1.3.4.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/no-fontface.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index_old.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/illu_sun.png" afterPath="$PROJECT_DIR$/images/illu_sun.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/b83b54417343db05fce1afaac7b1a6ba2fbffaa1/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/b83b54417343db05fce1afaac7b1a6ba2fbffaa1/style.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/konzeption.php" afterPath="$PROJECT_DIR$/konzeption.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/output.css" afterPath="$PROJECT_DIR$/stylesheets/output.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/stylesheets/style.css.scss" />
     </list>
     <ignored path="pulinckx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -176,7 +188,7 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="142" selection-start="6711" selection-end="6711" vertical-scroll-proportion="0.5244755">
+            <state line="216" column="74" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.4866744">
               <folding />
             </state>
           </provider>
@@ -204,7 +216,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="982" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -339,14 +351,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="982" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="987" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27588046" sideWeight="0.980791" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27908218" sideWeight="0.980791" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -416,6 +428,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="142" selection-start="6711" selection-end="6711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="280" column="18" selection-start="6841" selection-end="6841" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -428,21 +447,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="306" column="170" selection-start="7176" selection-end="7176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
@@ -481,11 +490,6 @@
         <state line="238" column="23" selection-start="4942" selection-end="4942" vertical-scroll-proportion="-0.22222222" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/carouFredSel-6.2.0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="27" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="67" selection-start="6238" selection-end="6238" vertical-scroll-proportion="0.7529412" />
@@ -493,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="142" selection-start="6711" selection-end="6711" vertical-scroll-proportion="0.5244755">
+        <state line="216" column="74" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.4866744">
           <folding />
         </state>
       </provider>

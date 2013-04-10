@@ -14,14 +14,17 @@
         </div>
         <div class="row">
             <div class="col span4">
+                <div class="center"><img src="images/illu_erstkontakt.png" alt="Erstkontakt"/></div>
                 <h2>Erstkontakt</h2>
                 <p>Ihr Projekt beginnt meist mit einem Anruf oder einer Email. So eruieren wir die Rahmenbedingungen und alles nötige rund um Ihr neues Schwimmbad.</p>
             </div>
             <div class="col span4">
+                <div class="center"><img src="images/illu_aufmass.png" alt="Aufmaß"/></div>
                 <h2>Aufmaß</h2>
                 <p>Wir besuchen Sie mit Maßband, Zeichenblock und Taschenrechner, um vor Ort die Bedingungen zu sichten und die technischen Daten abzuklären.</p>
             </div>
             <div class="col span4">
+                <div class="center"><img src="images/illu_entwurf.png" alt="Entwürfe"/></div>
                 <h2>Entwürfe</h2>
                 <p>Auf Grundlage unserer Bemessungen und Ihrer Wünsche fertigen wir erste Skizzen an und visualisieren so Ihre zukünftige Wasserlandschaft.</p>
             </div>
@@ -48,7 +51,7 @@
         </div>
         <div class="row">
             <div class="col span3">
-                <img src="images/illu_sun.png" alt="" />
+                <img src="images/illu_sun.png" alt="Illu Sonne" />
             </div>
             <div class="col span9">
                 <h2>Heizen</h2>
@@ -64,8 +67,7 @@
                     <p>Hier finden Sie ausführliche Informationen zur physikalischen und chemischen Wasseraufbereitung zum Download.</p>    
             </div>
             <div class="col span3">
-                <img src="images/illu_sun.png" alt="" />
-                
+                <img src="images/illu_rain.png" alt="Illu Wasser" class="margin-top" />      
             </div>  
         </div>
         <hr/>
@@ -76,30 +78,30 @@
         </div>
         <div class="row">
             <div class="col span3">
-                <h3>1. Die Abdeckung</h3>
+                <h3 class="check">Die Abdeckung</h3>
                 <p>Wer seinen Pool nach der Benutzung abdeckt, verringert die Abkühlung des Wasser und reduziert die Verdunstung. Somit verringert er erheblich seinen Energiebedarf in der Entfeuchtung und Erwärmung.</p>
             </div>
             <div class="col span3">
-                <h3>2. Isolierung mit Dampfsperrre</h3>
+                <h3 class="check">Isolierung mit Dampfsperrre</h3>
                 <p>Eine Dampfsperre verhindert, dass die erhöhte Luftfeuchtigkeit in die Bausubstanz eindringt. Die Wärme bleibt da, wo sie genutzt werden kann: in der Schwimmhalle.</p>
             </div>
             <div class="col span3">
-                <h3>3. Effiziente Klimatechnik</h3>
+                <h3 class="check">Effiziente Klimatechnik</h3>
                 <p>Mit einer Wärmerückgewinnung und Kreuzstromwärmetauschern wird ein Großteil der vorhandenen Energie zurückgewonnen.</p>
             </div>
             <div class="col span3">
-                <h3>4. Effiziente Pumpen</h3>
+                <h3 class="check">Effiziente Pumpen</h3>
                 <p>Drehzahlgeregelte energieeffiziente Pumpen helfen Energie einzusparen.</p>
             </div>
         </div>
         <div class="row margin-top">
             <div class="col span3">
-                <h3>5. LED Unterwasserbeleuchtung</h3>
+                <h3 class="check">LED Unterwasserbeleuchtung</h3>
                 <p>Statt 300W nur 40W pro Scheinwerfer –  auch in Farbe und ohne Komforteinbußen.</p>
             </div>
             <div class="col span3">
-                <h3>6. Energiegewinnung durch erneuerbare Energien</h3>
-                <p>Solarheizung, Photovoltaik, Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät).</p>
+                <h3 class="check">Erneuerbare Energien</h3>
+                <p>Energiegewinnung durch Solarheizung, Photovoltaik, Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät).</p>
             </div>
             <div class="col span3">
 
