@@ -38,15 +38,12 @@
         </div>
         <div class="row">
             <div class="col span4">
-                <h2>Gartenbäder</h2>
-                <img src="images/bad_1.jpg" alt="Bad 1" class="border" />
+                <img src="images/design_1.jpg" alt="Bad 1" class="border" />
             </div>
             <div class="col span4">
-                <h2>Hallenbäder</h2>
-                <img src="images/bad_1.jpg" alt="Bad 2" class="border" />
+                <img src="images/design_2.jpg" alt="Bad 2" class="border" />
             </div>
             <div class="col span4">
-                <h2>Hotelbäder</h2>
                 <img src="images/bad_1.jpg" alt="Bad 3" class="border" />
             </div>
         </div>

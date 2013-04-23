@@ -25,8 +25,9 @@ $(function() {
 
 	$("#slideheader").carouFredSel({
 		items: {
-			visible: 1
+			visible: 1,
 			//width: 960
+			
 		},
 		scroll: {
 			items: 1,
@@ -41,6 +42,7 @@ $(function() {
 			key: "right"
 		},
 		swipe: true
+		
 	});
 
 });
