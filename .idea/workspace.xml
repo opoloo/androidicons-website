@@ -1,172 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b190f994-be55-48b8-a0da-1b40d7c6f0e7" name="Default" comment="Merge branch 'master' of heroku.com:wendel&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;# &#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ic_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_aufmass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_entwurf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_erstkontakt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_rain.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasB-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasB-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasB-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasB-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasBI-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasBI-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasBI-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasBI-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasI-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasI-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasI-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasI-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasR-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasR-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasR-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBasR-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasB-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasB-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasB-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasB-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasBI-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasBI-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasBI-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasBI-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasI-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasI-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasI-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasI-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasR-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasR-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasR-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/GenBkBasR-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Italic-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/OpenSans-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iepngfix.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_gebiete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_mediation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_totop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_voraussetzungen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ic_ziele.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/impressum.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/403.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/404.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/css/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/css/basic1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/datenschutz.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/dtbkup20110205/index.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/ehescheidung.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/ehevertrag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/erbrecht.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/hausrat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/a_paragraph.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/apm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/image/back.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/impressum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/kosten.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/news.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/rentenausgleich.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/sorgerecht-unterhalt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/unterhalt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/css/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/css/basic1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/danke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/datenschutz.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/ehescheidung.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/ehevertrag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/erbrecht.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/hausrat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/a_paragraph.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/apm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/image/back.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/impressum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kontakt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kontakt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/kosten.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/news.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/phpmailer.lang-de.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rentenausgleich.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/NEWS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/TROUBLESHOOTING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/cookbook" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/extlib/Snoopy.class.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/cookbook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/htdocs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_cache.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_fetch.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_parse.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/rss_utils.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_debug.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_simple.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/magpie_slashbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/simple_smarty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/smarty_plugin/modifier.rss_date_parse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/rss/scripts/templates/simple.smarty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/sorgerecht-unterhalt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/unterhalt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/web-content/zugewinnausgleich.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_site/zugewinnausgleich.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/jquery-1.6.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/modernizr-2.0.6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/smooth-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/jquery.fancybox-1.3.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/no-fontface.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index_old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/illu_sun.png" afterPath="$PROJECT_DIR$/images/illu_sun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/b83b54417343db05fce1afaac7b1a6ba2fbffaa1/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/b83b54417343db05fce1afaac7b1a6ba2fbffaa1/style.css.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c1f14326ee5db238d828f953769c3b679c317847/style.css.scssc" />
+    <list default="true" id="b190f994-be55-48b8-a0da-1b40d7c6f0e7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/konzeption.php" afterPath="$PROJECT_DIR$/konzeption.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/output.css" afterPath="$PROJECT_DIR$/stylesheets/output.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/stylesheets/style.css.scss" />
     </list>
     <ignored path="pulinckx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,7 +24,7 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="74" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.4866744">
+            <state line="244" column="85" selection-start="5973" selection-end="5973" vertical-scroll-proportion="0.017381229">
               <folding />
             </state>
           </provider>
@@ -244,6 +80,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,12 +115,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../opoloo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thelastwebsite" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -348,6 +184,11 @@
       <created>1359108191270</created>
       <updated>1359108191270</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of heroku.com:wendel&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;# &#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;">
+      <created>1365591374734</created>
+      <updated>1365591374734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,7 +199,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27908218" sideWeight="0.980791" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2854856" sideWeight="0.980791" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -368,6 +209,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -408,7 +250,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of heroku.com:wendel&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;# &#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -421,11 +263,26 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Merge branch 'master' of heroku.com:wendel&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;# &#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="244" column="85" selection-start="5973" selection-end="5973" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="68" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="274" column="142" selection-start="6711" selection-end="6711" vertical-scroll-proportion="0.0">
@@ -497,7 +354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="74" selection-start="5542" selection-end="5542" vertical-scroll-proportion="0.4866744">
+        <state line="244" column="85" selection-start="5973" selection-end="5973" vertical-scroll-proportion="0.017381229">
           <folding />
         </state>
       </provider>
