@@ -61,9 +61,9 @@ $(function() {
 			</div>
 			<div id="nav">
 				<ul>
-					<li><a href="index.php">Start</a> //</li>
-					<li><a href="konzeption.php">Konzeption</a> //</li>
-					<li><a href="inspiration.php">Inspiration</a> //</li>
+					<li><a href="index.php">Start</a>//</li>
+					<li><a href="konzeption.php">Konzeption</a>//</li>
+					<li><a href="inspiration.php">Inspiration</a>//</li>
 					<li><a href="kontakt.php">Kontakt</a></li>
 				</ul>
 			</div>
