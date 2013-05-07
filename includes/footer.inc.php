@@ -5,14 +5,7 @@
 			<div class="col span6" id="telefon">
 				<h3>Rufen Sie uns an unter</h3>
 				<p class="nummer">06781 360090</p>
-				<p>oder hinterlassen Sie hier Ihre Telefonnummer</p>
-				<form action="">
-					<p>
-						<label for=""></label>
-						<input class="" type="text" name="" id=""  value="" />
-					</p>
-				 </form>
-				<p>und wir rufen Sie umgehend zurück. Natürlich können Sie uns auch <a href="">schreiben</a>. </p>
+				<p>Natürlich können Sie uns auch <a href="kontakt.php">schreiben</a>. </p>
 			</div>
 			<div class="col span6">
 				<div id="location">
