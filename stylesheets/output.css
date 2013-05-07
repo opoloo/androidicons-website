@@ -406,6 +406,10 @@ body {
     height: 500px;
     width: 960px; }
 
+.bg-dunkel a, .bg-hell a, iframe a {
+  color: #DF993D;
+  border-bottom: 1px solid #ccc; }
+
 .container h1 {
   font-family: 'Museo300Regular';
   font-size: 46px;
@@ -420,12 +424,24 @@ body {
   color: #333;
   font-size: 22px;
   margin: 20px 0px 15px 0px; }
+.container h2.erstkontakt {
+  background: url("../images/ic_erstkontakt.png") 0px 0px no-repeat;
+  padding: 2px 0 2px 40px; }
+.container h2.aufmass {
+  background: url("../images/ic_aufmass.png") 0px 0px no-repeat;
+  padding: 2px 0 2px 40px; }
+.container h2.entwurf {
+  background: url("../images/ic_entwurf.png") 0px 0px no-repeat;
+  padding: 2px 0 2px 40px; }
 .container h3 {
   font-family: 'Museo300Medium';
   font-weight: normal;
   font-size: 16px;
   margin: 0 0 6px 0;
   color: #333; }
+.container h3.check {
+  background: url("../images/ic_check.png") 0px 2px no-repeat;
+  padding: 0 0 0 33px; }
 .container .teaser {
   font-size: 20px;
   margin: 0 0 5px 0; }
@@ -440,6 +456,30 @@ body {
   padding: 0 80px 0 0; }
 .container .float-left {
   float: left; }
+.container .center {
+  width: 100%;
+  text-align: center; }
+.container label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px; }
+.container input {
+  margin: 2px 0px 15px 0px;
+  border: none;
+  padding: 9px;
+  width: 270px;
+  font-size: 16px;
+  color: #494949;
+  border: 1px solid #ccc; }
+.container textarea {
+  margin: 2px 0px 15px 0px;
+  border: none;
+  padding: 9px;
+  width: 270px;
+  font-size: 16px;
+  color: #494949;
+  font-family: 'CabinRegular';
+  border: 1px solid #ccc; }
 
 .bg-hell, .bg-dunkel {
   padding: 60px 0px;
@@ -448,7 +488,25 @@ body {
 .bg-dunkel {
   background: url("../images/bg_grain_grey.jpg") top center repeat; }
 
-a.button-orange {
+.bg-hell.inspiration {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+  padding: 140px 0px; }
+  .bg-hell.inspiration h1 {
+    color: #fff; }
+
+.bg-hell.inspiration.garten {
+  background: url("../images/bg_gartenbad.jpg") top center no-repeat; }
+
+.bg-hell.inspiration.halle {
+  background: url("../images/bg_hallenbad.jpg") top center no-repeat; }
+
+.bg-hell.inspiration.hotel {
+  background: url("../images/bg_hotelbad.jpg") top center no-repeat; }
+
+a.button-orange, button.submit {
   font-family: 'Museo300Regular';
   background: url("../images/ic_arrow_right.png") 12px 13px no-repeat #df993d;
   color: #fff;
@@ -458,9 +516,13 @@ a.button-orange {
   display: inline-block;
   margin: 40px 0 0 0;
   text-transform: uppercase;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
-  a.button-orange:hover {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  border: none; }
+  a.button-orange:hover, button.submit:hover {
     background-color: #db8d27; }
+
+button.submit {
+  margin: 10px 0 0 0; }
 
 #footer {
   padding: 70px 0 0 0;

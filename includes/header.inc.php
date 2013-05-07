@@ -25,8 +25,9 @@ $(function() {
 
 	$("#slideheader").carouFredSel({
 		items: {
-			visible: 1
+			visible: 1,
 			//width: 960
+			
 		},
 		scroll: {
 			items: 1,
@@ -41,6 +42,7 @@ $(function() {
 			key: "right"
 		},
 		swipe: true
+		
 	});
 
 });
@@ -61,9 +63,9 @@ $(function() {
 			</div>
 			<div id="nav">
 				<ul>
-					<li><a href="index.php">Start</a> //</li>
-					<li><a href="konzeption.php">Konzeption</a> //</li>
-					<li><a href="inspiration.php">Inspiration</a> //</li>
+					<li><a href="index.php">Start</a>//</li>
+					<li><a href="konzeption.php">Konzeption</a>//</li>
+					<li><a href="inspiration.php">Inspiration</a>//</li>
 					<li><a href="kontakt.php">Kontakt</a></li>
 				</ul>
 			</div>
