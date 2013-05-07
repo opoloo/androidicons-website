@@ -48,17 +48,77 @@ $mail_text=stripslashes($mail_text);
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.png" type="image/png" />
 
+<<<<<<< HEAD
+=======
 <!-- include jQuery + carouFredSel plugin -->
 <script type="text/javascript" language="javascript" src="scripts/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" language="javascript" src="scripts/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script type="text/javascript" language="javascript" src="scripts/jquery.fancybox.js"></script>
 
+>>>>>>> 8b4a3e6e40daa518f1212d4b590c11d7bfcfd5eb
 <!-- General Stylesheet -->
 <link href="stylesheets/output.css" rel="stylesheet" type="text/css" />
 <link href="https://raw.github.com/woothemes/FlexSlider/master/flexslider.css" rel="stylesheet" type="text/css" />
 
+<<<<<<< HEAD
 <!-- include jQuery + carouFredSel plugin -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="https://raw.github.com/woothemes/FlexSlider/master/jquery.flexslider-min.js"></script>
+=======
+<!-- General Stylesheet -->
+<link href="stylesheets/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+
+<!-- fire plugin onDocumentReady -->
+<script type="text/javascript" language="javascript">
+$(function() {
+
+	$("#slideheader").carouFredSel({
+		items: {
+			visible: 1,
+			//width: 960
+			
+		},
+		scroll: {
+			items: 1,
+			pauseOnHover: true
+		},
+		prev: {
+			button: "#prev",
+			key: "left"
+		},
+		next: {
+			button: "#next",
+			key: "right"
+		},
+		swipe: true
+		
+	});
+	
+	/*
+	 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+	 */
+	
+	$('.fancybox-thumbs').fancybox({
+		prevEffect : 'none',
+		nextEffect : 'none',
+	
+		closeBtn  : true,
+		arrows    : true,
+		nextClick : true,
+	
+		helpers : {
+			thumbs : {
+				width  : 40,
+				height : 40
+			}
+		}
+	});
+
+});
+</script>
+
+
+>>>>>>> 8b4a3e6e40daa518f1212d4b590c11d7bfcfd5eb
 </head>
 
 <body>
