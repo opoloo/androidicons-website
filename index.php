@@ -73,50 +73,25 @@
 
 <script>
 $(window).load(function(){
-
-    // $("#slideheader").carouFredSel({
-    //     width: "100%",
-    //     items: {
-    //         visible: 1,
-    //         width: "100%"
-    //     },
-    //     scroll: {
-    //         items: 1,
-    //         fx: "crossfade",
-    //         duration: 500,
-    //         pauseOnHover: true
-    //     },
-    //     next: {
-    //         button: "#next",
-    //         key: "right"
-    //     },
-    //     prev: {
-    //         button: "#prev",
-    //         key: "left"
-    //     },
-    //     pagination: "#pagination",
-    // });
-
     
     $('#slideheader').flexslider({
         animation: "fade",
         easing: "swing",
-        slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-        animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
-        pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-        pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-        useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
-        touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+        slideshowSpeed: 7000,
+        animationSpeed: 600,
+        pauseOnAction: true,
+        pauseOnHover: true,
+        useCSS: true,
+        touch: true,
         // Primary Controls
-        controlNav: false,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-        directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
-        prevText: "Previous",           //String: Set the text for the "previous" directionNav item
-        nextText: "Next",               //String: Set the text for the "next" directionNav item
- 
+        controlNav: false,
+        directionNav: true,
+        prevText: "Zurück",
+        nextText: "Weiter",
         // Secondary Navigation
-        keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys
-        multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
-        mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
+        keyboard: true,
+        multipleKeyboard: false,
+        mousewheel: false
  
     });
 

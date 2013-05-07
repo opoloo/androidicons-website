@@ -14,11 +14,11 @@
                 <p>Wir gestalten Ihren Sommertraum, perfekt in Ihren Garten integriert. Unsere Gartenbäder werden mit hochwertigsten Materialien gebaut, die darauf ausgelegt sind, jeder Witterung zu trotzen und dabei gut auszusehen.</p>
             </div>
             <div class="col span6">
-                <p class="noborder">
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                <p class="gallery noborder">
+                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
+                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
                 </p>
             </div>
         </div>
@@ -29,13 +29,13 @@
     <div class="container">
         <div class="row">
             <div class="col span6">
-                <p class="noborder">
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                <p class="gallery noborder">
+                     <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                     <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
+                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
                  </p> 
             </div>
             <div class="col span6">
@@ -55,11 +55,11 @@
                 <p>Entspannung für Ihre Gäste. Zu einem Hotelaufenthalt, der den Gast wunschlos glücklich macht, gehört eine wohltuende Erfrischung im Schwimmbad. Wir sorgen für die Wellnesserfahrung, damit Sie sich um Ihre Gäste kümmern können.</p>
             </div>
             <div class="col span6">
-                <p class="noborder">
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                <p class="gallery noborder">
+                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
+                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
                 </p>
             </div>
         </div>
