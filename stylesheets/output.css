@@ -394,21 +394,22 @@ body {
     text-transform: uppercase;
     font-family: 'CabinRegular';
     margin: 30px 0 0 0; }
-  #header .s1 {
-    background: url("../images/bg_header.jpg") top center no-repeat;
-    height: 500px;
-    width: 960px;
-    padding: 300px 0 0 0; }
-  #header .s2 {
-    background: url("../images/bg_header.jpg") top center no-repeat;
-    padding: 300px 0 0 0;
-    height: 500px;
-    width: 960px; }
-  #header .s3 {
-    background: url("../images/bg_header.jpg") top center no-repeat;
-    padding: 300px 0 0 0;
-    height: 500px;
-    width: 960px; }
+  #header #slideheader {
+    height: 500px; }
+    #header #slideheader li {
+      display: block;
+      float: left;
+      height: 500px;
+      max-height: 500px;
+      width: 100%;
+      text-align: center;
+      padding: 300px 0 0 0; }
+    #header #slideheader .s1 {
+      background: url("../images/bg_header.jpg") top center no-repeat; }
+    #header #slideheader .s2 {
+      background: url("../images/bg_header.jpg") top center no-repeat; }
+    #header #slideheader .s3 {
+      background: url("../images/bg_header.jpg") top center no-repeat; }
 
 .bg-dunkel a, .bg-hell a, iframe a {
   color: #DF993D;
