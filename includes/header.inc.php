@@ -1,6 +1,42 @@
 <!doctype html>
 <html class="no-js">
 <head>
+
+<?php
+// *** Mail Recipe ***
+$mail_to="sandra@opoloo.de";
+$mail_subject="[Wendel Kontaktanfrage]";
+// *************************************
+
+$from_name=$_POST['fromname'];
+$from_mail=strtolower($_POST['frommail']);
+$from_telefon=$_POST['fromtelefon'];
+$mail_text=$_POST['mailtext'];
+$send=$_POST['s'];
+
+// Errorzuweisungen mailform
+if(trim($from_name)=="" || trim($from_name)=="Ihr Name") $err_text.="<li>Bitte tragen Sie Ihren Namen ein.</li>";
+if(trim($from_mail)=="" || strtolower($from_mail)=="Ihre E-Mailadresse") {
+	$err_text.="<li>Bitte tragen Sie Ihre E-Mailadresse ein.</li>";
+	#$from_mail="";
+} else
+	if(!ereg("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})$",$from_mail))
+		$err_text.="<li>Bitte tragen Sie eine g&uuml;ltige E-Mailadresse ein.</li>";
+if(trim($mail_text)=="" || trim($mail_text)=="Ihre Nachricht") $err_text.="<li>Bitte tragen Sie eine Nachricht ein.</li>";
+
+// *** Zu langen Text abschneiden ***
+if(strlen($mail_text)>2500) {
+	$mail_text=substr($mail_text,0,2500)."... (Text wurde gek&uuml;rzt!)";
+}
+$from_name=str_replace(chr(34),"''",$from_name);
+$from_name=stripslashes($from_name);
+$from_telefon=stripslashes($from_telefon);
+$from_mail=stripslashes($from_mail);
+$mail_subject=stripslashes($mail_subject);
+$mail_text=stripslashes($mail_text);
+
+?>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Wendel Pool & Wellness | Wir bauen Ihnen in Maßarbeit Ihr Wunsch-Schwimmbad" />
 <meta name="author" content="Torsten Wendel" />
@@ -57,14 +93,14 @@ $(function() {
 		prevEffect : 'none',
 		nextEffect : 'none',
 	
-		closeBtn  : false,
-		arrows    : false,
+		closeBtn  : true,
+		arrows    : true,
 		nextClick : true,
 	
 		helpers : {
 			thumbs : {
-				width  : 150,
-				height : 150
+				width  : 40,
+				height : 40
 			}
 		}
 	});

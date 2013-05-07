@@ -494,6 +494,12 @@ body {
 .container span.label {
   text-transform: uppercase;
   font-size: 13px; }
+.container img.margin {
+  margin: 10px;
+  text-decoration: none; }
+.container .noborder a {
+  border-bottom: none;
+  text-decoration: none; }
 
 .bg-hell, .bg-dunkel {
   padding: 60px 0px;
@@ -507,7 +513,7 @@ body {
   line-height: 30px;
   font-size: 20px;
   color: #fff;
-  padding: 140px 0px; }
+  padding: 200px 0px; }
   .bg-hell.inspiration h1 {
     color: #fff; }
 
