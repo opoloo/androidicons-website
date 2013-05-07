@@ -685,3 +685,11 @@ hr {
 
 .pager a.selected {
   text-decoration: underline; }
+
+.maps iframe {
+  width: 425px;
+  height: 350px;
+  border: 0px none;
+  margin: 0px;
+  overflow: hidden;
+  border-collapse: collapse; }
