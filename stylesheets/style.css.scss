@@ -123,7 +123,8 @@ body {
     ul
       li {
         float:left;
-        font-size:20px;
+        font-size:18px;
+        letter-spacing:0.05em;
         text-transform: uppercase;
         color:#e6f0f5;
         a {
@@ -132,6 +133,9 @@ body {
         }
         a:hover {
           color:#e6f0f5;
+        }
+        a.active {
+          color:#fff;
         }
       }
 
@@ -157,7 +161,7 @@ body {
     padding:300px 0 0 0;
   }
   .s2 {
-    background:url('../images/bg_header_2.jpg') top center no-repeat;
+    background:url('../images/bg_header.jpg') top center no-repeat;
     padding:300px 0 0 0;
     height:500px;
     width:960px;
@@ -332,6 +336,9 @@ button.submit {
   line-height:30px;
   a {
     color:$orange;
+  }
+  a:hover {
+    color:#b2721d;
   }
   .nummer {
     color:#6ac1e5;

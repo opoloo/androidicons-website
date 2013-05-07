@@ -1,3 +1,4 @@
+<? $active = 'kontakt' ?>
 <? require_once('includes/header.inc.php'); ?>
 
 <div id="header">
