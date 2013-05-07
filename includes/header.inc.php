@@ -12,43 +12,13 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.png" type="image/png" />
 
-<!-- include jQuery + carouFredSel plugin -->
-<script type="text/javascript" language="javascript" src="scripts/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" language="javascript" src="scripts/jquery.carouFredSel-6.2.0-packed.js"></script>
-
 <!-- General Stylesheet -->
 <link href="stylesheets/output.css" rel="stylesheet" type="text/css" />
+<link href="https://raw.github.com/woothemes/FlexSlider/master/flexslider.css" rel="stylesheet" type="text/css" />
 
-<!-- fire plugin onDocumentReady -->
-<script type="text/javascript" language="javascript">
-$(function() {
-
-	$("#slideheader").carouFredSel({
-		items: {
-			visible: 1,
-			//width: 960
-			
-		},
-		scroll: {
-			items: 1,
-			pauseOnHover: true
-		},
-		prev: {
-			button: "#prev",
-			key: "left"
-		},
-		next: {
-			button: "#next",
-			key: "right"
-		},
-		swipe: true
-		
-	});
-
-});
-</script>
-
-
+<!-- include jQuery + carouFredSel plugin -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://raw.github.com/woothemes/FlexSlider/master/jquery.flexslider-min.js"></script>
 </head>
 
 <body>
