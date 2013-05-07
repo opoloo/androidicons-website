@@ -395,8 +395,9 @@ body {
     font-family: 'CabinRegular';
     margin: 30px 0 0 0; }
   #header #slideheader {
-    height: 500px; }
-    #header #slideheader li {
+    height: 500px;
+    position: relative; }
+    #header #slideheader ul.slides li {
       display: block;
       float: left;
       height: 500px;
@@ -410,6 +411,19 @@ body {
       background: url("../images/bg_header.jpg") top center no-repeat; }
     #header #slideheader .s3 {
       background: url("../images/bg_header.jpg") top center no-repeat; }
+  #header ul.flex-direction-nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: block;
+    height: 500px; }
+    #header ul.flex-direction-nav li a {
+      position: absolute;
+      display: inline-block;
+      top: 50%; }
+    #header ul.flex-direction-nav li a.flex-next {
+      right: 0px; }
 
 .bg-dunkel a, .bg-hell a, iframe a {
   color: #DF993D;
