@@ -368,7 +368,8 @@ body {
     #meta #nav ul
     li {
       float: left;
-      font-size: 20px;
+      font-size: 18px;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
       color: #e6f0f5; }
       #meta #nav ul
@@ -378,6 +379,9 @@ body {
       #meta #nav ul
       li a:hover {
         color: #e6f0f5; }
+      #meta #nav ul
+      li a.active {
+        color: #fff; }
 
 #header {
   font-family: 'Museo300Regular';
@@ -396,7 +400,7 @@ body {
     width: 960px;
     padding: 300px 0 0 0; }
   #header .s2 {
-    background: url("../images/bg_header_2.jpg") top center no-repeat;
+    background: url("../images/bg_header.jpg") top center no-repeat;
     padding: 300px 0 0 0;
     height: 500px;
     width: 960px; }
@@ -533,6 +537,8 @@ button.submit {
   line-height: 30px; }
   #footer a {
     color: #df993d; }
+  #footer a:hover {
+    color: #b2721d; }
   #footer .nummer {
     color: #6ac1e5;
     font-size: 48px;

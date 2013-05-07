@@ -1,3 +1,4 @@
+<? $active = 'konzeption' ?>
 <? require_once('includes/header.inc.php'); ?>
 
 <div id="header">

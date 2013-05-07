@@ -1,3 +1,4 @@
+<? $active = 'index' ?>
 <? require_once('includes/header.inc.php'); ?>
 
 <div id="header">
@@ -64,7 +65,7 @@
         </div>
         <div class="row">
             <div class="col span12">
-                <span>Donec quam felis, pellentesque eu, pretium quis, sem?</span> <a href="inspiration.php" class="button-orange">Lassen Sie sich inspirieren</a>
+                <a href="inspiration.php" class="button-orange">Lassen Sie sich inspirieren</a>
             </div>
         </div>
 	</div>

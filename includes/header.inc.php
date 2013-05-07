@@ -63,10 +63,10 @@ $(function() {
 			</div>
 			<div id="nav">
 				<ul>
-					<li><a href="index.php">Start</a>//</li>
-					<li><a href="konzeption.php">Konzeption</a>//</li>
-					<li><a href="inspiration.php">Inspiration</a>//</li>
-					<li><a href="kontakt.php">Kontakt</a></li>
+					<li><a href="index.php" <? echo ($active == 'index')?'class="active"':''; ?>>Start</a>//</li>
+					<li><a href="konzeption.php" <? echo ($active == 'konzeption')?'class="active"':''; ?>>Konzeption</a>//</li>
+					<li><a href="inspiration.php" <? echo ($active == 'inspiration')?'class="active"':''; ?>>Inspiration</a>//</li>
+					<li><a href="kontakt.php" <? echo ($active == 'kontakt')?'class="active"':''; ?>>Kontakt</a></li>
 				</ul>
 			</div>
 		  </div>
