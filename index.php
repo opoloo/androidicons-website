@@ -15,7 +15,7 @@
                 Aquatische Lebensräume 3
                 <p>Maßgefertigte Wasserlandschaften aus einer Hand</p>
             </li>
-        </div>
+        </ul>
     </div>
 </div>
 <!-- End Header -->
