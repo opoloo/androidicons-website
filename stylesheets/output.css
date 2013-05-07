@@ -414,6 +414,9 @@ body {
   color: #DF993D;
   border-bottom: 1px solid #ccc; }
 
+.container strong {
+  font-family: 'CabinBold';
+  font-weight: normal; }
 .container h1 {
   font-family: 'Museo300Regular';
   font-size: 46px;
@@ -421,6 +424,8 @@ body {
   font-weight: normal;
   color: #a6a6a6;
   margin: 0 0 10px 0; }
+.container h1.margin {
+  margin: 60px 0 10px 0px; }
 .container h2 {
   font-weight: normal;
   text-transform: uppercase;
@@ -484,6 +489,11 @@ body {
   color: #494949;
   font-family: 'CabinRegular';
   border: 1px solid #ccc; }
+.container a:hover {
+  color: #cd892f; }
+.container span.label {
+  text-transform: uppercase;
+  font-size: 13px; }
 
 .bg-hell, .bg-dunkel {
   padding: 60px 0px;
@@ -523,7 +533,8 @@ a.button-orange, button.submit {
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border: none; }
   a.button-orange:hover, button.submit:hover {
-    background-color: #db8d27; }
+    background-color: #db8d27;
+    color: #fff; }
 
 button.submit {
   margin: 10px 0 0 0; }
@@ -541,10 +552,10 @@ button.submit {
     color: #b2721d; }
   #footer .nummer {
     color: #6ac1e5;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 48px;
     margin: 10px 0 20px 0;
-    letter-spacing: 0.08em; }
+    letter-spacing: 0.05em; }
   #footer #telefon {
     background: url("../images/ic_telefon.png") top left no-repeat;
     padding: 0 0 0 100px; }

@@ -2,11 +2,11 @@
 <html class="no-js">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="" />
-<meta name="author" content="" />
-<meta name="keywords" content="" />
+<meta name="description" content="Wendel Pool & Wellness | Wir bauen Ihnen in Maßarbeit Ihr Wunsch-Schwimmbad" />
+<meta name="author" content="Torsten Wendel" />
+<meta name="keywords" content="wendel, schwimmbad, wasser, natur, hotelbad, gartenbad, architekt, bau, wasserlandschaft, lebensraum" />
 
-<title>Wendel Pool & Wellness</title>
+<title>Schwimmbadarchitekt Wendel | Pool & Wellness</title>
 
 <!-- Embedding Favicon -->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -15,9 +15,13 @@
 <!-- include jQuery + carouFredSel plugin -->
 <script type="text/javascript" language="javascript" src="scripts/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" language="javascript" src="scripts/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script type="text/javascript" language="javascript" src="scripts/jquery.fancybox.js"></script>
 
 <!-- General Stylesheet -->
 <link href="stylesheets/output.css" rel="stylesheet" type="text/css" />
+
+<!-- General Stylesheet -->
+<link href="stylesheets/jquery.fancybox.css" rel="stylesheet" type="text/css" />
 
 <!-- fire plugin onDocumentReady -->
 <script type="text/javascript" language="javascript">
@@ -43,6 +47,26 @@ $(function() {
 		},
 		swipe: true
 		
+	});
+	
+	/*
+	 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+	 */
+	
+	$('.fancybox-thumbs').fancybox({
+		prevEffect : 'none',
+		nextEffect : 'none',
+	
+		closeBtn  : false,
+		arrows    : false,
+		nextClick : true,
+	
+		helpers : {
+			thumbs : {
+				width  : 150,
+				height : 150
+			}
+		}
 	});
 
 });

@@ -14,7 +14,16 @@
                 <p>Wir gestalten Ihren Sommertraum, perfekt in Ihren Garten integriert. Unsere Gartenbäder werden mit hochwertigsten Materialien gebaut, die darauf ausgelegt sind, jeder Witterung zu trotzen und dabei gut auszusehen.</p>
             </div>
             <div class="col span6">
-
+                <h3>Thumbnail helper</h3>
+                <p>
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" /></a>
+                
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="3_b.jpg"><img src="3_s.jpg" alt="" /></a>
+                
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="2_b.jpg"><img src="2_s.jpg" alt="" /></a>
+                
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="1_b.jpg"><img src="1_s.jpg" alt="" /></a>
+                </p>
             </div>
         </div>
     </div>
