@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Ihr Schwimmbadarchitekt</h1>
+                <h1><span>//</span> Professionelle Schwimmbad-Architektur</h1>
             </div>
         </div>
         <div class="row">
@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Unsere Bäder</h1>
+                <h1><span>//</span> Unsere Bäder</h1>
                 <p class="intro">Wir lieben Schwimmbäder, egal ob im Garten, als Wasserwohnzimmer oder im Hotel. Und wir finden garantiert das Schwimmbad, das zu Ihnen passt.</p>
             </div>
         </div>

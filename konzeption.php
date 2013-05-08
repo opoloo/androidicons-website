@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Planung</h1>    
+                <h1><span>//</span>  Grundlagen & Planung</h1>    
             </div>
         </div>
         <div class="row">
@@ -33,7 +33,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Design</h1>
+                <h1><span>//</span>  Ausarbeitung & Design</h1>
                 <p class="intro">In enger Absprache mit Ihnen fertigen wir am Reißbrett Designs an. Auch bei der technischen Umsetzung richten wir uns nach Ihren Wünschen, sprechen Empfehlungen aus und setzen diese später um. </p>
             </div>
         </div>
@@ -54,7 +54,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Technik, Umwelt & Hygiene</h1>
+                <h1><span>//</span>  Technik, Umwelt & Hygiene</h1>
                 <p class="intro">Auch an uns sind die bestürzenden Berichte zur Energiepreis- und Klimaentwicklung nicht vorübergegangen. Deshalb tun wir alles, um unsere Schwimmbäder so energiesparend und umweltfreundlich wie möglich und gleichzeitig ästhetisch und hygienisch zu gestalten – mit wegweisender Technik. Durch unsere Rundum-Betreuung ist außerdem gewährleistet, dass alles zu jeder Zeit effizient und reibungslos funktioniert.</p> 
             </div>
         </div>

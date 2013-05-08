@@ -194,12 +194,20 @@ body {
         position: absolute;
         display: inline-block;
         top: 50%;
+        text-indent: 99999px;
       }
       a.flex-prev {
-
+        background:url('../images/slide_left.png') top center no-repeat;  
+        height:59px;
+        width:59px;
+        margin:0 0 0 20px;
       }
       a.flex-next {
         right:0px;
+        background:url('../images/slide_right.png') top center no-repeat;  
+        height:59px;
+        width:59px;
+        margin:0 20px 0 0;
       }
     }
   }
@@ -218,11 +226,15 @@ body {
   
   h1 {
     font-family: 'Museo300Regular';
-    font-size:46px;
+    font-size:44px;
     line-height:46px;
     font-weight: normal;
     color:#a6a6a6;
     margin:0 0 10px 0;
+    span {
+      color:#dadada;
+      letter-spacing:-0.07em;
+    }
   }
   h1.margin {
     margin:60px 0 10px 0px;
@@ -305,6 +317,7 @@ body {
     border:none;
     padding:9px;
     width:270px;
+    height:150px;
     font-size:16px;
     color:#494949;
     font-family: 'CabinRegular';
