@@ -15,10 +15,11 @@
             </div>
             <div class="col span6">
                 <p class="gallery noborder">
-                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/garten/garten_1.jpg"><img src="images/garten/garten_1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/garten/garten_2.jpg"><img src="images/garten/garten_2_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/garten/garten_3.jpg"><img src="images/garten/garten_3_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/garten/garten_4.jpg"><img src="images/garten/garten_4_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/garten/garten_5.jpg"><img src="images/garten/garten_5_th.jpg" alt="" class="border margin" /></a>
                 </p>
             </div>
         </div>
@@ -30,12 +31,12 @@
         <div class="row">
             <div class="col span6">
                 <p class="gallery noborder">
-                     <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                     <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_1.jpg"><img src="images/halle/halle_1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_2.jpg"><img src="images/halle/halle_2_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_3.jpg"><img src="images/halle/halle_3_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_4.jpg"><img src="images/halle/halle_4_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_5.jpg"><img src="images/halle/halle_5_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/halle/halle_6.jpg"><img src="images/halle/halle_6_th.jpg" alt="" class="border margin" /></a>
                  </p> 
             </div>
             <div class="col span6">
@@ -56,10 +57,10 @@
             </div>
             <div class="col span6">
                 <p class="gallery noborder">
-                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
-                    <a class="fancybox-thumbs" href="images/test1.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>                          
-                    <a class="fancybox-thumbs" href="images/test2.jpg"><img src="images/test1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/hotel/hotel_1.jpg"><img src="images/hotel/hotel_1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/hotel/hotel_2.jpg"><img src="images/hotel/hotel_2_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/hotel/hotel_3.jpg"><img src="images/hotel/hotel_3_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/hotel/hotel_4.jpg"><img src="images/hotel/hotel_4_th.jpg" alt="" class="border margin" /></a>
                 </p>
             </div>
         </div>

@@ -73,7 +73,7 @@
             <div class="col span9">
                 <h2>Wasser</h2>
                     <p>Verschiedenste physikalische und chemische Filtersysteme sorgen dafür, dass das Wasser in Ihrem Schwimmbecken stets hygienisch rein und ästhetisch ansprechend ist. Das funktioniert natürlich vollautomatisch, sodass Sie sich nach der Einstellung durch den Fachmann um nichts mehr kümmern müssen.</p> 
-                    <p>Hier finden Sie ausführliche Informationen zur <a href="downloads/wasseraufbereitung_physikalisch.pdf">physikalischen</a> und <a href="downloads/wasseraufbereitung_chemisch.pdf">chemischen</a> Wasseraufbereitung zum Download.</p>    
+                    <p>Hier finden Sie ausführliche Informationen zur <a href="downloads/wasseraufbereitung_physikalisch.pdf">physikalischen</a> und <a href="downloads/wasseraufbereitung_chemisch.pdf">chemischen</a> Wasseraufbereitung zum Download. Weitere ausführliche Informationen finden Sie auch auf <a href="http://www.sopra.de">www.sopra.de</a>.  </p>
             </div>
             <div class="col span3">
                 <img src="images/illu_rain.png" alt="Illu Wasser" class="margin-top" />      
@@ -86,29 +86,30 @@
             </div>
         </div>
         <div class="row">
-            <div class="col span3">
+            <div class="col span4">
                 <h3 class="check">Die Abdeckung</h3>
                 <p>Wer seinen Pool nach der Benutzung abdeckt, verringert die Abkühlung des Wasser und reduziert die Verdunstung. Somit verringert er erheblich seinen Energiebedarf in der Entfeuchtung und Erwärmung.</p>
             </div>
-            <div class="col span3">
+            <div class="col span4">
                 <h3 class="check">Isolierung mit Dampfsperrre</h3>
                 <p>Eine Dampfsperre verhindert, dass die erhöhte Luftfeuchtigkeit in die Bausubstanz eindringt. Die Wärme bleibt da, wo sie genutzt werden kann: in der Schwimmhalle.</p>
             </div>
-            <div class="col span3">
+            <div class="col span4">
                 <h3 class="check">Effiziente Klimatechnik</h3>
                 <p>Mit einer Wärmerückgewinnung und Kreuzstromwärmetauschern wird ein Großteil der vorhandenen Energie zurückgewonnen.</p>
             </div>
-            <div class="col span3">
-                <h3 class="check">Effiziente Pumpen</h3>
-                <p>Drehzahlgeregelte energieeffiziente Pumpen helfen Energie einzusparen.</p>
-            </div>
+            
         </div>
         <div class="row margin-top">
-            <div class="col span3">
-                <h3 class="check">LED Unterwasserbeleuchtung</h3>
-                <p>Statt 300W nur 40W pro Scheinwerfer –  auch in Farbe und ohne Komforteinbußen.</p>
+            <div class="col span4">
+                <h3 class="check">Effiziente Pumpen</h3>
+                <p>Drehzahlgeregelte, energieeffiziente Pumpen helfen, Energie einzusparen. Hier gibt es vielfältige Möglichkeiten. Wir beraten Sie gern unverbindlich.</p>
             </div>
-            <div class="col span3">
+            <div class="col span4">
+                <h3 class="check">LED Beleuchtung</h3>
+                <p>Statt 300W haben LED Scheinwerfer nur 40W pro Leuchte – auch in verschiedenen Farben erhältlich, ohne Komforteinbußen.</p>
+            </div>
+            <div class="col span4">
                 <h3 class="check">Erneuerbare Energien</h3>
                 <p>Energiegewinnung durch Solarheizung, Photovoltaik, Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät).</p>
             </div>
