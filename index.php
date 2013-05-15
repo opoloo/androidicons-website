@@ -5,15 +5,23 @@
         <ul class="slides">
             <li class="slide s1">
                 Aquatische Lebensräume
-                <p>Maßgefertigte Wasserlandschaften aus einer Hand</p>
+                <p>Maßgefertigte Wasserlandschaften aus einer Hand </p>
             </li>
             <li class="slide s2">
-                Aquatische Lebensräume 2
-                <p>Maßgefertigte Wasserlandschaften aus einer Hand</p>
+                Gartenbäder
+                <p>Draußen. Zuhause.</p>
             </li>
             <li class="slide s3">
-                Aquatische Lebensräume 3
-                <p>Maßgefertigte Wasserlandschaften aus einer Hand</p>
+                Hallenbäder
+                <p>Das Wohnzimmer, von dem Sie immer geträumt haben. Nur mit Wasser.</p>
+            </li>
+            <li class="slide s4">
+                Wellness
+                <p>Saunen, Thermen und Whirlpools. Individuell und vom Fachmann. </p>
+            </li>
+            <li class="slide s5">
+                Hotelbäder
+                <p>Für Ihre Gäste: nur das Beste. </p>
             </li>
         </ul>
     </div>
@@ -51,15 +59,15 @@
         <div class="row">
             <div class="col span4">
                 <h2>Gartenbäder</h2>
-                <img src="images/bad_1.jpg" alt="Bad 1" class="border" />
+                <img src="images/gartenbad_th.jpg" alt="Bad 1" class="border" />
             </div>
             <div class="col span4">
                 <h2>Hallenbäder</h2>
-                <img src="images/bad_1.jpg" alt="Bad 2" class="border" />
+                <img src="images/hallenbad_th.jpg" alt="Bad 2" class="border" />
             </div>
             <div class="col span4">
                 <h2>Hotelbäder</h2>
-                <img src="images/bad_1.jpg" alt="Bad 3" class="border" />
+                <img src="images/hotelbad_th.jpg" alt="Bad 3" class="border" />
             </div>
         </div>
         <div class="row">
@@ -77,7 +85,7 @@ $(window).load(function(){
     $('#slideheader').flexslider({
         animation: "fade",
         easing: "swing",
-        slideshowSpeed: 7000,
+        slideshowSpeed: 4000,
         animationSpeed: 600,
         pauseOnAction: true,
         pauseOnHover: true,

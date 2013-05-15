@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// Wo immer Sie sind,</h1>    
+                <h1><span>//</span> Wo immer Sie sind ...</h1>    
             </div>
         </div>
         <div class="row">

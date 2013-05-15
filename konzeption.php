@@ -64,7 +64,7 @@
             </div>
             <div class="col span9">
                 <h2>Heizen</h2>
-                <p>Moderne Wärmetauscher und -pumpen sind maßgeblich für die Arbeitseffizienz eines Schwimmbads. Solaranlagen, die mit Absorbern und Kollektoren funktionieren sowie effiziente Blockheizkraftwerke können inzwischen sogar eine positive Energiebilanz bewirken.</p> 
+                <p>Moderne Wärmetauscher und -pumpen sind maßgeblich für die Arbeitseffizienz eines Schwimmbads. Solaranlagen, die mit Absorbern und Kollektoren funktionieren, sowie effiziente Blockheizkraftwerke können inzwischen sogar eine positive Energiebilanz bewirken.</p> 
                 <p>Hier können Sie sich ausführliche <a href="downloads/wassererwaermung.pdf">Informationen zur Beckenwassererwärmung herunterladen</a>.</p>
             </div>  
         </div>
@@ -72,8 +72,9 @@
         <div class="row">
             <div class="col span9">
                 <h2>Wasser</h2>
-                    <p>Verschiedenste physikalische und chemische Filtersysteme sorgen dafür, dass das Wasser in Ihrem Schwimmbecken stets hygienisch rein und ästhetisch ansprechend ist. Das funktioniert natürlich vollautomatisch, sodass Sie sich nach der Einstellung durch den Fachmann um nichts mehr kümmern müssen.</p> 
-                    <p>Hier finden Sie ausführliche Informationen zur <a href="downloads/wasseraufbereitung_physikalisch.pdf">physikalischen</a> und <a href="downloads/wasseraufbereitung_chemisch.pdf">chemischen</a> Wasseraufbereitung zum Download. Weitere ausführliche Informationen finden Sie auch auf <a href="http://www.sopra.de">www.sopra.de</a>.  </p>
+                    <p>Verschiedenste physikalische und chemische Filtersysteme sorgen dafür, dass das Wasser in Ihrem Schwimmbecken stets hygienisch rein und ästhetisch ansprechend ist. Das funktioniert natürlich vollautomatisch, sodass Sie sich nach der Einstellung durch den Fachmann um nichts mehr kümmern müssen. Hier finden Sie ausführliche Informationen zur <a href="downloads/wasseraufbereitung_physikalisch.pdf">physikalischen</a> und <a href="downloads/wasseraufbereitung_chemisch.pdf">chemischen</a> Wasseraufbereitung zum Download. </p>
+                    <br/>
+                    <p>Weitere ausführliche Informationen finden Sie auch auf <a href="http://www.sopra.de">www.sopra.de</a>.</p>
             </div>
             <div class="col span3">
                 <img src="images/illu_rain.png" alt="Illu Wasser" class="margin-top" />      
@@ -103,7 +104,7 @@
         <div class="row margin-top">
             <div class="col span4">
                 <h3 class="check">Effiziente Pumpen</h3>
-                <p>Drehzahlgeregelte, energieeffiziente Pumpen helfen, Energie einzusparen. Hier gibt es vielfältige Möglichkeiten. Wir beraten Sie gern unverbindlich.</p>
+                <p>Drehzahlgeregelte, energieeffiziente Pumpen helfen, Energie einzusparen. Hier gibt es vielfältige Möglichkeiten. <a href="kontakt.php">Wir beraten Sie</a> gern unverbindlich.</p>
             </div>
             <div class="col span4">
                 <h3 class="check">LED Beleuchtung</h3>
@@ -112,12 +113,6 @@
             <div class="col span4">
                 <h3 class="check">Erneuerbare Energien</h3>
                 <p>Energiegewinnung durch Solarheizung, Photovoltaik, Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät).</p>
-            </div>
-            <div class="col span3">
-
-            </div>
-            <div class="col span3">
-
             </div>
         </div>
     </div>

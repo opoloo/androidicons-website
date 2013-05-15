@@ -386,6 +386,8 @@ body {
 #header {
   font-family: 'Museo300Regular';
   color: #fff;
+  background: url("../images/bg_grain_grey.jpg") top center repeat;
+  border-bottom: 2px solid #fff;
   /*height:500px; */
   font-size: 65px;
   /* padding:300px 0 0 0;*/ }
@@ -404,13 +406,18 @@ body {
       max-height: 500px;
       width: 100%;
       text-align: center;
-      padding: 300px 0 0 0; }
+      padding: 330px 0 0 0;
+      text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); }
     #header #slideheader .s1 {
       background: url("../images/bg_header.jpg") top center no-repeat; }
     #header #slideheader .s2 {
-      background: url("../images/bg_header.jpg") top center no-repeat; }
+      background: url("../images/bg_header_garten.jpg") top center no-repeat; }
     #header #slideheader .s3 {
-      background: url("../images/bg_header.jpg") top center no-repeat; }
+      background: url("../images/bg_header_halle.jpg") top center no-repeat; }
+    #header #slideheader .s4 {
+      background: url("../images/bg_header_wellness.jpg") top center no-repeat; }
+    #header #slideheader .s5 {
+      background: url("../images/bg_header_hotel.jpg") top center no-repeat; }
   #header ul.flex-direction-nav {
     position: absolute;
     left: 0px;
@@ -422,7 +429,8 @@ body {
       position: absolute;
       display: inline-block;
       top: 50%;
-      text-indent: 99999px; }
+      text-indent: 99999px;
+      overflow: hidden; }
     #header ul.flex-direction-nav li a.flex-prev {
       background: url("../images/slide_left.png") top center no-repeat;
       height: 59px;
