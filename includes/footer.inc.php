@@ -21,7 +21,7 @@
 	</div>
 	<div class="row" id="totop">
 		<div class="col span12">
-			<a href="">Zum Seitenanfang</a>
+			<a href="#">Zum Seitenanfang</a>
 		</div>
 	</div>
 </div>
