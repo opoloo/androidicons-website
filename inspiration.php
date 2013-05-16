@@ -6,7 +6,7 @@
 </div>
 <!-- End Header -->
 <!-- Begin Content -->
-<div class="bg-hell inspiration garten">
+<div class="bg-hell inspiration garten" id="gartenbad">
     <div class="container">
         <div class="row">
             <div class="col span6">
@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="bg-hell inspiration halle">
+<div class="bg-hell inspiration halle" id="hallenbad">
     <div class="container">
         <div class="row">
             <div class="col span6">
@@ -48,7 +48,7 @@
     </div>
 </div>
 
-<div class="bg-hell inspiration hotel">
+<div class="bg-hell inspiration hotel" id="hotelbad">
     <div class="container">
         <div class="row">
             <div class="col span6">

@@ -4,24 +4,34 @@
     <div id="slideheader">
         <ul class="slides" id="slider">
             <li class="slide s1">
-                Aquatische Lebensräume
-                <p>Maßgefertigte Wasserlandschaften aus einer Hand </p>
+                <a href="konzeption.php">
+                    Aquatische Lebensräume
+                    <span>Maßgefertigte Wasserlandschaften aus einer Hand </span>
+                </a>
             </li>
             <li class="slide s2">
-                Gartenbäder
-                <p>Draußen. Zuhause.</p>
+                <a href="inspiration.php#gartenbad">    
+                    Gartenbäder
+                    <span>Draußen. Zuhause.</span>
+                </a>
             </li>
             <li class="slide s3">
-                Hallenbäder
-                <p>Das Wohnzimmer, von dem Sie immer geträumt haben. Nur mit Wasser.</p>
+                <a href="inspiration.php#hallenbad"> 
+                    Hallenbäder
+                    <span>Das Wohnzimmer, von dem Sie immer geträumt haben. Nur mit Wasser.</span>
+                </a>
             </li>
             <li class="slide s4">
-                Wellness
-                <p>Saunen, Thermen und Whirlpools. Individuell und vom Fachmann. </p>
+                <a href="inspiration.php"> 
+                    Wellness
+                   <span>Saunen, Thermen und Whirlpools. Individuell und vom Fachmann. </span>
+                </a>
             </li>
             <li class="slide s5">
-                Hotelbäder
-                <p>Für Ihre Gäste: nur das Beste. </p>
+                <a href="inspiration.php#hotelbad"> 
+                    Hotelbäder
+                    <span>Für Ihre Gäste: nur das Beste. </span>
+                </a>
             </li>
         </ul>
     </div>
@@ -60,15 +70,15 @@
         <div class="row">
             <div class="col span4">
                 <h2>Gartenbäder</h2>
-                <img src="images/gartenbad_th.jpg" alt="Bad 1" class="border" />
+                <a href="inspiration.php#gartenbad"><img src="images/gartenbad_th.jpg" alt="Bad 1" class="border fade" /></a>
             </div>
             <div class="col span4">
                 <h2>Hallenbäder</h2>
-                <img src="images/hallenbad_th.jpg" alt="Bad 2" class="border" />
+                <a href="inspiration.php#hallenbad"><img src="images/hallenbad_th.jpg" alt="Bad 2" class="border fade" /></a>
             </div>
             <div class="col span4">
                 <h2>Hotelbäder</h2>
-                <img src="images/hotelbad_th.jpg" alt="Bad 3" class="border" />
+                <a href="inspiration.php#hotelbad"><img src="images/hotelbad_th.jpg" alt="Bad 3" class="border fade" /></a>
             </div>
         </div>
         <div class="row">

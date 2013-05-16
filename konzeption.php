@@ -112,7 +112,7 @@
             </div>
             <div class="col span4">
                 <h3 class="check">Erneuerbare Energien</h3>
-                <p>Energiegewinnung durch Solarheizung, Photovoltaik, Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät).</p>
+                <p>Durch den Einsatz einer Solarheizung, Photovoltaik oder Kraft-Wärme Kopplung (Strom und Wärme aus einem Gerät) erreichen Sie profitable Einsparungen.</p>
             </div>
         </div>
     </div>
