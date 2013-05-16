@@ -2,7 +2,7 @@
 <? require_once('includes/header.inc.php'); ?>
 <div id="header">
     <div id="slideheader">
-        <ul class="slides">
+        <ul class="slides" id="slider">
             <li class="slide s1">
                 Aquatische Lebensräume
                 <p>Maßgefertigte Wasserlandschaften aus einer Hand </p>
@@ -25,6 +25,7 @@
             </li>
         </ul>
     </div>
+        <!-- <ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Zurück</a></li><li><a class="flex-next" href="#">Weiter</a></li></ul> -->
 </div>
 <!-- End Header -->
 <!-- Begin Content -->
@@ -80,30 +81,19 @@
 <!-- End Content -->
 
 <script>
-$(window).load(function(){
-    
-    $('#slideheader').flexslider({
-        animation: "fade",
-        easing: "swing",
-        slideshowSpeed: 4000,
-        animationSpeed: 600,
-        pauseOnAction: true,
-        pauseOnHover: true,
-        useCSS: true,
-        touch: true,
-        // Primary Controls
-        controlNav: false,
-        directionNav: true,
-        prevText: "Zurück",
-        nextText: "Weiter",
-        // Secondary Navigation
-        keyboard: true,
-        multipleKeyboard: false,
-        mousewheel: false
- 
+$(document).ready(function(){
+    $("#slider").responsiveSlides({
+      auto: true,             // Boolean: Animate automatically, true or false
+      speed: 1500,            // Integer: Speed of the transition, in milliseconds
+      timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
+      pager: true,           // Boolean: Show pager, true or false
+      nav: true,             // Boolean: Show navigation, true or false
+      random: false,          // Boolean: Randomize the order of the slides, true or false
+      pause: true,           // Boolean: Pause on hover, true or false
+      pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+      prevText: "Zurück",   // String: Text for the "previous" button
+      nextText: "Weiter",       // String: Text for the "next" button
     });
-
-})
-    
+});  
 </script>
 <? require_once('includes/footer.inc.php'); ?>
