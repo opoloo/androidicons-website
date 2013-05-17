@@ -85,7 +85,7 @@
     <div class="container">
         <div class="row">
             <div class="col span12">
-                <h1>// So finden Sie uns</h1>
+                <h1><span>//</span> So finden Sie uns</h1>
             </div>
         </div>
         <div class="row maps">
