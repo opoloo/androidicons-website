@@ -26,5 +26,8 @@
 	</div>
 </div>
 <!-- End Footer -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="scripts/ext.js"></script>
+<script src="scripts/application.js"></script>
 </body>
 </html>

@@ -49,14 +49,7 @@ $mail_text=stripslashes($mail_text);
 <link rel="icon" href="favicon.png" type="image/png" />
 
 <link href="stylesheets/output.css" rel="stylesheet" type="text/css" />
-<link href="https://raw.github.com/woothemes/FlexSlider/master/flexslider.css" rel="stylesheet" type="text/css" />
 <link href="stylesheets/magnific-popup.css" rel="stylesheet" type="text/css" media="screen" />
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<!-- <script src="https://raw.github.com/woothemes/FlexSlider/master/jquery.flexslider-min.js"></script> -->
-<script src="scripts/slider.js"></script>
-<script src="https://raw.github.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
-<script src="scripts/application.js"></script>
 
 </head>
 
