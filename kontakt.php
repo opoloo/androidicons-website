@@ -71,7 +71,7 @@
             <div class="col span4">
                 <h2>Kontaktadresse</h2>
                 <p>Torsten Wendel<br/>
-                Auf dem Obersten Sand 12 <br/>
+                Wilhelmstrasse 62<br/>
                 D-55743 Idar-Oberstein</p>
                 <br/>
                 <span class="label">Fon</span> 06781 36009-0<br/>

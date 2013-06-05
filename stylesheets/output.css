@@ -621,6 +621,9 @@ body {
 .bg-hell.inspiration.halle {
   background: url("../images/bg_hallenbad.jpg") top center no-repeat #e4e4e4; }
 
+.bg-hell.inspiration.wellness {
+  background: url("../images/bg_wellness.jpg") top center no-repeat #e4e4e4; }
+
 .bg-hell.inspiration.hotel {
   background: url("../images/bg_hotelbad.jpg") top center no-repeat #544228; }
 

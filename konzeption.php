@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col span4">
                 <h2 class="erstkontakt">Erstkontakt</h2>
-                <p>Ihr Projekt beginnt meist mit einem Anruf oder einer Email. So eruieren wir die Rahmenbedingungen und alles nötige rund um Ihr neues Schwimmbad.</p>
+                <p>Ihr Projekt beginnt meist mit einem Anruf oder einer Email. So eruieren wir die Rahmenbedingungen und alles Nötige rund um Ihr neues Schwimmbad.</p>
             </div>
             <div class="col span4">
                 <h2 class="aufmass">Aufmaß</h2>
@@ -97,7 +97,7 @@
             </div>
             <div class="col span4">
                 <h3 class="check">Effiziente Klimatechnik</h3>
-                <p>Mit einer Wärmerückgewinnung und Kreuzstromwärmetauschern wird ein Großteil der vorhandenen Energie zurückgewonnen.</p>
+                <p>Mit einer Wärmerückgewinnung durch z.B. Kreuzstromwärmetauscher wird ein Großteil der vorhandenen Energie zurückgewonnen.</p>
             </div>
             
         </div>

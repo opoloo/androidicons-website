@@ -67,6 +67,27 @@
     </div>
 </div>
 
+<div class="bg-hell inspiration wellness" id="wellness">
+    <div class="container">
+        <div class="row">
+            <div class="col span6">
+                <p class="gallery noborder">
+                    <a class="fancybox-thumbs" href="images/wellness/wellness_1.jpg"><img src="images/wellness/wellness_1_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/wellness/wellness_2.jpg"><img src="images/wellness/wellness_2_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/wellness/wellness_3.jpg"><img src="images/wellness/wellness_3_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/wellness/wellness_4.jpg"><img src="images/wellness/wellness_4_th.jpg" alt="" class="border margin" /></a>
+                    <a class="fancybox-thumbs" href="images/wellness/wellness_5.jpg"><img src="images/wellness/wellness_5_th.jpg" alt="" class="border margin" /></a>
+                 </p> 
+            </div>
+            <div class="col span6">
+                <h1><span>//</span>  Wellness</h1>  
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <!-- End Content -->
 	
 <? require_once('includes/footer.inc.php'); ?>

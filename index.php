@@ -22,7 +22,7 @@
                 </a>
             </li>
             <li class="slide s4">
-                <a href="inspiration.php"> 
+                <a href="inspiration.php#wellness"> 
                     Wellness
                    <span>Saunen, Thermen und Whirlpools. Individuell und vom Fachmann. </span>
                 </a>
@@ -50,7 +50,7 @@
             <div class="col span7">
                 <p class="teaser">Wir bauen Ihnen in Maßarbeit Ihr Wunsch-Schwimmbad.</p>
                 <p>Das sind bei uns nicht einfach nur Wasserbecken, sondern aquatische Wohnlandschaften, die wir mit Ihnen zusammen planen, konzipieren, designen und umsetzen.</p><br/>
-                <p>Mit hochentwickelter, effizienter, zukunftsweisender Technologie – umweltfreundlich und hygienisch. Wir betreuen und warten die Schwimmbäder von mehr als 6000 privaten und Hotelkunden.	</p>
+                <p>Mit hochentwickelter, effizienter, zukunftsweisender Technologie – umweltfreundlich und hygienisch. Wir betreuen und warten die Schwimmbäder von mehr als 4500 privaten und Hotelkunden.	</p>
                 <a href="konzeption.php" class="button-orange">Was können wir für Sie tun?</a>
             </div>
             <div class="col span5">
