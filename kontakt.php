@@ -77,6 +77,11 @@
                 <span class="label">Fon</span> 06781 36009-0<br/>
                 <span class="label">Fax</span> 06781 36009-20 <br/>
                 <span class="label">Email</span> <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%73%63%68%77%69%6d%6d%62%61%64%2d%77%65%6e%64%65%6c%2e%64%65%5c%22%3e%69%6e%66%6f%40%73%63%68%77%69%6d%6d%62%61%64%2d%77%65%6e%64%65%6c%2e%64%65%3c%5c%2f%61%3e%27%29%3b'))</script>
+            	<br/><br/>
+            	<strong>Planungsbüro Mainz</strong><br/>
+				<p>Wernher-von-Braun Straße 9<br/>
+				55129 Mainz<br/>
+				<span class="label">Fon</span> 06131 7208641<br/>
             </div>
         </div>
     </div>
