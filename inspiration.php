@@ -81,7 +81,7 @@
             </div>
             <div class="col span6">
                 <h1><span>//</span>  Wellness</h1>  
-                <p></p>
+                <p>Nutzen Sie die Kraft des Wassers und der Wärme zur Regeneration Ihres Körpers, Ihres Geistes und Ihrer Seele. Wir begleiten Ihre Ideen für einen Whirlpool, eine Sauna, Therme oder Erlebnisdusche bis zur Verwirklichung.</p>
             </div>
 
         </div>
