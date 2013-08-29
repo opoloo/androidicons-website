@@ -2,34 +2,33 @@
 smaller than 960px
 *************************************************************************************/
 @media screen and (max-width: 960px) {
-<<<<<<< HEAD
-	header {
-		position: relative;
-		width: 92%;
-		padding: 0% 4% 0 4%;	
-	}
-	h1 {
-		line-height: 1.2em;
-	}
-	h2 {
-		margin: 30px 0 5px 0;
-	}
-	.wrapper {
-		width: 92%;
-		padding: 0% 4% 0 4%;
-	}
-	img {
-		max-width: 100%;
-		height: auto;
-		width: auto\9; /* ie8 */
-	}
-	content, header {
-		max-width: 92%;
-		padding: 0% 4% 0 4%;
-	}
-	header a#linktoset {
-		display: none;
-	}
+  header {
+    position: relative;
+    width: 92%;
+    padding: 0% 4% 0 4%;  
+  }
+  h1 {
+    line-height: 1.2em;
+  }
+  h2 {
+    margin: 30px 0 5px 0;
+  }
+  .wrapper {
+    width: 92%;
+    padding: 0% 4% 0 4%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  }
+  content, header {
+    max-width: 92%;
+    padding: 0% 4% 0 4%;
+  }
+  a#linktoset {
+    display: none;
+  }
   #intro {
     margin: 20px 0px;
   }
@@ -60,17 +59,20 @@ smaller than 960px
   content .logos .logo span {
     font-size: 1em;
   }
-  
-	content #spec ul li:nth-child(3n) {
-		margin-right: 30px;
-	}
-	
-	#spec ul li:nth-child(2n+1) {
-		margin-right:30px;
-		clear:both; 
-	  }
-
-  
+  content .reviews {
+    text-align: center;
+  }
+  content .reviews .two-cols {
+    margin: 0 auto 2em auto;
+    float: none;
+  }
+  content #spec ul li:nth-child(3n) {
+    margin-right: 30px;
+  }
+  #spec ul li:nth-child(2n+1) {
+    margin-right:30px;
+    clear:both; 
+  }
 }
 
 
@@ -78,15 +80,10 @@ smaller than 960px
 smaller than 800px
 *************************************************************************************/
 @media screen and (max-width: 800px) {
-
-	div.three-cols {
-		width: 100%;
-		float: none;
-	}
-	
-	
-
-
+  div.three-cols {
+    width: 100%;
+    float: none;
+  }
 }
 
 
