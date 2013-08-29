@@ -67,7 +67,7 @@
         <p>250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.</p>
         <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web</span>
       </div>
-      <div id="teaser" class="show_mobile">
+      <div id="teaser1" class="show_mobile">
         <p>250 developer icons that work perfectly in your Android app, mobile interface, or website — in 5 sizes and 14 colors, including vector sources and a friendly, royalty-free license.</p>
         <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web.</span>
       </div>
