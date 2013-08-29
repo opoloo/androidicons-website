@@ -282,6 +282,9 @@ header {
 }
 
 content {
+  .slide_nav_desktop, .slide_nav_mobile {
+    text-align:center;
+  } 
   #iconset {
     .set-preview {
       float: left;
@@ -469,7 +472,7 @@ hr {
 
 
 
-.show_mobile {display:none;}
+.show_mobile {display:none!important;}
 .download-mobile a {display:none;}
 .hide-mobile {}
 #icons-mobile {display:none;}

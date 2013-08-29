@@ -211,6 +211,8 @@ header {
     width: 100%;
     height: auto; }
 
+content .slide_nav_desktop, content .slide_nav_mobile {
+  text-align: center; }
 content #iconset .set-preview {
   float: left;
   max-width: 700px; }
@@ -355,7 +357,7 @@ hr {
   margin: 50px 0; }
 
 .show_mobile {
-  display: none; }
+  display: none !important; }
 
 .download-mobile a {
   display: none; }
