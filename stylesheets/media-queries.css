@@ -26,8 +26,11 @@ smaller than 960px
     max-width: 92%;
     padding: 0% 4% 0 4%;
   }
-  a#linktoset {
+  header a#linktoset {
     display: none;
+  }
+  nav, h1 span {
+	  display:none;
   }
   #intro {
     margin: 20px 0px;
@@ -84,6 +87,16 @@ smaller than 800px
     width: 100%;
     float: none;
   }
+  
+  h1.firstheader {
+	  font-size:2em;
+  }
+  #intro #teaser {
+	  font-size:1em;
+  }
+  #intro #teaser span {
+  	  font-size:1em;
+    }
 }
 
 
@@ -93,12 +106,9 @@ smaller than 800px
 smaller than 480px
 *************************************************************************************/
 @media screen and (max-width: 480px) {
-  header {
-    height: 6em;
-    line-height: 2em;
-  }
   h2 {
     font-size:1.467em;
+    text-align:center;
   }
   #logo {
     float: none;

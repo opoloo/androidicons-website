@@ -84,6 +84,7 @@
            <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
             </a></div>
+            <a href="#freestuff">Test it? Sure!</a>
         </div>
         <div class="clearfix"></div>
       </div>
