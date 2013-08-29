@@ -48,7 +48,7 @@ $mail_text=stripslashes($mail_text);
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.png" type="image/png" />
 
-<link href="stylesheets/output.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
 <link href="stylesheets/magnific-popup.css" rel="stylesheet" type="text/css" media="screen" />
 
 </head>
