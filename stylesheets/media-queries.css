@@ -96,6 +96,14 @@ smaller than 960px
   
   }
   
+  content #spec ul li:nth-child(3n) {
+    margin-right: 30px;
+  }
+  content #spec ul li:nth-child(2n+1) {
+    margin-right:30px;
+    clear:both; 
+  }
+  
   
 
   
@@ -126,13 +134,7 @@ smaller than 800px
     #freestuff img {
       display:none;
     }
-    content #spec ul li:nth-child(3n) {
-      margin-right: 30px;
-    }
-    content #spec ul li:nth-child(2n+1) {
-      margin-right:30px;
-      clear:both; 
-    }
+    
 }
 
 
@@ -140,11 +142,7 @@ smaller than 800px
 smaller than 600px
 *************************************************************************************/
 @media screen and (max-width: 600px) {
-	content #spec ul li {
-		  max-width:50%;
-		  float:none;
-		  display:inline-block
-	  }
+
 	
 }
 
