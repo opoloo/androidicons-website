@@ -40,4 +40,12 @@ $(document).ready(function(){
     $('.preview-box, .wrapper, header').fadeToggle();
     $('body').scrollTop(0);
   });
+
+  // Smooth Anchor Scrolling
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
 });
