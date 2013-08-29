@@ -63,20 +63,35 @@
   <div class="wrapper">
     <div id="intro">
       <h1 class="firstheader">Android Developer Icons<span>Update 2.5</span></h1>
-      <div id="teaser">
+      <div id="teaser" class="hide_mobile">
         <p>250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.</p>
         <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web</span>
+      </div>
+      <div id="teaser" class="show_mobile">
+        <p>250 developer icons that work perfectly in your Android app, mobile interface, or website — in 5 sizes and 14 colors, including vector sources and a friendly, royalty-free license.</p>
+        <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web.</span>
       </div>
     </div>
 
     <!-- Begin Content -->
     <content data-role="content">
+      <div class="set-info show_mobile">
+          <h2>You get what you need</h2>
+          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
+          <div class="button-download"><a href="http://pul.ly/b/33404">
+            250 icons, 5 sizes, 14 colors
+            <span> Download <span>for</span> 25$</span>
+            <i>via PayPal</i>
+            </a>
+          </div>
+          <a href="#freestuff">Test it? Sure!</a>
+        </div>
       <div id="iconset">
         <div class="set-preview">
           <img src="images/androidicons_preview.png" alt="Android Icons Preview" />
           <button class="btn-preview">Preview of all icons</button>
         </div>
-        <div class="set-info">
+        <div class="set-info hide_mobile">
           <h2>You get what you need</h2>
           <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
           <div class="button-download"><a href="http://pul.ly/b/33404">
@@ -88,11 +103,11 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <div id="quote">
+      <div id="quote hide_mobile">
         <p>"Androidicons is an essential companion kit for any Android designer. I've used the kit in basically every recent design I've worked on. With such a friendly license and price, it's really a no-brainer."</p>
         <span>—Roman Nurik (Google)</span>
       </div>
-      <div class="clearfix"></div>     
+      <div class="clearfix hide_mobile"></div>     
       <div id="spec">
         <ul>
           <li><h2>Enough is enough</h2><p>250 icons in 5 sizes and 14 beautiful colors? Holy barracuda Batman! That's 17,500 individual graphics. You probably won't need another icon set for Android development (or even web design) ever again.</p></li>
@@ -272,7 +287,7 @@
           </div>
         </div>
         
-        <div class="reviews">
+        <div class="reviews hide_mobile">
           <div class="two-cols">
             <p>"These icons are perfectly crafted. It's an effortless way for developers to inject some visual polish into their apps."</p>
             <span>&mdash; Jamie McDonald (Guardian)</span>
@@ -280,6 +295,17 @@
           <div class="two-cols">
             <p>"These are the only icons I want to see in my statusbar, and everybody should use them."</p>
             <span>&mdash; Eric Carboni (Notif)</span>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="reviews show_mobile">
+          <div class="two-cols">
+            <p>"Androidicons is an essential companion kit for any Android designer. I've used the kit in basically every recent design I've worked on."</p>
+            <span>&mdash; Roman Nurik (Google)</span>
+          </div>
+          <div class="two-cols">
+            <p>"These icons are perfectly crafted. It's an effortless way for developers to inject some visual polish into their apps."</p>
+            <span>&mdash; Jamie McDonald (Guardian)</span>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -309,26 +335,35 @@
     </content>
     <!-- End Content -->
 
-  <!-- Begin Footer -->
-  <div id="footer">	
-    <div id="copyright">
-      <span class="about">The set was created by <a href="https://plus.google.com/u/0/109726284197282147930/posts">Guenther Beyer</a> and <a href="http://www.opoloo.com">Opoloo</a>. If you're looking for Android design and development services, feel free to <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%6f%70%6f%6c%6f%6f%2e%63%6f%6d%5c%22%3e%63%6f%6e%74%61%63%74%20%75%73%3c%5c%2f%61%3e%27%29%3b'))</script>.</span>
-      <span>All rights reserved &copy; 2013 <a href="http://www.opoloo.com">Opoloo GbR</a>. Lovingly created in Mayence | <a href="http://www.opoloo.de/impressum">Imprint</a></span>
-      <span class="signet"><a href="http://www.opoloo.com/"></a></span>
+
+    <!-- Begin Footer -->
+    <div id="footer"> 
+      <div class="button-download">
+        <a href="http://pul.ly/b/33404">
+          250 icons, 5 sizes, 14 colors
+          <span> Download <span>for</span> 25$</span>
+          <i>via PayPal</i>
+        </a>
+        </div>
+      </div>
+      <div id="copyright">
+        <span class="about">The set was created by <a href="https://plus.google.com/u/0/109726284197282147930/posts">Guenther Beyer</a> and <a href="http://www.opoloo.com">Opoloo</a>. If you're looking for Android design and development services, feel free to <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%6f%70%6f%6c%6f%6f%2e%63%6f%6d%5c%22%3e%63%6f%6e%74%61%63%74%20%75%73%3c%5c%2f%61%3e%27%29%3b'))</script>.</span>
+        <span>All rights reserved &copy; 2013 <a href="http://www.opoloo.com">Opoloo GbR</a>. Lovingly created in Mayence | <a href="http://www.opoloo.de/impressum">Imprint</a></span>
+        <span class="signet"><a href="http://www.opoloo.com/"></a></span>
+      </div>
     </div>
   </div>
-</div>
 
-<script type="text/javascript">
-var pkBaseURL = "http://analytics.opoloo.de/"
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://analytics.opoloo.de/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+  <script type="text/javascript">
+  var pkBaseURL = "http://analytics.opoloo.de/"
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script type="text/javascript">
+  try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+  </script><noscript><p><img src="http://analytics.opoloo.de/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
 
 </body>
 </html>
