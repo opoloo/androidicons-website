@@ -3,6 +3,7 @@ smaller than 960px
 *************************************************************************************/
 @media screen and (max-width: 960px) {
 	.show_mobile {display:block;}
+	.hide_mobile {display:none;}
   header {
     position: relative;
     width: 92%;
@@ -98,6 +99,10 @@ smaller than 800px
   #intro #teaser span {
   	  font-size:1em;
     }
+    
+    #freestuff img {
+      display:none;
+    }
 }
 
 
@@ -135,7 +140,5 @@ smaller than 480px
   #freestuff h2 {
     text-align:center;
   }
-  #freestuff img {
-    display:none;
-  }
+  
 }
