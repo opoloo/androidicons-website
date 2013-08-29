@@ -8,7 +8,7 @@ $(document).ready(function(){
 
   // Switch download arrow
   $(document).scroll(function() {
-    if ($(document).scrollTop() > 650) {
+    if ($(document).scrollTop() > 500) {
       $('#get-arrow').html("&uarr;");
     } else {
       $('#get-arrow').html("&darr;");
@@ -37,7 +37,7 @@ $(document).ready(function(){
 
   // Preview Set
   $('.btn-preview').click(function() {
-    $('.preview-box, .wrapper').fadeToggle();
+    $('.preview-box, .wrapper, header').fadeToggle();
     $('body').scrollTop(0);
   });
 });

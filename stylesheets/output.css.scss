@@ -189,7 +189,8 @@ header {
   position: absolute;
   top: 0em;
   left: 0em;
-  display: none; }
+  display: none;
+  padding-top: 4em; }
   .preview-box .preview-panel {
     height: 4em;
     position: fixed;
@@ -210,7 +211,10 @@ header {
       width: 10em;
       height: 3em;
       border: 0;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: .3s ease; }
+      .preview-box .preview-panel button:hover {
+        background: #14799f; }
   .preview-box img {
     width: 100%;
     height: auto; }

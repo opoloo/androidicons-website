@@ -261,6 +261,7 @@ header {
   top: 0em;
   left: 0em;
   display: none;
+  padding-top: 4em;
   .preview-panel {
     height: 4em;
     position: fixed;
@@ -282,6 +283,10 @@ header {
       height: 3em;
       border: 0;
       cursor: pointer;
+      transition: .3s ease;
+      &:hover {
+        background: darken(#33B5E6, 20%);
+      }
     }
   }
   img {
