@@ -125,10 +125,10 @@
         </ul>
       </div>
       <div class="clearfix"></div>
-      <a name="nav_inuse" id="nav_inuse"></a>  
       <hr/>
       
       <div id="users">
+        <a name="nav_inuse" id="nav_inuse"></a>  
         <h1>Androidicons Make Apps Happy</h1>
 
         <!-- Slider Desktop -->
