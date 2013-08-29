@@ -101,12 +101,14 @@ smaller than 960px
     display:inline-block;
     margin:0;
   }
-  content #spec ul li:nth-child(3n) {
-    margin-right: 30px;
+  content #spec ul li {
+    width: 49%;
   }
-  content #spec ul li:nth-child(2n+1) {
-    margin-right:30px;
-    clear:both; 
+  content #spec ul li:nth-child(odd) {
+    padding-right: 30px;
+  }
+  content #spec ul li:nth-child(even) {
+    padding-right: 0px;
   }
   #footer .button-download {
     display: block;
@@ -179,8 +181,7 @@ smaller than 480px
   }
   content #spec ul li {
     width: 100%;
-    float: none;
-    margin: 0px;
+    padding: 0px;
   }
   content .logos .logo {
     max-width: 50%;
@@ -190,9 +191,5 @@ smaller than 480px
   }
   #freestuff h2 {
     text-align:center;
-  }
-  content #spec ul li {
-    max-width:100%;
-    float:none;
   }
 }
