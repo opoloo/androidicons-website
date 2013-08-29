@@ -232,17 +232,21 @@ content #quote {
     margin: 10px 0 0 0;
     display: block;
     color: #999999; }
-content .logos .logo {
-  float: left;
-  max-width: 10.662em;
-  width: 100%;
-  text-align: center; }
-  content .logos .logo img {
-    max-width: 7em;
-    width: 100%; }
-  content .logos .logo span {
-    font-size: 1.3em;
-    line-height: 1.6em; }
+content .logos {
+  display: block; }
+  content .logos.mobile {
+    display: none; }
+  content .logos .logo {
+    float: left;
+    max-width: 10.662em;
+    width: 100%;
+    text-align: center; }
+    content .logos .logo img {
+      max-width: 7em;
+      width: 100%; }
+    content .logos .logo span {
+      font-size: 1.3em;
+      line-height: 1.6em; }
 
 div.button-download {
   display: block;

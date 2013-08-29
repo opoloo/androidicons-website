@@ -116,3 +116,21 @@ Pagination Styles
   /* Specific visible button style: */  
   
 }
+/* ===============================================================
+Mobile Styles
+================================================================*/
+@media screen and (max-width: 960px) {
+  .swiper-container {
+    height: 8em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .swiper-container {
+    height: 8em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .swiper-container {
+    height: 18em;
+  }
+}

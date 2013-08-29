@@ -104,6 +104,7 @@
       <div id="users">
         <h1>Apps that use our icon set</h1>
 
+        <!-- Slider Desktop -->
         <div class="logos">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -178,6 +179,89 @@
                   <span>Money Tracker</span>
                 </div>
                 <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Mobile -->
+        <div class="logos mobile">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="images/customers/dashclock.png" alt="" /><br />
+                  <span>Dashclock</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/cliffhanger.png" alt="" /><br />
+                  <span>Cliffhanger</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/runtastic.png" alt="" /><br />
+                  <span>Runtastic</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/mobdro.png" alt="" /><br />
+                  <span>Mobdro</span>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="images/customers/tasker.png" alt="" /><br />
+                  <span>Tasker</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/sudoku.png" alt="" /><br />
+                  <span>Sudoku</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/clean-file-manager.png" alt="" /><br />
+                  <span>Clean File Manager</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/valet.png" alt="" /><br />
+                  <span>Valet</span>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="images/customers/pushbullet.png" alt="" /><br />
+                  <span>Pushbullet</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/notif.png" alt="" /><br />
+                  <span>Notif</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/write.png" alt="" /><br />
+                  <span>Write</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/spotcommander.png" alt="" /><br />
+                  <span>Spotcommander</span>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <img src="images/customers/telly.png" alt="" /><br />
+                  <span>Telly</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/drinkinggames.png" alt="" /><br />
+                  <span>Drinkinggames</span>
+                </div>
+                <div class="logo">
+                  <img src="images/customers/money-tracker.png" alt="" /><br />
+                  <span>Money Tracker</span>
+                </div>
               </div>
             </div>
           </div>

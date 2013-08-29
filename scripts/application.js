@@ -16,7 +16,13 @@ $(document).ready(function(){
   });
 
   // Load slider
-  var mySwiper = $('.swiper-container').swiper({
+  var mySwiperDesktop = $('.swiper-container').swiper({
+    //Your options here:
+    mode:'horizontal',
+    loop: true,
+    mousewheelControl: true
+  });
+  var mySwiperMobile = $('.mobile .swiper-container').swiper({
     //Your options here:
     mode:'horizontal',
     loop: true,
