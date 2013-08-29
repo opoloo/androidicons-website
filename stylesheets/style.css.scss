@@ -59,8 +59,7 @@ ol, ul {
 
 a {
   text-decoration:none;
-  color:#888888;
-  border-bottom:1px solid #33b5e5;
+  color:$lightblue;
   transition: all 0.5s ease;
 }
 
@@ -205,15 +204,15 @@ header {
   a#linktoset {
     float:right;
     display:inline-block;
-    background-color:$lightblue;
-    color:#fff;
+    color:$lightblue;
     padding:0 10px;
+    border:none;
     #get-arrow {
       font-size: 1em;
       line-height: 1em;
       margin:0 10px 0 0;
     }
-    &:hover {background-color:#0099cc;}
+    &:hover {color:$darkgrey;}
   }
 }
 

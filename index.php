@@ -45,12 +45,14 @@
   <header data-role="header">
     <div class="wrapper">
       <div id="logo">
-        <img src="images/logo.png" alt="Android Icons Logo" />
+        <a href="/"><img src="images/logo.png" alt="Android Icons Logo" /></a>
       </div>
       <nav>
         <ul>
-          <li><a href="">The Set</a></li>
-          <li><a href="">License</a></li>
+          <li><a href="#iconset">The Set</a></li>
+          <li><a href="#spec">Info</a></li>
+          <li><a href="#nav_inuse">In Use</a></li>
+          <li><a href="#freestuff">Free Stuff</a></li>
         </ul>
       </nav>
       <a href="#" id="linktoset">
@@ -77,7 +79,7 @@
     <content data-role="content">
       <div class="set-info show_mobile">
         <div class="button-download">
-          <a href="http://pul.ly/b/33404">
+          <a href="http://pul.ly/b/75286">
             250 icons, 5 sizes, 14 colors
             <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
@@ -98,7 +100,7 @@
         <div class="set-info hide_mobile">
           <h2>You get what you need</h2>
           <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
-          <div class="button-download"><a href="http://pul.ly/b/33404">
+          <div class="button-download"><a href="http://pul.ly/b/75286">
             250 icons, 5 sizes, 14 colors
            <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
@@ -122,7 +124,8 @@
           <li><h2 class="margin_top">License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at the license here.</p></li>
         </ul>
       </div>
-      <div class="clearfix"></div>  
+      <div class="clearfix"></div>
+      <a name="nav_inuse" id="nav_inuse"></a>  
       <hr/>
       
       <div id="users">
@@ -323,20 +326,20 @@
         <h1>Free Stuff</h1>
         <div class="three-cols">
           <h2>Test Icons</h2>
-          <a href="downloads/adi_bonus_2.1.zip" class="nostyle"><img src="images/bonus_01_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>If you want to play around a bit first and get a feel for the shapes, download these 10 free icons in 5 sizes &amp; 14 colors.</p>
+          <a href="downloads/android_testicons_2.5.zip" class="nostyle"><img src="images/androidicons_preview_test.png" alt="Free Bonus Icons" /></a>
+          <p>If you want to play around a bit first and get a feel for the shapes, <a href="downloads/android_testicons_2.5.zip">download these 10 free icons</a> in 5 sizes &amp; 14 colors.</p>
         </div>
          
         <div class="three-cols">
           <h2>Boilerplates</h2>
-          <a href="downloads/adi_bonus_2.2.zip" class="nostyle"><img src="images/bonus_02_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>Download our free boilerplate icons (12 colors, 5 sizes) and drag any other Androidicon onto it: a perfect fit for simple launcher icons.</p>
+          <a href="downloads/boilerplates.zip" class="nostyle"><img src="images/bonus_02_preview.png" alt="Free Bonus Icons" /></a>
+          <p><a href="downloads/boilerplates.zip">Download our free boilerplate icons</a> (12 colors, 5 sizes) and drag any other Androidicon onto it: a perfect fit for simple launcher icons.</p>
         </div>
          
         <div class="three-cols">
           <h2>Wallpapers</h2>
-          <a href="downloads/boilerplates.zip" class="nostyle"><img src="images/bonus_03_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>3 wallpapers with AndroidIcons, lovingly created for your homescreen. Just grab them. They're free.</p>
+          <a href="downloads/androidicons_wallpaper.zip" class="nostyle"><img src="images/bonus_03_preview.png" alt="Free Bonus Icons" /></a>
+          <p>3 wallpapers with AndroidIcons, lovingly created for your homescreen. <a href="downloads/androidicons_wallpaper.zip">Just grab them</a>. They're free.</p>
         </div> 
       </div>
       <div class="clearfix"></div>
@@ -347,7 +350,7 @@
     <!-- Begin Footer -->
     <div id="footer">
       <div class="button-download show_mobile">
-        <a href="http://pul.ly/b/33404">
+        <a href="http://pul.ly/b/75286">
           250 icons, 5 sizes, 14 colors
           <span> Download <span>for</span> 25$</span>
           <i>via PayPal</i>
