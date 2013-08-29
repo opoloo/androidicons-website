@@ -330,16 +330,17 @@ content {
   }
   .logos {
     display: block;
+    margin-top: 2em;
     &.mobile {
       display: none;
     }
     .logo {
       float: left;
-      max-width: 10.662em;
+      max-width: 16.6%;
       width: 100%;
       text-align: center;
       img {
-        max-width: 7em;
+        max-width: 50%;
         width: 100%;
       }
       span {

@@ -243,16 +243,17 @@ content #quote {
     display: block;
     color: #999999; }
 content .logos {
-  display: block; }
+  display: block;
+  margin-top: 2em; }
   content .logos.mobile {
     display: none; }
   content .logos .logo {
     float: left;
-    max-width: 10.662em;
+    max-width: 16.6%;
     width: 100%;
     text-align: center; }
     content .logos .logo img {
-      max-width: 7em;
+      max-width: 50%;
       width: 100%; }
     content .logos .logo span {
       font-size: 1.3em;
