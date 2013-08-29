@@ -8,6 +8,7 @@ smaller than 960px
 		padding: 0% 4% 0 4%;	
 	}
 	h1 {
+		font-size:2.333em;
 		line-height: 1.2em;
 	}
 	h2 {
@@ -38,11 +39,11 @@ smaller than 960px
 	div.three-cols {
 		max-width: 100%;
 	}
-	content #spec ul li {
+	/*content #spec ul li {
 	  max-width: 100%;
 	  float:left;
 	  margin: 0 30px 0 0;
-	}
+	}*/
 	.logos {
     display: none;
   }
@@ -59,6 +60,14 @@ smaller than 960px
   .logos.mobile .logo span {
     font-size: 1em;
   }
+  #spec ul li:nth-child(2n+1) {
+  	margin-right:30px;
+  	clear:both; 
+    }
+   
+  
+  
+  
 }
 
 
@@ -71,6 +80,9 @@ smaller than 800px
 		width: 100%;
 		float: none;
 	}
+
+  
+  
 }
 
 
@@ -83,6 +95,9 @@ smaller than 480px
 	header {
 		height: 6em;
 		line-height: 2em;
+	}
+	h2 {
+		font-size:1.467em;
 	}
 	#logo {
 		float: none;
@@ -100,6 +115,15 @@ smaller than 480px
 		margin: 0px;
 	}
 	.logos.mobile .logo {
-    max-width: 50%;
-  }
+    		max-width: 50%;
+  	}
+  	h1 {font-size:1.667em;}
+  	
+  	#freestuff h2 {
+  		text-align:center;
+  	  }
+  	
+  	#freestuff img {
+	  	display:none;
+  	}
 }

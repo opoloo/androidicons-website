@@ -44,7 +44,8 @@ ol, ul {
 a {
   text-decoration: none;
   color: #888888;
-  border-bottom: 1px solid #33b5e5; }
+  border-bottom: 1px solid #33b5e5;
+  transition: all 0.5s ease; }
 
 a:hover {
   color: #3d3d3d; }
@@ -54,16 +55,19 @@ h1 {
   font-weight: 700;
   font-size: 2.867em;
   line-height: 1em;
-  margin: 0px 0 0px 0;
+  margin: 0px 0 20px 0;
   padding: 0 0 0px 0;
   color: #666666;
   display: block;
   letter-spacing: 0em;
   text-align: center; }
 
+h1.firstheader {
+  margin: 0 0 10px 0; }
+
 h2 {
   font-size: 1.667em;
-  line-height: 1.667em;
+  line-height: 1em;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 0.03em;
   font-weight: 100;
@@ -132,17 +136,21 @@ header {
     header nav ul li {
       float: left;
       margin: 0 0 0 50px; }
-  header #linktoset {
+  header a#linktoset {
     float: right;
-    display: inline-block; }
-    header #linktoset #get-arrow {
-      font-size: 2em;
-      line-height: 1em; }
+    display: inline-block;
+    background-color: #33b5e5;
+    color: #fff;
+    padding: 0 10px; }
+    header a#linktoset #get-arrow {
+      font-size: 1em;
+      line-height: 1em;
+      margin: 0 10px 0 0; }
 
 #intro {
   font-family: 'Roboto', sans-serif;
   color: #999999;
-  margin: 80px 0 30px 0;
+  margin: 90px 0 40px 0;
   text-align: center; }
   #intro #teaser {
     font-size: 1.467em; }
@@ -195,7 +203,7 @@ content #iconset .set-preview {
   float: left;
   max-width: 700px; }
 content #iconset .set-info {
-  max-width: 240px;
+  max-width: 260px;
   float: right; }
 content button.btn-preview {
   background: transparent;
@@ -250,13 +258,26 @@ content .logos {
 
 div.button-download {
   display: block;
-  background-color: #33b5e5;
-  padding: 20px;
-  margin: 30px 0 0 0; }
+  margin: 30px 0 0 0;
+  font-size: 0.933em; }
   div.button-download a {
-    color: #fff; }
-  div.button-download span {
+    padding: 20px;
+    background-color: #33b5e5;
+    display: block;
     color: #c2e9f7; }
+    div.button-download a:hover {
+      background-color: #0099cc; }
+  div.button-download span {
+    color: #fff;
+    display: block;
+    font-size: 2.143em;
+    margin: 5px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -0.01em;
+    font-weight: 500; }
+    div.button-download span span {
+      font-size: 0.633em;
+      display: inline-block; }
 
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
@@ -272,8 +293,6 @@ div.button-download {
   margin: 0px auto 0px auto;
   text-align: center;
   max-width: 960px;
-  font-size: 14px;
-  line-height: 16px;
   color: #999;
   letter-spacing: 0.03em; }
 
@@ -319,8 +338,8 @@ hr {
   height: 1px;
   font-size: 0;
   border: 0px;
-  background-color: #7b7b7b;
-  margin: 30px 0 30px 0; }
+  background-color: #c2c2c2;
+  margin: 50px 0; }
 
 .show-mobile, .paypal-mobile {
   display: none; }
