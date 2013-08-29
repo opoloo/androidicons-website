@@ -76,20 +76,26 @@
     <!-- Begin Content -->
     <content data-role="content">
       <div class="set-info show_mobile">
-          <h2>You get what you need</h2>
-          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
-          <div class="button-download"><a href="http://pul.ly/b/33404">
+        <h2>You get what you need</h2>
+        <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
+        <div class="button-download">
+          <a href="http://pul.ly/b/33404">
             250 icons, 5 sizes, 14 colors
             <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
-            </a>
-          </div>
-          <a href="#freestuff">Test it? Sure!</a>
+          </a>
         </div>
+        <a href="#freestuff">Test it? Sure!</a>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
       <div id="iconset">
         <div class="set-preview">
           <img src="images/androidicons_preview.png" alt="Android Icons Preview" />
           <button class="btn-preview">Preview of all icons</button>
+          <div class="show_mobile">
+            <p>&nbsp;</p>
+          </div>
         </div>
         <div class="set-info hide_mobile">
           <h2>You get what you need</h2>
@@ -103,7 +109,7 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <div id="quote hide_mobile">
+      <div id="quote" class="hide_mobile">
         <p>"Androidicons is an essential companion kit for any Android designer. I've used the kit in basically every recent design I've worked on. With such a friendly license and price, it's really a no-brainer."</p>
         <span>—Roman Nurik (Google)</span>
       </div>
@@ -113,9 +119,9 @@
           <li><h2>Enough is enough</h2><p>250 icons in 5 sizes and 14 beautiful colors? Holy barracuda Batman! That's 17,500 individual graphics. You probably won't need another icon set for Android development (or even web design) ever again.</p></li>
           <li><h2>Apps &amp; Interfaces</h2><p>Androidicons are lovingly designed to enhance your Android application or mobile interface. If you were looking for flat, full, pixelperfect, polished icons that precisely communicate your message, you have found them.</p></li>
           <li><h2>For Developers &amp; Designers</h2><p>Androidicons meticulously follow the Android 4.0 guidelines, so all icons will work perfectly in your Ice Cream Sandwich or Jelly Bean apps and the web, no matter if you use them in your status bar, for notifications, or to enhance your copy.</p></li>
-          <li><h2>Quality</h2><p>Every little pixel was carefully pushed into its position to create the ideal icon, in each size and color, designed and handcrafted by Guenther Beyer. We took great care to attend upon your needs and leave out all the useless stuff.</p></li>
-          <li><h2>Versatile</h2><p>You get 5 sizes with the set (hdpi, ldpi, mdpi, xhdpi &amp; xxhdpi) and you can easily combine and remix individual icons, or create completely new works of art from the included source files, supporting AI, SVG &amp; EPS.</p></li>
-          <li><h2>License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at the license here.</p></li>
+          <li><h2 class="margin_top">Quality</h2><p>Every little pixel was carefully pushed into its position to create the ideal icon, in each size and color, designed and handcrafted by Guenther Beyer. We took great care to attend upon your needs and leave out all the useless stuff.</p></li>
+          <li><h2 class="margin_top">Versatile</h2><p>You get 5 sizes with the set (hdpi, ldpi, mdpi, xhdpi &amp; xxhdpi) and you can easily combine and remix individual icons, or create completely new works of art from the included source files, supporting AI, SVG &amp; EPS.</p></li>
+          <li><h2 class="margin_top">License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at the license here.</p></li>
         </ul>
       </div>
       <div class="clearfix"></div>  
@@ -337,7 +343,7 @@
 
 
     <!-- Begin Footer -->
-    <div id="footer"> 
+    <div id="footer">
       <div class="button-download">
         <a href="http://pul.ly/b/33404">
           250 icons, 5 sizes, 14 colors
