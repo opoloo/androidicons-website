@@ -62,10 +62,10 @@
 
   <div class="wrapper">
     <div id="intro">
-      <h1 class="firstheader">Android Developer Icons 2 <span>Update 2.5</span></h1>
+      <h1 class="firstheader">Android Developer Icons<span>Update 2.5</span></h1>
       <div id="teaser">
-        <p>250 handcrafted, pixelperfect icons in 5 sizes and 14 colors</p>
-        <span>optimized for Ice Cream Sandwich, Jelly Bean applications & the Web</span>
+        <p>250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.</p>
+        <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web</span>
       </div>
     </div>
 
@@ -78,7 +78,7 @@
         </div>
         <div class="set-info">
           <h2>You get what you need</h2>
-          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website — 5 sizes and 14 colors, including vector sources and a friendly, royalty-free license.</p>
+          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
           <div class="button-download"><a href="http://pul.ly/b/33404">
             250 icons, 5 sizes, 14 colors
            <span> Download <span>for</span> 25$</span>
@@ -95,11 +95,11 @@
       <div class="clearfix"></div>     
       <div id="spec">
         <ul>
-          <li><h2>Enough is enough</h2><p>250 icons in 5 sizes and 14 beautiful colors? Holy barracuda Batman! That's 17,500 individual graphics. You probably won't need another icon set for Android development (or even web design) ever again. </p></li>
-          <li><h2>Apps & Interfaces</h2><p>Androidicons are lovingly designed to enhance your Android application or mobile interface. If you were looking for flat, full, pixelperfect, polished icons that precisely communicate your message, you have found them.</p></li>
-          <li><h2>For Developers & Designers</h2><p>Androidicons meticulously follow the Android 4.0 guidelines, so all icons will work perfectly in your Ice Cream Sandwich or Jelly Bean apps and the web, no matter if you use them in your status bar, for notifications, or to enhance your copy.</p></li>
+          <li><h2>Enough is enough</h2><p>250 icons in 5 sizes and 14 beautiful colors? Holy barracuda Batman! That's 17,500 individual graphics. You probably won't need another icon set for Android development (or even web design) ever again.</p></li>
+          <li><h2>Apps &amp; Interfaces</h2><p>Androidicons are lovingly designed to enhance your Android application or mobile interface. If you were looking for flat, full, pixelperfect, polished icons that precisely communicate your message, you have found them.</p></li>
+          <li><h2>For Developers &amp; Designers</h2><p>Androidicons meticulously follow the Android 4.0 guidelines, so all icons will work perfectly in your Ice Cream Sandwich or Jelly Bean apps and the web, no matter if you use them in your status bar, for notifications, or to enhance your copy.</p></li>
           <li><h2>Quality</h2><p>Every little pixel was carefully pushed into its position to create the ideal icon, in each size and color, designed and handcrafted by Guenther Beyer. We took great care to attend upon your needs and leave out all the useless stuff.</p></li>
-          <li><h2>Versatile</h2><p>You get 5 sizes with the set (hdpi, ldpi, mdpi, xhdpi & xxhdpi) and you can easily combine and remix individual icons, or create completely new works of art from the included source files, supporting AI, SVG & EPS. </p></li>
+          <li><h2>Versatile</h2><p>You get 5 sizes with the set (hdpi, ldpi, mdpi, xhdpi &amp; xxhdpi) and you can easily combine and remix individual icons, or create completely new works of art from the included source files, supporting AI, SVG &amp; EPS.</p></li>
           <li><h2>License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at the license here.</p></li>
         </ul>
       </div>
@@ -107,7 +107,7 @@
       <hr/>
       
       <div id="users">
-        <h1>Apps that use our icon set</h1>
+        <h1>Androidicons Make Apps Happy</h1>
 
         <!-- Slider Desktop -->
         <div class="logos">
@@ -274,12 +274,12 @@
         
         <div class="reviews">
           <div class="two-cols">
-            <p>"The set delivers great expressive ideas in a beautiful way. My users now see the meaning of a command in a small pretty picture."</p>
-            <span>—John Roberts (AddtoNYC)</span>
+            <p>"These icons are perfectly crafted. It's an effortless way for developers to inject some visual polish into their apps."</p>
+            <span>&mdash; Jamie McDonald (Guardian)</span>
           </div>
           <div class="two-cols">
             <p>"These are the only icons I want to see in my statusbar, and everybody should use them."</p>
-            <span>—Eric Carboni (Notif)</span>
+            <span>&mdash; Eric Carboni (Notif)</span>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -290,19 +290,19 @@
         <div class="three-cols">
           <h2>Test Icons</h2>
           <a href="downloads/adi_bonus_2.1.zip" class="nostyle"><img src="images/bonus_01_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>Get these 12 free icons in 5 sizes & 14 colors to see if they work for you. They're free.</p>
+          <p>If you want to play around a bit first and get a feel for the shapes, download these 10 free icons in 5 sizes &amp; 14 colors.</p>
         </div>
          
         <div class="three-cols">
-          <h2>Boiler Plates</h2>
+          <h2>Boilerplates</h2>
           <a href="downloads/adi_bonus_2.2.zip" class="nostyle"><img src="images/bonus_02_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>If you're in need of a simple launchericon, just download these boilerplate icons and drag another Android-Icon on it — perfect fit. 12 colors and 5 sizes.</p>
+          <p>Download our free boilerplate icons (12 colors, 5 sizes) and drag any other Androidicon onto it: a perfect fit for simple launcher icons.</p>
         </div>
          
         <div class="three-cols">
-          <h2>Wallpaper</h2>
+          <h2>Wallpapers</h2>
           <a href="downloads/boilerplates.zip" class="nostyle"><img src="images/bonus_03_preview.png" alt="Free Bonus Icons" class="picture" /></a>
-          <p>3 wallpapers with AndroidIcons, lovingly created for your homescreen. Just grab them.</p>
+          <p>3 wallpapers with AndroidIcons, lovingly created for your homescreen. Just grab them. They're free.</p>
         </div> 
       </div>
       <div class="clearfix"></div>
