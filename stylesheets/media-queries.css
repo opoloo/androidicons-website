@@ -59,6 +59,13 @@ smaller than 960px
   content .logos .logo span {
     font-size: 1em;
   }
+  content .reviews {
+    text-align: center;
+  }
+  content .reviews .two-cols {
+    margin: 0 auto 2em auto;
+    float: none;
+  }
   content #spec ul li:nth-child(3n) {
     margin-right: 30px;
   }
