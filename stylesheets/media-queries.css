@@ -46,17 +46,17 @@ smaller than 960px
 	.logos {
     display: none;
   }
-  .logos.mobile {
+  .logos {
     display: block;
   }
-  .logos.mobile .logo {
+  .logos .logo {
     max-width: 25%;
     margin-bottom: 2em;
   }
-  .logos.mobile .logo img {
+  .logos .logo img {
     max-width: 33%;
   }
-  .logos.mobile .logo span {
+  .logos .logo span {
     font-size: 1em;
   }
 }
@@ -66,7 +66,6 @@ smaller than 960px
 smaller than 800px
 *************************************************************************************/
 @media screen and (max-width: 800px) {
-
 	div.three-cols {
 		width: 100%;
 		float: none;
@@ -99,7 +98,7 @@ smaller than 480px
 		float: none;
 		margin: 0px;
 	}
-	.logos.mobile .logo {
+	.logos .logo {
     max-width: 50%;
   }
 }
