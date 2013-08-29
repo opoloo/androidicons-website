@@ -318,6 +318,10 @@ content {
     }
   }
   .logos {
+    display: block;
+    &.mobile {
+      display: none;
+    }
     .logo {
       float: left;
       max-width: 10.662em;
