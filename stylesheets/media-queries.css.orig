@@ -8,6 +8,7 @@ smaller than 960px
 		padding: 0% 4% 0 4%;	
 	}
 	h1 {
+		font-size:2.333em;
 		line-height: 1.2em;
 	}
 	h2 {
@@ -74,7 +75,6 @@ smaller than 960px
 smaller than 800px
 *************************************************************************************/
 @media screen and (max-width: 800px) {
-
 	div.three-cols {
 		width: 100%;
 		float: none;
@@ -113,7 +113,12 @@ smaller than 480px
 		float: none;
 		margin: 0px;
 	}
+<<<<<<< HEAD
 	.logos .logo {
+    max-width: 50%;
+  }
+=======
+	.logos.mobile .logo {
     		max-width: 50%;
   	}
   	h1 {font-size:1.667em;}
@@ -125,4 +130,5 @@ smaller than 480px
   	#freestuff img {
 	  	display:none;
   	}
+>>>>>>> edb29f4090c98a7073c3d151d79ef572752714e4
 }

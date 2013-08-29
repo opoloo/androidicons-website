@@ -62,7 +62,7 @@
 
   <div class="wrapper">
     <div id="intro">
-      <h1>Android Developer Icons 2</h1>
+      <h1 class="firstheader">Android Developer Icons 2</h1>
       <div id="teaser">
         <p>250 handcrafted, pixelperfect icons in 5 sizes and 14 colors</p>
         <span>optimized for Ice Cream Sandwich, Jelly Bean applications & the Web</span>
@@ -79,7 +79,11 @@
         <div class="set-info">
           <h2>You get what you need</h2>
           <p>250 developer icons that work perfectly in your Android app, mobile interface, or website — 5 sizes and 14 colors, including vector sources and a friendly, royalty-free license.</p>
-          <div class="button-download"><a href="http://pul.ly/b/33404">Download for 25$</a></div>
+          <div class="button-download"><a href="http://pul.ly/b/33404">
+            250 icons, 5 sizes, 14 colors
+           <span> Download <span>for</span> 25$</span>
+            <i>via PayPal</i>
+            </a></div>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -295,7 +299,7 @@
         </div>
          
         <div class="three-cols">
-          <h3>Wallpaper</h3>
+          <h2>Wallpaper</h2>
           <a href="downloads/boilerplates.zip" class="nostyle"><img src="images/bonus_03_preview.png" alt="Free Bonus Icons" class="picture" /></a>
           <p>3 wallpapers with AndroidIcons, lovingly created for your homescreen. Just grab them.</p>
         </div> 
