@@ -99,7 +99,7 @@
         </div>
         <div class="set-info hide_mobile">
           <h2>You get what you need</h2>
-          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a <a href="royalty_free_license.txt">friendly license</a>.</p>
+          <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
           <div class="button-download"><a href="http://pul.ly/b/75286">
             250 icons, 5 sizes, 14 colors
            <span> Download <span>for</span> 25$</span>
