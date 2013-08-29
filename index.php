@@ -55,7 +55,7 @@
           <li><a href="#freestuff">Free Stuff</a></li>
         </ul>
       </nav>
-      <a href="#" id="linktoset">
+      <a href="#iconset" id="linktoset">
         <span id="get-arrow">&darr;</span>Get the set 
       </a>
     </div>    
@@ -121,7 +121,7 @@
           <li><h2>For Developers &amp; Designers</h2><p>Androidicons meticulously follow the Android 4.0 guidelines, so all icons will work perfectly in your Ice Cream Sandwich or Jelly Bean apps and the web, no matter if you use them in your status bar, for notifications, or to enhance your copy.</p></li>
           <li><h2 class="margin_top">Quality</h2><p>Every little pixel was carefully pushed into its position to create the ideal icon, in each size and color, designed and handcrafted by Guenther Beyer. We took great care to attend upon your needs and leave out all the useless stuff.</p></li>
           <li><h2 class="margin_top">Versatile</h2><p>You get 5 sizes with the set (hdpi, ldpi, mdpi, xhdpi &amp; xxhdpi) and you can easily combine and remix individual icons, or create completely new works of art from the included source files, supporting AI, SVG &amp; EPS.</p></li>
-          <li><h2 class="margin_top">License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at the license here.</p></li>
+          <li><h2 class="margin_top">License</h2><p>Buy once, use forever. After you have purchased the set, you may use all icons in as many applications as you want, and there's no need for further royalties or credits. You can have a look at <a href="royalty_free_license.txt">the license here</a>.</p></li>
         </ul>
       </div>
       <div class="clearfix"></div>
