@@ -76,8 +76,6 @@
     <!-- Begin Content -->
     <content data-role="content">
       <div class="set-info show_mobile">
-        <h2>You get what you need</h2>
-        <p>250 developer icons that work perfectly in your Android app, mobile interface, or website &ndash; in 5 sizes and 14 colors, including vector sources and a friendly license.</p>
         <div class="button-download">
           <a href="http://pul.ly/b/33404">
             250 icons, 5 sizes, 14 colors
@@ -350,7 +348,6 @@
           <span> Download <span>for</span> 25$</span>
           <i>via PayPal</i>
         </a>
-        </div>
       </div>
       <div id="copyright">
         <span class="about">The set was created by <a href="https://plus.google.com/u/0/109726284197282147930/posts">Guenther Beyer</a> and <a href="http://www.opoloo.com">Opoloo</a>. If you're looking for Android design and development services, feel free to <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%6f%70%6f%6c%6f%6f%2e%63%6f%6d%5c%22%3e%63%6f%6e%74%61%63%74%20%75%73%3c%5c%2f%61%3e%27%29%3b'))</script>.</span>
