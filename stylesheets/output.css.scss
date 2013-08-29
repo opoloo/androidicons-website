@@ -60,7 +60,7 @@ h1 {
   h1 span {
     font-size: 0.250em;
     text-transform: uppercase;
-    color: #33b5e5;
+    color: #ff8800;
     font-weight: 500;
     position: absolute;
     margin: 0 0 0 15px;
@@ -68,7 +68,7 @@ h1 {
 
 h1.firstheader {
   margin: 0 0 10px 0;
-  font-size: 2.867em; }
+  font-size: 3.867em; }
 
 h2 {
   font-size: 1.667em;
@@ -149,18 +149,23 @@ header {
     display: inline-block;
     color: #33b5e5;
     padding: 0 10px;
-    border: none; }
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.800em;
+    font-weight: 500; }
     header a#linktoset #get-arrow {
       font-size: 1em;
       line-height: 1em;
-      margin: 0 10px 0 0; }
+      margin: 0 7px 0 0; }
     header a#linktoset:hover {
       color: #666666; }
 
 #intro {
   font-family: 'Roboto', sans-serif;
   color: #999999;
-  margin: 90px 0 40px 0;
+  margin: 110px 0 70px 0;
   text-align: center; }
   #intro #teaser, #intro #teaser1 {
     font-size: 1.467em; }

@@ -81,6 +81,9 @@ smaller than 960px
     margin: 0 auto 2em auto;
     float: none;
   }
+  content div.button-download {
+	  margin:0 0 10px 0;
+  }
   content div.button-download a, #footer div.button-download a {
     padding:20px;
     display:block;
