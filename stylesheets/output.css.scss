@@ -164,9 +164,9 @@ header {
   color: #999999;
   margin: 90px 0 40px 0;
   text-align: center; }
-  #intro #teaser {
+  #intro #teaser, #intro #teaser1 {
     font-size: 1.467em; }
-    #intro #teaser span {
+    #intro #teaser span, #intro #teaser1 span {
       font-family: 'Roboto Condensed', sans-serif;
       font-size: 0.727em; }
 
@@ -215,7 +215,8 @@ content .slide_nav_desktop, content .slide_nav_mobile {
   text-align: center; }
 content #iconset .set-preview {
   float: left;
-  max-width: 700px; }
+  max-width: 700px;
+  width: 100%; }
 content #iconset .set-info {
   max-width: 260px;
   float: right; }
@@ -303,6 +304,8 @@ div.button-download {
   max-width: 100%;
   padding: 110px 0px;
   font-family: 'Roboto Condensed', sans-serif; }
+  #footer .button-download {
+    display: none; }
 
 #copyright {
   margin: 0px auto 0px auto;
@@ -331,7 +334,8 @@ div.button-download {
   width: 131px;
   height: 127px;
   background: url("../images/signet-opoloo.png") 0px 0px no-repeat;
-  border-bottom: none; }
+  border-bottom: none;
+  transition: none; }
 
 #copyright span.signet a:hover {
   background: url("../images/signet-opoloo.png") 0 -191px no-repeat; }
