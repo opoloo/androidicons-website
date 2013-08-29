@@ -2,6 +2,7 @@
 smaller than 960px
 *************************************************************************************/
 @media screen and (max-width: 960px) {
+<<<<<<< HEAD
 	header {
 		position: relative;
 		width: 92%;
@@ -39,21 +40,66 @@ smaller than 960px
 		max-width: 100%;
 	}
 	.logos {
+=======
+  header {
+    position: relative;
+    width: 92%;
+    padding: 0% 4% 0 4%;  
+  }
+  h1 {
+    line-height: 1.2em;
+  }
+  h2 {
+    margin: 30px 0 5px 0;
+  }
+  .wrapper {
+    width: 92%;
+    padding: 0% 4% 0 4%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  }
+  content, header {
+    max-width: 92%;
+    padding: 0% 4% 0 4%;
+  }
+  a#linktoset {
+>>>>>>> 3d0ac51fc2255a6c87cc4ff2b406167cb3f8e687
     display: none;
   }
-  .logos {
+  #intro {
+    margin: 20px 0px;
+  }
+  content #iconset .set-preview, content #iconset .set-info {
+    max-width: 100%;
+  }
+  div.three-cols {
+    max-width: 100%;
+  }
+  /*content #spec ul li {
+    max-width: 100%;
+    float:left;
+    margin: 0 30px 0 0;
+  }*/
+  content .logos {
+    display: none;
+  }
+  content .logos.mobile {
     display: block;
   }
-  .logos .logo {
+  content .logos .logo {
     max-width: 25%;
     margin-bottom: 2em;
   }
-  .logos .logo img {
+  content .logos .logo img {
     max-width: 33%;
   }
-  .logos .logo span {
+  content .logos .logo span {
     font-size: 1em;
   }
+<<<<<<< HEAD
   
 
   
@@ -61,6 +107,15 @@ smaller than 960px
   
   
   
+=======
+  content #spec ul li:nth-child(3n) {
+    margin-right: 30px;
+  }
+  #spec ul li:nth-child(2n+1) {
+    margin-right:30px;
+    clear:both; 
+  }
+>>>>>>> 3d0ac51fc2255a6c87cc4ff2b406167cb3f8e687
 }
 
 
@@ -68,6 +123,7 @@ smaller than 960px
 smaller than 800px
 *************************************************************************************/
 @media screen and (max-width: 800px) {
+<<<<<<< HEAD
 
 	div.three-cols {
 		width: 100%;
@@ -85,6 +141,12 @@ smaller than 800px
 
   
   
+=======
+  div.three-cols {
+    width: 100%;
+    float: none;
+  }
+>>>>>>> 3d0ac51fc2255a6c87cc4ff2b406167cb3f8e687
 }
 
 
@@ -94,38 +156,38 @@ smaller than 800px
 smaller than 480px
 *************************************************************************************/
 @media screen and (max-width: 480px) {
-	header {
-		height: 6em;
-		line-height: 2em;
-	}
-	h2 {
-		font-size:1.467em;
-	}
-	#logo {
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	div.three-cols {
-		width: 100%;
-		float: none;
-		text-align: center;
-	}
-	content #spec ul li {
-		width: 100%;
-		float: none;
-		margin: 0px;
-	}
-	.logos .logo {
-    		max-width: 50%;
-  	}
-  	h1 {font-size:1.667em;}
-  	
-  	#freestuff h2 {
-  		text-align:center;
-  	  }
-  	
-  	#freestuff img {
-	  	display:none;
-  	}
+  header {
+    height: 6em;
+    line-height: 2em;
+  }
+  h2 {
+    font-size:1.467em;
+  }
+  #logo {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  div.three-cols {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  content #spec ul li {
+    width: 100%;
+    float: none;
+    margin: 0px;
+  }
+  content .logos .logo {
+    max-width: 50%;
+  }
+  h1 {
+    font-size: 1.667em;
+  }
+  #freestuff h2 {
+    text-align:center;
+  }
+  #freestuff img {
+    display:none;
+  }
 }
