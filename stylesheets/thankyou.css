@@ -1,0 +1,60 @@
+/*-----------ALLGEMEIN-------------*/
+
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('../fonts/DroidSans-webfont.eot?') format('eot'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#webfontw7zqO19G') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	border-top:5px solid #aace46;
+	font-family: 'DroidSansRegular', Arial, Verdana;
+	font-size:16px;
+	line-height:24px;
+	padding:0px 0px 40px 0px;
+}
+
+#container {
+	width:800px;
+	margin: 0 auto;
+	text-align:center;
+	color:#999;
+	font-size:18px;
+}
+
+img {
+	margin:50px 0px 0px 0px;
+}
+
+h1 {
+	font-size:25px;
+	letter-spacing:-0.05em;
+	margin:30px 0px 5px 0px;
+	color:#999;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration:none;
+	color:#999;
+	font-size:14px;
+	border-bottom: 1px solid #ccc;
+}
+
+a:hover {
+	color:#333;
+}
+
+p {
+	margin:0px 0px 20px 0px;
+}
+
