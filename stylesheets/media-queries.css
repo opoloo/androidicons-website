@@ -14,6 +14,10 @@ smaller than 960px
   }
   h2 {
     margin: 30px 0 5px 0;
+    text-align: center;
+  }
+  h2.margin_top {
+	  margin-top:30px;
   }
   .wrapper {
     width: 92%;
@@ -39,6 +43,7 @@ smaller than 960px
   }
   content #iconset .set-preview, content #iconset .set-info {
     max-width: 100%;
+    text-align:center;
   }
   div.three-cols {
     max-width: 100%;
@@ -91,7 +96,7 @@ smaller than 800px
   }
   
   h1.firstheader {
-	  font-size:2em;
+	  font-size:2.5em;
   }
   #intro #teaser {
 	  font-size:1em;
@@ -99,7 +104,9 @@ smaller than 800px
   #intro #teaser span {
   	  font-size:1em;
     }
-    
+   #freestuff h2 {
+	   text-align: left;
+   } 
     #freestuff img {
       display:none;
     }
@@ -112,6 +119,9 @@ smaller than 800px
 smaller than 480px
 *************************************************************************************/
 @media screen and (max-width: 480px) {
+	h1.firstheader {
+		font-size:1.8em;
+	}
   h2 {
     font-size:1.467em;
     text-align:center;
