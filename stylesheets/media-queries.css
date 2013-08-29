@@ -39,6 +39,11 @@ smaller than 960px
   header a#linktoset {
     display: none;
   }
+  #logo {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
   nav, h1 span {
     display:none;
   }
@@ -76,13 +81,13 @@ smaller than 960px
     margin: 0 auto 2em auto;
     float: none;
   }
-  content div.button-download a {
+  content div.button-download a, #footer div.button-download a {
     padding:20px;
     display:block;
     text-align: center;
     margin:0;
   }
-  content div.button-download span {
+  content div.button-download span, #footer div.button-download span {
     color:#fff;
     display:inline-block;
     font-size:2.143em;
@@ -91,7 +96,7 @@ smaller than 960px
     letter-spacing:-0.01em;
     font-weight:500;
   }
-  content div.button-download span span {
+  content div.button-download span span, #footer div.button-download span span {
     font-size:0.633em;
     display:inline-block;
     margin:0;
@@ -116,6 +121,14 @@ smaller than 960px
     float: none;
     margin: 0 auto;
   }
+  
+  #intro #teaser1 {
+	  font-size:1em;
+  }
+  
+  #footer {
+	  padding:30px 0 30px 0;
+  }
 }
 
 /************************************************************************************
@@ -128,6 +141,9 @@ smaller than 800px
   }
   h1.firstheader {
     font-size:2.5em;
+  }
+  h2 {
+    text-align:left;
   }
   #intro #teaser {
     font-size:1em;
@@ -155,11 +171,7 @@ smaller than 480px
     font-size:1.467em;
     text-align:center;
   }
-  #logo {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
+  
   div.three-cols {
     width: 100%;
     float: none;
