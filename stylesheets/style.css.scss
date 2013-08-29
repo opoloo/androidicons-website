@@ -71,7 +71,7 @@ a:hover {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight:700;
-  font-size:2.867em;
+  font-size:2.200em; 
   line-height:1em;
   margin:0px 0 20px 0;
   padding:0 0 0px 0;
@@ -79,10 +79,21 @@ h1 {
   display:block;
   letter-spacing:0em;
   text-align:center;
+  position:relative;
+  span {
+    font-size:0.250em;
+    text-transform:uppercase;
+    color:$lightblue;
+    font-weight:500;
+    position:absolute;
+    margin:0 0 0 15px;
+    letter-spacing:0.1em;
+  }
 }
 
 h1.firstheader {
   margin:0 0 10px 0;
+  font-size:2.867em;
 }
 
 h2 {

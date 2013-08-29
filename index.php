@@ -62,7 +62,7 @@
 
   <div class="wrapper">
     <div id="intro">
-      <h1 class="firstheader">Android Developer Icons 2</h1>
+      <h1 class="firstheader">Android Developer Icons 2 <span>Update 2.5</span></h1>
       <div id="teaser">
         <p>250 handcrafted, pixelperfect icons in 5 sizes and 14 colors</p>
         <span>optimized for Ice Cream Sandwich, Jelly Bean applications & the Web</span>

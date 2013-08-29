@@ -27,6 +27,7 @@ Basic Swiper Styles
   backface-visibility:hidden;
   /* Fix of Webkit flickering */
   z-index:1;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .swiper-wrapper {
   position:relative;
