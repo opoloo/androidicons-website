@@ -2,6 +2,7 @@
 smaller than 960px
 *************************************************************************************/
 @media screen and (max-width: 960px) {
+	.show_mobile {display:block;}
   header {
     position: relative;
     width: 92%;
