@@ -206,6 +206,7 @@
               </div>
             </div>
           </div>
+          <div class="slide_nav_desktop"></div>
         </div>
 
         <!-- Slider Mobile -->
@@ -289,8 +290,11 @@
               </div>
             </div>
           </div>
+          <div class="slide_nav_mobile"></div>
         </div>
         
+        <p>&nbsp;</p>
+
         <div class="reviews hide_mobile">
           <div class="two-cols">
             <p>"These icons are perfectly crafted. It's an effortless way for developers to inject some visual polish into their apps."</p>
@@ -342,7 +346,7 @@
 
     <!-- Begin Footer -->
     <div id="footer">
-      <div class="button-download">
+      <div class="button-download show_mobile">
         <a href="http://pul.ly/b/33404">
           250 icons, 5 sizes, 14 colors
           <span> Download <span>for</span> 25$</span>

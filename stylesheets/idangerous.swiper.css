@@ -107,11 +107,17 @@ Pagination Styles
 ================================================================*/
 .swiper-pagination-switch {
   /* Stylize pagination button: */  
-
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 100%;
+  border: 1px solid #aaa;
+  cursor: pointer;
 }
 .swiper-active-switch {
   /* Specific active button style: */ 
-  
+  box-shadow: inset 0px 0px 5px #999;
 }
 .swiper-visible-switch {
   /* Specific visible button style: */  

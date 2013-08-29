@@ -20,12 +20,18 @@ $(document).ready(function(){
     //Your options here:
     mode:'horizontal',
     loop: true,
+    pagination: ".slide_nav_desktop",
+    createPagination: true,
+    paginationClickable: true,
     mousewheelControl: true
   });
   var mySwiperMobile = $('.mobile .swiper-container').swiper({
     //Your options here:
     mode:'horizontal',
     loop: true,
+    pagination: ".slide_nav_mobile",
+    createPagination: true,
+    paginationClickable: true,
     mousewheelControl: true
   });
 
