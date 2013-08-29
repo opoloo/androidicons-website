@@ -60,6 +60,12 @@ smaller than 960px
   .logos.mobile .logo span {
     font-size: 1em;
   }
+  
+
+  content #spec ul li:nth-child(3n) {
+  	margin-right: 30px;
+  }
+  
   #spec ul li:nth-child(2n+1) {
   	margin-right:30px;
   	clear:both; 

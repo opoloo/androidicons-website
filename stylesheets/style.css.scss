@@ -196,6 +196,7 @@ header {
       line-height: 1em;
       margin:0 10px 0 0;
     }
+    &:hover {background-color:#0099cc;}
   }
 }
 
@@ -355,7 +356,6 @@ div.button-download {
   
   font-size:0.933em;
   a {
-    
     padding:20px;
     background-color:$lightblue;
     display:block;
