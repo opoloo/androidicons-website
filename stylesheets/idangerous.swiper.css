@@ -124,7 +124,7 @@ Mobile Styles
     height: 8em;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .swiper-container {
     height: 8em;
   }
