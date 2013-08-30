@@ -247,9 +247,10 @@ header {
       .preview-box .preview-panel button:first-child {
         width: 7em;
         left: 1em;
-        background: #ccc; }
+        color: #ccc;
+        background: transparent; }
         .preview-box .preview-panel button:first-child:hover {
-          background: #999999; }
+          color: #999999; }
   .preview-box img {
     width: 100%;
     height: auto; }

@@ -316,9 +316,10 @@ header {
       &:first-child {
         width: 7em;
         left: 1em;
-        background: #ccc;
+        color: #ccc;
+        background: transparent;
         &:hover {
-          background: darken(#ccc, 20%);
+          color: darken(#ccc, 20%);
         }
       }
     }

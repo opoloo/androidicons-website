@@ -48,4 +48,8 @@ $(document).ready(function(){
     }, 500);
     return false;
   });
+
+  $('.buy-set').click(function() {
+    window.location.href = "http://pul.ly/b/75286";
+  });
 });

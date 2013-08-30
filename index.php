@@ -37,7 +37,7 @@
   <div class="preview-box">
     <div class="preview-panel">
       <button class="btn-preview">&larr; Back</button>
-      <button class="buy-set">Download the set</button>
+      <button class="buy-set">Buy the set 25$</button>
     </div>
     <img src="images/preview-full.png" alt="" />
   </div>
