@@ -36,8 +36,8 @@
   <!-- Lightbox (Preview) -->
   <div class="preview-box">
     <div class="preview-panel">
-      <a href="http://pul.ly/b/75286">Download the set</a>
-      <button class="btn-preview">Close preview</button>
+      <button class="btn-preview">&larr; Back</button>
+      <button class="buy-set">Download the set</button>
     </div>
     <img src="images/preview-full.png" alt="" />
   </div>

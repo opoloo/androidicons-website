@@ -289,8 +289,8 @@ header {
     width: 100%;
     background-color: rgba(255,255,255,0.9);
     font-family: 'Roboto', sans-serif;
-    button, a {
-      padding: 10px 20px;
+    button {
+      padding: 10px 0px;
       color: #fff;
       position: absolute;
       top: 0;
@@ -300,30 +300,26 @@ header {
       cursor: pointer;
       transition: .3s ease;
       display: block;
-    }
-    a {
-      left: 0;
-      right: 0;
-      margin: auto;
-      text-transform: uppercase;
-      text-align: center;
-      width: 12em;
-      height: 1em;
-      font-size: 2em;
-      font-weight: 300;
-      background: #33B5E6;
-      &:hover {
-        background: darken(#33B5E6, 20%);
-      }
-    }
-    button {
-      width: 13em;
-      right: 1em;
       margin: auto 0;
       height: 3em;
-      background: #ccc;
-      &:hover {
-        background: darken(#ccc, 20%);
+      &:last-child {
+        right: 1em;
+        text-transform: uppercase;
+        text-align: center;
+        width: 13em;
+        font-weight: 300;
+        background: #33B5E6;
+        &:hover {
+          background: darken(#33B5E6, 20%);
+        }
+      }
+      &:first-child {
+        width: 7em;
+        left: 1em;
+        background: #ccc;
+        &:hover {
+          background: darken(#ccc, 20%);
+        }
       }
     }
   }

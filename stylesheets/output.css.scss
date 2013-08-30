@@ -222,8 +222,8 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     font-family: 'Roboto', sans-serif; }
-    .preview-box .preview-panel button, .preview-box .preview-panel a {
-      padding: 10px 20px;
+    .preview-box .preview-panel button {
+      padding: 10px 0px;
       color: #fff;
       position: absolute;
       top: 0;
@@ -232,28 +232,24 @@ header {
       border: 0;
       cursor: pointer;
       transition: .3s ease;
-      display: block; }
-    .preview-box .preview-panel a {
-      left: 0;
-      right: 0;
-      margin: auto;
-      text-transform: uppercase;
-      text-align: center;
-      width: 12em;
-      height: 1em;
-      font-size: 2em;
-      font-weight: 300;
-      background: #33B5E6; }
-      .preview-box .preview-panel a:hover {
-        background: #14799f; }
-    .preview-box .preview-panel button {
-      width: 13em;
-      right: 1em;
+      display: block;
       margin: auto 0;
-      height: 3em;
-      background: #ccc; }
-      .preview-box .preview-panel button:hover {
-        background: #999999; }
+      height: 3em; }
+      .preview-box .preview-panel button:last-child {
+        right: 1em;
+        text-transform: uppercase;
+        text-align: center;
+        width: 13em;
+        font-weight: 300;
+        background: #33B5E6; }
+        .preview-box .preview-panel button:last-child:hover {
+          background: #14799f; }
+      .preview-box .preview-panel button:first-child {
+        width: 7em;
+        left: 1em;
+        background: #ccc; }
+        .preview-box .preview-panel button:first-child:hover {
+          background: #999999; }
   .preview-box img {
     width: 100%;
     height: auto; }
