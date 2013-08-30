@@ -92,7 +92,7 @@
       <div id="iconset">
         <div class="set-preview">
           <img src="images/androidicons_preview.png" alt="Android Icons Preview" />
-          <button class="btn-preview">Preview of all icons</button>
+          <button class="btn-preview">See the set</button>
           <div class="show_mobile">
             <p>&nbsp;</p>
           </div>
@@ -138,72 +138,102 @@
               <!-- Slide 1 -->
               <div class="swiper-slide">
                 <div class="logo">
-                  <img src="images/customers/dashclock.png" alt="" /><br />
-                  <span>Dashclock</span>
+                  <a href="https://play.google.com/store/apps/details?id=net.nurik.roman.dashclock">
+                    <img src="images/customers/dashclock.png" alt="" /><br />
+                    <span>Dashclock</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/cliffhanger.png" alt="" /><br />
-                  <span>Cliffhanger</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.cliffhanger">
+                    <img src="images/customers/cliffhanger.png" alt="" /><br />
+                    <span>Cliffhanger</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/runtastic.png" alt="" /><br />
-                  <span>Runtastic</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.runtastic.android">
+                    <img src="images/customers/runtastic.png" alt="" /><br />
+                    <span>Runtastic</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/mobdro.png" alt="" /><br />
-                  <span>Mobdro</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.mobdro.android">
+                    <img src="images/customers/mobdro.png" alt="" /><br />
+                    <span>Mobdro</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/tasker.png" alt="" /><br />
-                  <span>Tasker</span>
+                  <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm">
+                    <img src="images/customers/tasker.png" alt="" /><br />
+                    <span>Tasker</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/sudoku.png" alt="" /><br />
-                  <span>Sudoku</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.jdamcd.sudoku">
+                    <img src="images/customers/sudoku.png" alt="" /><br />
+                    <span>Sudoku</span>
+                  </a>
                 </div>
                 <div class="clearfix"></div>
               </div>
               <!-- Slide 2 -->
               <div class="swiper-slide">
                 <div class="logo">
-                  <img src="images/customers/clean-file-manager.png" alt="" /><br />
-                  <span>Clean File Manager</span>
+                  <a href="https://play.google.com/store/apps/details?id=fm.clean">
+                    <img src="images/customers/clean-file-manager.png" alt="" /><br />
+                    <span>Clean File Manager</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/valet.png" alt="" /><br />
-                  <span>Valet</span>
+                  <a href="https://play.google.com/store/apps/details?id=co.valetapp">
+                    <img src="images/customers/valet.png" alt="" /><br />
+                    <span>Valet</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/pushbullet.png" alt="" /><br />
-                  <span>Pushbullet</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.pushbullet.android">
+                    <img src="images/customers/pushbullet.png" alt="" /><br />
+                    <span>Pushbullet</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/notif.png" alt="" /><br />
-                  <span>Notif</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.carboni.notif">
+                    <img src="images/customers/notif.png" alt="" /><br />
+                    <span>Notif</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/write.png" alt="" /><br />
-                  <span>Write</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.leihwelt.android.write2">
+                    <img src="images/customers/write.png" alt="" /><br />
+                    <span>Write in the Cloud</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/spotcommander.png" alt="" /><br />
-                  <span>Spotcommander</span>
+                  <a href="https://play.google.com/store/apps/details?id=net.olejon.spotcommander">
+                    <img src="images/customers/spotcommander.png" alt="" /><br />
+                    <span>Spotcommander</span>
+                  </a>
                 </div>
                 <div class="clearfix"></div>
               </div>
               <!-- Slide 3 -->
               <div class="swiper-slide">
                 <div class="logo">
-                  <img src="images/customers/telly.png" alt="" /><br />
-                  <span>Telly</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.telly">
+                    <img src="images/customers/telly.png" alt="" /><br />
+                    <span>Telly</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/drinkinggames.png" alt="" /><br />
-                  <span>Drinkinggames</span>
+                  <a href="https://play.google.com/store/apps/details?id=simon.application.jeuxaboire">
+                    <img src="images/customers/drinkinggames.png" alt="" /><br />
+                    <span>Drinkinggames</span>
+                  </a>
                 </div>
                 <div class="logo">
-                  <img src="images/customers/money-tracker.png" alt="" /><br />
-                  <span>Money Tracker</span>
+                  <a href="https://play.google.com/store/apps/details?id=de.skilloverflow.moneytracker">
+                    <img src="images/customers/money-tracker.png" alt="" /><br />
+                    <span>Money Tracker</span>
+                  </a>
                 </div>
                 <div class="clearfix"></div>
               </div>

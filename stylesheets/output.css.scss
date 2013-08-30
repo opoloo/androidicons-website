@@ -21,10 +21,10 @@ img {
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 0.938em;
-  background-color: #f2f2f2;
+  background-color: #f4f4f4;
   line-height: 1.6em;
   height: 100%;
-  color: #7b7b7b; }
+  color: #5f5f5f; }
 
 a img, :link img, :visited img {
   border-bottom: none; }
@@ -37,7 +37,7 @@ table {
 ol, ul {
   list-style: none; }
 
-a {
+a, button {
   text-decoration: none;
   color: #33b5e5;
   transition: all 0.5s ease; }
@@ -50,7 +50,7 @@ h1 {
   font-weight: 700;
   font-size: 2.200em;
   line-height: 1em;
-  margin: 0px 0 20px 0;
+  margin: 0px 0 40px 0;
   padding: 0 0 0px 0;
   color: #666666;
   display: block;
@@ -78,7 +78,8 @@ h2 {
   font-weight: 100;
   margin: 0px 0 10px 0;
   padding: 0 0 0 0px;
-  text-align: left; }
+  text-align: left;
+  color: #7b7b7b; }
 
 h2.margin_top {
   margin-top: 30px; }
@@ -179,13 +180,16 @@ header {
 /*-----------------------------------------------------------*/
 /*-----------------------------------------------------------*/
 .reviews .two-cols {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; }
   .reviews .two-cols span {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
+    
+    font-style:normal;
     margin: 10px 0 0 0;
     font-size: 0.933em;
-    display: block; }
+    display: block;
+    color: #999999; }
 
 .preview-box {
   z-index: 9000;
@@ -240,12 +244,15 @@ content button.btn-preview {
   display: block;
   border: none;
   color: #33b5e5;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0em;
   font-family: 'Roboto Slab', serif;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 10px 0px;
-  cursor: pointer; }
+  cursor: pointer;
+  }
+content button.btn-preview:hover {
+  color:#0097c9;
+}
 content #spec ul li {
   width: 33%;
   display: inline-block;
@@ -265,10 +272,12 @@ content #quote {
   padding: 30px 30px;
   text-align: center;
   font-size: 1.200em;
-  line-height: 1.600em; }
+  line-height: 1.600em;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; }
   content #quote span {
     font-family: 'Roboto Condensed', sans-serif;
-    font-style: italic;
+    font-style:normal;
     font-weight: 100;
     font-size: 0.833em;
     margin: 10px 0 0 0;

@@ -29,6 +29,14 @@ Basic Swiper Styles
   z-index:1;
   font-family: 'Roboto Condensed', sans-serif;
 }
+.swiper-container a {
+  color:#666; 
+}
+
+.swiper-container a:hover {
+  color:#333; 
+}
+
 .swiper-wrapper {
   position:relative;
   width:100%;
