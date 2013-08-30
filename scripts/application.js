@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
 
   // Preview Set
-  $('.btn-preview').click(function() {
+  $('.btn-preview, .set-preview img').click(function() {
     $('.preview-box, .wrapper, header').fadeToggle();
     $('body').scrollTop(0);
   });

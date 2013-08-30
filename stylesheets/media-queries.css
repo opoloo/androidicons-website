@@ -174,7 +174,7 @@ smaller than 480px
   }
   h2 {
     font-size:1.467em;
-    text-align:center;
+    text-align:left;
   }
   
   div.three-cols {
@@ -194,5 +194,11 @@ smaller than 480px
   }
   #freestuff h2 {
     text-align:center;
+  }
+  #teaser, #teaser1 {
+    text-align: left;
+  }
+  content .set-info > a {
+    display: none;
   }
 }

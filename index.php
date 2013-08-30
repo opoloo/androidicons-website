@@ -36,6 +36,7 @@
   <!-- Lightbox (Preview) -->
   <div class="preview-box">
     <div class="preview-panel">
+      <a href="http://pul.ly/b/75286">Download the set</a>
       <button class="btn-preview">Close preview</button>
     </div>
     <img src="images/preview-full.png" alt="" />
@@ -111,7 +112,7 @@
       </div>
       <div id="quote" class="hide_mobile">
         <p>"Androidicons is an essential companion kit for any Android designer. I've used the kit in basically every recent design I've worked on. With such a friendly license and price, it's really a no-brainer."</p>
-        <span>—Roman Nurik (Google)</span>
+        <span>— Roman Nurik (Google)</span>
       </div>
       <div class="clearfix hide_mobile"></div>     
       <div id="spec">
@@ -235,6 +236,24 @@
                     <span>Money Tracker</span>
                   </a>
                 </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.manavo.sprinter">
+                    <img src="images/customers/sprinterapp.png" alt="" /><br />
+                    <span>Sprinter</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=net.eggenstein.android.events&utm_medium=referral&utm_source=email">
+                    <img src="images/customers/freiburg_events_un_so.png" alt="" /><br />
+                    <span>Freiburg Events</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="#">
+                    <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
+                    <span>Your app?</span>
+                  </a>
+                </div>
                 <div class="clearfix"></div>
               </div>
             </div>
@@ -320,6 +339,29 @@
                   <img src="images/customers/money-tracker.png" alt="" /><br />
                   <span>Money Tracker</span>
                 </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.manavo.sprinter">
+                    <img src="images/customers/sprinterapp.png" alt="" /><br />
+                    <span>Sprinter</span>
+                  </a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <!-- Slide 5 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=net.eggenstein.android.events&utm_medium=referral&utm_source=email">
+                    <img src="images/customers/freiburg_events_un_so.png" alt="" /><br />
+                    <span>Freiburg: Events un so</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,\n\nMy name is: \nI'm using your Androidicons set in my awesome app: \nWant to feature it?\n\n\nPS: I love your foxy icons.">
+                    <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
+                    <span>Your app?</span>
+                  </a>
+                </div>
+                <div class="clearfix"></div>
               </div>
             </div>
           </div>
@@ -343,10 +385,6 @@
           <div class="two-cols">
             <p>"Androidicons is an essential companion kit for any Android designer. I've used the kit in basically every recent design I've worked on."</p>
             <span>&mdash; Roman Nurik (Google)</span>
-          </div>
-          <div class="two-cols">
-            <p>"These icons are perfectly crafted. It's an effortless way for developers to inject some visual polish into their apps."</p>
-            <span>&mdash; Jamie McDonald (Guardian)</span>
           </div>
           <div class="clearfix"></div>
         </div>
