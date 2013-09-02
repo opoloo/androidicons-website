@@ -249,7 +249,14 @@
                   </a>
                 </div>
                 <div class="logo">
-                  <a href="#">
+                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,
+
+My name is: 
+I'm using your Androidicons set in my awesome app: 
+Want to feature it?
+
+
+PS: I love your foxy icons.">
                     <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
                     <span>Your app?</span>
                   </a>
@@ -356,7 +363,14 @@
                   </a>
                 </div>
                 <div class="logo">
-                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,\n\nMy name is: \nI'm using your Androidicons set in my awesome app: \nWant to feature it?\n\n\nPS: I love your foxy icons.">
+                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,
+
+My name is: 
+I'm using your Androidicons set in my awesome app: 
+Want to feature it?
+
+
+PS: I love your foxy icons.">
                     <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
                     <span>Your app?</span>
                   </a>
