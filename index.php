@@ -39,7 +39,7 @@
       <button class="btn-preview">&larr; Back</button>
       <button class="buy-set">Buy the set 25$</button>
     </div>
-    <img src="images/preview-full.png" alt="" />
+    <img src="./images/preview-full.jpg" alt="" />
   </div>
 
   <!-- Begin Header -->
