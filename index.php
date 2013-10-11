@@ -77,7 +77,7 @@
     </div>
 
     <!-- Begin Content -->
-    <content data-role="content">
+    <div id="content">
       <div class="set-info show_mobile">
         <div class="button-download">
           <a href="http://pul.ly/b/75286">
@@ -87,6 +87,7 @@
           </a>
         </div>
         <a href="#freestuff">Test it? Sure!</a>
+        <a href="#iconfinder">Get some individuals.</a>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
@@ -106,7 +107,8 @@
            <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
             </a></div>
-            <a href="#freestuff">Test it? Sure!</a>
+            <a href="#freestuff">Test it? Sure!</a><br/>
+            <a href="#iconfinder">Get some individuals.</a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -127,11 +129,22 @@
       </div>
       <div class="clearfix"></div>
       <hr/>
-      
+      <div id="individuals">
+        <div class="two-cols">
+         <img src="images/iconfinder.png" alt="" />
+         <a href="https://www.iconfinder.com/cloudif" class="link_if"><span></span>Pick your icons on iconfinder</a>
+        </div>
+        <div class="two-cols">
+          <a name="iconfinder" id="iconfinder"></a>  
+          <h2>Get icons individually</h2>
+          <p>We truly believe that our Android Developer Iconset 2.5 offers an unbeatable price/performance ratio for every developer. But if you need just one or two icons to round out your experience, hop over to <a href="https://www.iconfinder.com/cloudif">Iconfinder.com</a> and get each icon for just $1, including sources.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <hr/>
       <div id="users">
         <a name="nav_inuse" id="nav_inuse"></a>  
         <h1>Androidicons Make Apps Happy</h1>
-
         <!-- Slider Desktop -->
         <div class="logos">
           <div class="swiper-container">
@@ -191,9 +204,9 @@
                   </a>
                 </div>
                 <div class="logo">
-                  <a href="https://play.google.com/store/apps/details?id=com.pushbullet.android">
-                    <img src="images/customers/pushbullet.png" alt="" /><br />
-                    <span>Pushbullet</span>
+                  <a href="https://play.google.com/store/apps/details?id=mobi.beyondpod">
+                    <img src="images/customers/beyondpod.png" alt="" /><br />
+                    <span>Beyond Pod</span>
                   </a>
                 </div>
                 <div class="logo">
@@ -249,20 +262,64 @@
                   </a>
                 </div>
                 <div class="logo">
-                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,
-
-My name is: 
-I'm using your Androidicons set in my awesome app: 
-Want to feature it?
-
-
-PS: I love your foxy icons.">
-                    <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
-                    <span>Your app?</span>
+                  <a href="https://play.google.com/store/apps/details?id=com.pushbullet.android">
+                    <img src="images/customers/pushbullet.png" alt="" /><br />
+                    <span>Pushbullet</span>
                   </a>
                 </div>
+                
+              </div>
+              
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.neverland.alreader">
+                    <img src="images/customers/aireader.png" alt="" /><br />
+                    <span>AlReader</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.ballerapps.slidingexplorer">
+                    <img src="images/customers/sliding_explorer.png" alt="" /><br />
+                    <span>Sliding Explorer</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=turbo.client">
+                    <img src="images/customers/turbo.png" alt="" /><br />
+                    <span>Turbo client</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.trans_code.android.droidscan">
+                    <img src="images/customers/droidscan.png" alt="" /><br />
+                    <span>Droid Scan</span>
+                  </a>
+                </div>
+                <div class="logo">
+                  <a href="https://play.google.com/store/apps/details?id=com.faiadolabs.lilo_android">
+                    <img src="images/customers/quendda.png" alt="" /><br />
+                    <span>Quendda</span>
+                  </a>
+                </div>
+                <div class="logo">
+                                  <a href="mailto:info@opoloo.de?subject=Androidicons Feature Request&body=Hey Opoloo,
+                
+                My name is: 
+                I'm using your Androidicons set in my awesome app: 
+                Want to feature it?
+                
+                
+                PS: I love your foxy icons.">
+                                    <img class="submit_app" src="images/customers/submit_app.png" alt="" /><br />
+                                    <span>Your app?</span>
+                                  </a>
+                                </div>
+                                <div class="clearfix"></div>
                 <div class="clearfix"></div>
               </div>
+              
+              
             </div>
           </div>
           <div class="slide_nav_desktop"></div>

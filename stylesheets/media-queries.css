@@ -32,7 +32,7 @@ smaller than 960px
     height: auto;
     width: auto\9; /* ie8 */
   }
-  content, header {
+  #content, header {
     max-width: 92%;
     padding: 0% 4% 0 4%;
   }
@@ -50,7 +50,7 @@ smaller than 960px
   #intro {
     margin: 20px 0px;
   }
-  content #iconset .set-preview, content #iconset .set-info {
+  #content #iconset .set-preview, #content #iconset .set-info {
     max-width: 100%;
     text-align:center;
   }
@@ -58,39 +58,39 @@ smaller than 960px
     max-width: 100%;
   }
 
-  content .logos {
+  #content .logos {
     display: none;
   }
-  content .logos.mobile {
+  #content .logos.mobile {
     display: block;
   }
-  content .logos .logo {
+  #content .logos .logo {
     max-width: 25%;
     margin-bottom: 2em;
   }
-  content .logos .logo img {
+  #content .logos .logo img {
     max-width: 33%;
   }
-  content .logos .logo span {
+  #content .logos .logo span {
     font-size: 1em;
   }
-  content .reviews {
+  #content .reviews {
     text-align: center;
   }
-  content .reviews .two-cols {
+  #content .reviews .two-cols {
     margin: 0 auto 2em auto;
     float: none;
   }
-  content div.button-download {
+  #content div.button-download {
 	  margin:0 0 10px 0;
   }
-  content div.button-download a, #footer div.button-download a {
+  #content div.button-download a, #footer div.button-download a {
     padding:20px;
     display:block;
     text-align: center;
     margin:0;
   }
-  content div.button-download span, #footer div.button-download span {
+  #content div.button-download span, #footer div.button-download span {
     color:#fff;
     display:inline-block;
     font-size:2.143em;
@@ -99,18 +99,18 @@ smaller than 960px
     letter-spacing:-0.01em;
     font-weight:500;
   }
-  content div.button-download span span, #footer div.button-download span span {
+  #content div.button-download span span, #footer div.button-download span span {
     font-size:0.633em;
     display:inline-block;
     margin:0;
   }
-  content #spec ul li {
+  #content #spec ul li {
     width: 49%;
   }
-  content #spec ul li:nth-child(odd) {
+  #content #spec ul li:nth-child(odd) {
     padding-right: 30px;
   }
-  content #spec ul li:nth-child(even) {
+  #content #spec ul li:nth-child(even) {
     padding-right: 0px;
   }
   #footer .button-download {
@@ -122,7 +122,7 @@ smaller than 960px
   #freestuff img {
     display:none;
   }
-  content #iconset .set-preview {
+  #content #iconset .set-preview {
     float: none;
     margin: 0 auto;
   }
@@ -134,13 +134,17 @@ smaller than 960px
   #footer {
 	  padding:30px 0 30px 0;
   }
+  
+  #individuals .two-cols {width:40%;} 
+  #individuals .two-cols h2 {margin:0px;}
+  a.link_if {background: none;padding:0px;margin:0px;}
 }
 
 /************************************************************************************
 smaller than 800px
 *************************************************************************************/
 @media screen and (max-width: 800px) {
-  div.three-cols {
+  div.three-cols, #individuals .two-cols  {
     width: 100%;
     float: none;
   }
@@ -156,6 +160,7 @@ smaller than 800px
   #intro #teaser span {
     font-size:1em;
   }
+  #individuals .two-cols h2 {margin-top:40px;}
 }
 
 /************************************************************************************
@@ -182,11 +187,11 @@ smaller than 480px
     float: none;
     text-align: center;
   }
-  content #spec ul li {
+  #content #spec ul li {
     width: 100%;
     padding: 0px;
   }
-  content .logos .logo {
+  #content .logos .logo {
     max-width: 50%;
   }
   h1 {
@@ -198,7 +203,7 @@ smaller than 480px
   #teaser, #teaser1 {
     text-align: left;
   }
-  content .set-info > a {
+  #content .set-info > a {
     display: none;
   }
 }
