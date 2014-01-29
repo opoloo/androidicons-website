@@ -16,7 +16,8 @@
 <link rel="icon" href="favicon.png" type="image/png" />
 
 <!-- General Stylesheet -->
-<link href="stylesheets/output.css.scss" rel="stylesheet" type="text/css" />
+<!-- <link href="stylesheets/output.css.scss" rel="stylesheet" type="text/css" /> -->
+<link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
 <link href="stylesheets/idangerous.swiper.css" rel="stylesheet" type="text/css" />
 
 <!-- Responsive -->
@@ -42,6 +43,26 @@
     <img src="./images/preview-full.jpg" alt="" />
   </div>
 
+  <!-- Iconfont Glyphs -->
+  <div class="glyphs-box">
+    <div class="preview-panel">
+      <button class="btn-all-glyphs">&larr; Back</button>
+      <button class="buy-set">Buy the iconfont 9$</button>
+    </div>
+    <div class="glyphs">
+      <div class="tutorial">
+        <h1>How to use the iconfont</h1>
+        <h2>Step 1</h2>
+        <p>Copy the font-files into your project folder</p>
+        <h2>Step 2</h2>
+        <p>Add the font CSS files to your HTML document</p>
+        <h2>Step 3</h2>
+        <p>Use classes to display the icons. Style them with CSS</p>
+      </div>
+      <?php require_once('glyphs.php'); ?>
+    </div>
+  </div>
+
   <!-- Begin Header -->
   <header data-role="header">
     <div class="wrapper">
@@ -51,14 +72,14 @@
       <nav>
         <ul>
           <li><a href="#iconset">The Set</a></li>
-          <li><a href="#spec">Info</a></li>
-          <li><a href="#nav_inuse">In Use</a></li>
+          <li><a href="#iconfont">Iconfont</a></li>
+          <li><a href="#individuals">Individuals</a></li>
           <li><a href="#freestuff">Free Stuff</a></li>
         </ul>
       </nav>
-      <a href="#iconset" id="linktoset">
+      <!-- <a href="#iconset" id="linktoset">
         <span id="get-arrow">&darr;</span>Get the set 
-      </a>
+      </a> -->
     </div>    
   </header>
   <!-- End Header -->
@@ -86,8 +107,8 @@
             <i>via PayPal</i>
           </a>
         </div>
-        <a href="#freestuff">Test it? Sure!</a>
-        <a href="#iconfinder">Get some individuals.</a>
+        <a href="#iconfont" class="btn-iconfont">Get the iconfont</a>
+        <a href="#iconfinder" class="btn-iconfinder">Individual icons</a>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
@@ -107,8 +128,8 @@
            <span> Download <span>for</span> 25$</span>
             <i>via PayPal</i>
             </a></div>
-            <a href="#freestuff">Test it? Sure!</a><br/>
-            <a href="#iconfinder">Get some individuals.</a>
+            <a href="#iconfont" class="btn-iconfont">Get the iconfont</a>
+            <a href="#individuals" class="btn-iconfinder">Individual icons</a>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -129,15 +150,29 @@
       </div>
       <div class="clearfix"></div>
       <hr/>
+      <div id="iconfont">
+        <div class="two-cols">
+         <img src="images/ill_font.png" alt="" />
+        </div>
+        <div class="two-cols">
+          <a name="iconfinder" id="iconfinder"></a>  
+          <h2>The Androidicons-Font</h2>
+          <p>We truly believe that our Android Developer Iconset 2.5 offers an unbeatable price/performance ratio for every developer. But if you need just one or two icons to round out your experience, hop over to <a href="https://www.iconfinder.com/cloudif">Iconfinder.com</a> and get each icon for just $1, including sources.</p>
+          <a href="#" class="btn">Buy the iconfont for only $9</a>
+          <a href="#" class="btn-all-glyphs">See all glyphs</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <hr/>
       <div id="individuals">
         <div class="two-cols">
-         <img src="images/iconfinder.png" alt="" />
-         <a href="https://www.iconfinder.com/cloudif" class="link_if"><span></span>Pick your icons on iconfinder</a>
+         <img src="images/ill_individuals.png" alt="" />
         </div>
         <div class="two-cols">
           <a name="iconfinder" id="iconfinder"></a>  
           <h2>Get icons individually</h2>
           <p>We truly believe that our Android Developer Iconset 2.5 offers an unbeatable price/performance ratio for every developer. But if you need just one or two icons to round out your experience, hop over to <a href="https://www.iconfinder.com/cloudif">Iconfinder.com</a> and get each icon for just $1, including sources.</p>
+          <a href="https://www.iconfinder.com/cloudif" class="btn">Pick your icons on iconfinder</a>
         </div>
         <div class="clearfix"></div>
       </div>

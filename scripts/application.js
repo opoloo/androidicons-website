@@ -41,6 +41,12 @@ $(document).ready(function(){
     $('body').scrollTop(0);
   });
 
+  // Glyphs
+  $('.btn-all-glyphs').click(function() {
+    $('.glyphs-box, .wrapper, header').fadeToggle();
+    $('body').scrollTop(0);
+  });
+
   // Smooth Anchor Scrolling
   $('a').click(function(){
     $('html, body').animate({
@@ -49,7 +55,11 @@ $(document).ready(function(){
     return false;
   });
 
-  $('.buy-set').click(function() {
+  $('.preview-box .buy-set').click(function() {
     window.location.href = "http://pul.ly/b/75286";
+  });
+
+  $('.glyphs-box .buy-set').click(function() {
+    window.location.href = "#";
   });
 });
