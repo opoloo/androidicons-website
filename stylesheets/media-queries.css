@@ -207,3 +207,44 @@ smaller than 480px
     display: none;
   }
 }
+
+/* Glyphs */
+@media screen and (max-width: 1850px) {
+  .glyphs-box .glyphs {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .glyphs-box .glyphs .row .col-10 {
+    max-width: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .glyphs-box .glyphs {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .glyphs-box .glyphs .row .col-10 {
+    max-width: 25%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .glyphs-box .glyphs {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .glyphs-box .glyphs .row .col-10 {
+    max-width: 33.3%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .glyphs-box .glyphs {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .glyphs-box .glyphs .row .col-10 {
+    max-width: 50%;
+  }
+}

@@ -57,7 +57,10 @@
         <h2>Step 2</h2>
         <p>Add the font CSS files to your HTML document</p>
         <h2>Step 3</h2>
-        <p>Use classes to display the icons. Style them with CSS</p>
+        <p>Use classes to display the icons. Style them with CSS:</p>
+        <pre>&lt;span class="ai-achievement"&gt;&lt;/span&gt;</pre>
+        <p>Result:</p>
+        <p><img src="images/ai-mdpi/ic_action_achievement.png" alt="" /></p>
       </div>
       <?php require_once('glyphs.php'); ?>
     </div>
