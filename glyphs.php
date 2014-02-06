@@ -948,61 +948,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mouse.png" alt="" />
     ai-mouse<br />
-    UNICODE<br />
+    0xe8a8<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_movie.png" alt="" />
     ai-movie<br />
-    UNICODE<br />
+    0xe857<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_music_1.png" alt="" />
     ai-music-1<br />
-    UNICODE<br />
+    0xe808<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_music_2.png" alt="" />
     ai-music-2<br />
-    UNICODE<br />
+    0xe809<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mustache.png" alt="" />
     ai-mustache<br />
-    UNICODE<br />
+    0xe8b6<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_navigate.png" alt="" />
     ai-navigate<br />
-    UNICODE<br />
+    0xe8ea<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_news.png" alt="" />
     ai-news<br />
-    UNICODE<br />
+    0xe859<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_overflow.png" alt="" />
     ai-overflow<br />
-    UNICODE<br />
+    0xe8ec<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_paste.png" alt="" />
     ai-paste<br />
-    UNICODE<br />
+    0xe86e<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_paypal.png" alt="" />
     ai-social-paypal<br />
-    UNICODE<br />
+    0xe8e1<br />
     HTMLENTITY
   </div>
 
@@ -1011,61 +1011,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone.png" alt="" />
     ai-phone<br />
-    UNICODE<br />
+    0xe80a<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_end.png" alt="" />
     ai-phone-end<br />
-    UNICODE<br />
+    0xe811<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_incoming.png" alt="" />
     ai-phone-incoming<br />
-    UNICODE<br />
+    0xe813<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_missed.png" alt="" />
     ai-phone-missed<br />
-    UNICODE<br />
+    0xe815<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_outgoing.png" alt="" />
     ai-phone-outgoing<br />
-    UNICODE<br />
+    0xe814<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_start.png" alt="" />
     ai-phone-start<br />
-    UNICODE<br />
+    0xe812<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_picker.png" alt="" />
     ai-picker<br />
-    UNICODE<br />
+    0xe863<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_picture.png" alt="" />
     ai-picture<br />
-    UNICODE<br />
+    0xe856<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pie_chart.png" alt="" />
     ai-pie-chart<br />
-    UNICODE<br />
+    0xe805<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pill.png" alt="" />
     ai-pill<br />
-    UNICODE<br />
+    0xe8b5<br />
     HTMLENTITY
   </div>
 
@@ -1074,61 +1074,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pin.png" alt="" />
     ai-pin<br />
-    UNICODE<br />
+    0xe838<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pinterest.png" alt="" />
     ai-social-pinterest<br />
-    UNICODE<br />
+    0xe8d9<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plane.png" alt="" />
     ai-plane<br />
-    UNICODE<br />
+    0xe816<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_planet.png" alt="" />
     ai-planet<br />
-    UNICODE<br />
+    0xe88d<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_forw.png" alt="" />
     ai-playback-forw<br />
-    UNICODE<br />
+    0xe883<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_next.png" alt="" />
     ai-playback-next<br />
-    UNICODE<br />
+    0xe884<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_pause.png" alt="" />
     ai-playback-pause<br />
-    UNICODE<br />
+    0xe87f<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_play.png" alt="" />
     ai-playback-play<br />
-    UNICODE<br />
+    0xe87e<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_prev.png" alt="" />
     ai-playback-prev<br />
-    UNICODE<br />
+    0xe882<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_repeat.png" alt="" />
     ai-playback-repeat<br />
-    UNICODE<br />
+    0xe886<br />
     HTMLENTITY
   </div>
 
@@ -1137,61 +1137,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_repeat_1.png" alt="" />
     ai-playback-repeat-1<br />
-    UNICODE<br />
+    0xe887<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_rew.png" alt="" />
     ai-playback-rew<br />
-    UNICODE<br />
+    0xe881<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_schuffle.png" alt="" />
     ai-playback-shuffle<br />
-    UNICODE<br />
+    0xe885<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_stop.png" alt="" />
     ai-playback-stop<br />
-    UNICODE<br />
+    0xe880<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plug.png" alt="" />
     ai-plug<br />
-    UNICODE<br />
+    0xe8a9<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plusone.png" alt="" />
     ai-plusone<br />
-    UNICODE<br />
+    0xe850<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_present.png" alt="" />
     ai-present<br />
-    UNICODE<br />
+    0xe87d<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_end.png" alt="" />
     ai-process-end<br />
-    UNICODE<br />
+    0xe8bd<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_save.png" alt="" />
     ai-process-save<br />
-    UNICODE<br />
+    0xe8be<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_start.png" alt="" />
     ai-process-start<br />
-    UNICODE<br />
+    0xe8bf<br />
     HTMLENTITY
   </div>
 
@@ -1200,61 +1200,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_puzzle.png" alt="" />
     ai-puzzle<br />
-    UNICODE<br />
+    0xe843<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_rain.png" alt="" />
     ai-rain<br />
-    UNICODE<br />
+    0xe8ad<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_record.png" alt="" />
     ai-record<br />
-    UNICODE<br />
+    0xe893<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_redo.png" alt="" />
     ai-redo<br />
-    UNICODE<br />
+    0xe852<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_reload.png" alt="" />
     ai-reload<br />
-    UNICODE<br />
+    0xe844<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_restaurant.png" alt="" />
     ai-restaurant<br />
-    UNICODE<br />
+    0xe897<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_rocket.png" alt="" />
     ai-rocket<br />
-    UNICODE<br />
+    0xe89a<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_ruler.png" alt="" />
     ai-ruler<br />
-    UNICODE<br />
+    0xe81f<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_save.png" alt="" />
     ai-save<br />
-    UNICODE<br />
+    0xe8a4<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_search.png" alt="" />
     ai-search<br />
-    UNICODE<br />
+    0xe827<br />
     HTMLENTITY
   </div>
 
@@ -1262,62 +1262,62 @@
 
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_send.png" alt="" />
-    ai-send<br />
+    0xe8ed<br />
     UNICODE<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_settings.png" alt="" />
     ai-settings<br />
-    UNICODE<br />
+    0xe807<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_share.png" alt="" />
     ai-share<br />
-    UNICODE<br />
+    0xe8e6<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_share_2.png" alt="" />
     ai-share-2<br />
-    UNICODE<br />
+    0xe83c<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_shield.png" alt="" />
     ai-shield<br />
-    UNICODE<br />
+    0xe823<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_signal.png" alt="" />
     ai-signal<br />
-    UNICODE<br />
+    0xe837<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sms.png" alt="" />
     ai-sms<br />
-    UNICODE<br />
+    0xe895<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sort_1.png" alt="" />
     ai-sort-1<br />
-    UNICODE<br />
+    0xe853<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sort_2.png" alt="" />
     ai-sort-2<br />
-    UNICODE<br />
+    0xe854<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_soundcloud.png" alt="" />
     ai-social-soundcloud<br />
-    UNICODE<br />
+    0xe8da<br />
     HTMLENTITY
   </div>
 
@@ -1326,61 +1326,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_stamp.png" alt="" />
     ai-stamp<br />
-    UNICODE<br />
+    0xe85c<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_0.png" alt="" />
     ai-star-0<br />
-    UNICODE<br />
+    0xe8e7<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_5.png" alt="" />
     ai-star-5<br />
-    UNICODE<br />
+    0xe8e8<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_10.png" alt="" />
     ai-star-10<br />
-    UNICODE<br />
+    0xe8e9<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_stumbleupon.png" alt="" />
     ai-social-stumbleupon<br />
-    UNICODE<br />
+    0xe8e2<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sun.png" alt="" />
     ai-sun<br />
-    UNICODE<br />
+    0xe8f6<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tablet.png" alt="" />
     ai-tablet<br />
-    UNICODE<br />
+    0xe840<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tag.png" alt="" />
     ai-tag<br />
-    UNICODE<br />
+    0xe86a<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tags.png" alt="" />
     ai-tags<br />
-    UNICODE<br />
+    0xe86b<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_temperature.png" alt="" />
     ai-temperature<br />
-    UNICODE<br />
+    0xe833<br />
     HTMLENTITY
   </div>
 
@@ -1389,61 +1389,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tick.png" alt="" />
     ai-tick<br />
-    UNICODE<br />
+    0xe82e<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_ticket.png" alt="" />
     ai-ticket<br />
-    UNICODE<br />
+    0xe899<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tiles_large.png" alt="" />
     ai-tiles-large<br />
-    UNICODE<br />
+    0xe80b<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tiles_small.png" alt="" />
     ai-tiles-small<br />
-    UNICODE<br />
+    0xe80c<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_train.png" alt="" />
     ai-train<br />
-    UNICODE<br />
+    0xe8ad<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_trash.png" alt="" />
     ai-trash<br />
-    UNICODE<br />
+    0xe847<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tshirt.png" alt="" />
     ai-tshirt<br />
-    UNICODE<br />
+    0xe898<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tumblr.png" alt="" />
     ai-social-tumblr<br />
-    UNICODE<br />
+    0xe8e3<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_turn_left.png" alt="" />
     ai-turn-left<br />
-    UNICODE<br />
+    0xe85d<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_turn_right.png" alt="" />
     ai-turn-right<br />
-    UNICODE<br />
+    0xe85e<br />
     HTMLENTITY
   </div>
 
@@ -1452,61 +1452,61 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tv.png" alt="" />
     ai-tv<br />
-    UNICODE<br />
+    0xe841<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_twitter.png" alt="" />
     ai-social-twitter<br />
-    UNICODE<br />
+    0xe8e4<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_umbrella.png" alt="" />
     ai-umbrella<br />
-    UNICODE<br />
+    0xe803<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_undo.png" alt="" />
     ai-undo<br />
-    UNICODE<br />
+    0xe851<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_upload.png" alt="" />
     ai-upload<br />
-    UNICODE<br />
+    0xe848<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_user.png" alt="" />
     ai-user<br />
-    UNICODE<br />
+    0xe8f4<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_users.png" alt="" />
     ai-users<br />
-    UNICODE<br />
+    0xe8f5<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_video.png" alt="" />
     ai-video<br />
-    UNICODE<br />
+    0xe81d<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_vimeo.png" alt="" />
     ai-social-vimeo<br />
-    UNICODE<br />
+    0xe8dc<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume.png" alt="" />
     ai-volume<br />
-    UNICODE<br />
+    0xe870<br />
     HTMLENTITY
   </div>
 
@@ -1521,49 +1521,49 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume_mute.png" alt="" />
     ai-volume-mute<br />
-    UNICODE<br />
+    0xe871<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume_up.png" alt="" />
     ai-volume-up<br />
-    UNICODE<br />
+    0xe872<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_warning.png" alt="" />
     ai-warning<br />
-    UNICODE<br />
+    0xe879<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wheel.png" alt="" />
     ai-steering-wheel<br />
-    UNICODE<br />
+    0xe836<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wifi.png" alt="" />
     ai-wifi<br />
-    UNICODE<br />
+    0xe89f<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wizard.png" alt="" />
     ai-wizard<br />
-    UNICODE<br />
+    0xe832<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_yinyang.png" alt="" />
     ai-yingyang<br />
-    UNICODE<br />
+    0xe822<br />
     HTMLENTITY
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_youtube.png" alt="" />
     ai-social-youtube<br />
-    UNICODE<br />
+    0xe8dd<br />
     HTMLENTITY
   </div>
   <div class="col-10">
