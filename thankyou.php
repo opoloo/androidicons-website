@@ -13,8 +13,8 @@
 <body>
 <div id="container">
 
-<img src="images/thankyou/thank_you.png" alt="thank you"></img>
-<h1>Thank you for purchasing our icon set.</h1>
+<img src="images/thankyou/thankyou.jpg" alt="thank you"></img>
+ <h1>Thanks a lot for supporting our little robots!</h1>
  <p>You will receive an email with the download link shortly.</p>
  <a href="http://www.androidicons.com">Back to androidicons.com</a>
 </div>
