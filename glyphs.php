@@ -2,63 +2,63 @@
 <div class="row">
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_achievement.png" alt="" />
-    ai_achievement<br />
+    ai-achievement<br />
     0xe824<br />
-    &#59428;
+    &amp;#59428;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_add.png" alt="" />
     ai-add<br />
     0xe81b<br />
-    &#59419;
+    &amp;#59419;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_alarm.png" alt="" />
     ai-alarm<br />
     0xe8c0<br />
-    &#59584;
+    &amp;#59584;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_amazon.png" alt="" />
     ai-social-amazon<br />
     0xe8d2<br />
-    &#59602;
+    &amp;#59602;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_anchor.png" alt="" />
     ai-anchor<br />
     0xe820<br />
-    &#59424;
+    &amp;#59424;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_android.png" alt="" />
     ai-android<br />
     0xe818<br />
-    &#59416;
+    &amp;#59416;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_armchair.png" alt="" />
     ai-armchair<br />
     0xe861<br />
-    &#59489;
+    &amp;#59489;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_bottom.png" alt="" />
     ai-arrow-down<br />
     0xe829<br />
-    &#59433;
+    &amp;#59433;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_left.png" alt="" />
     ai-arrow-left<br />
     0xe826<br />
-    &#59430;
+    &amp;#59430;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_left_bottom.png" alt="" />
     ai-arrow-left-down<br />
     0xe82c<br />
-    &#59436;
+    &amp;#59436;
   </div>
 
   <!-- 11 - 20 -->
@@ -67,61 +67,61 @@
     <img src="images/ai-mdpi/ic_action_arrow_left_top.png" alt="" />
     ai-arrow-left-up<br />
     0xe82b<br />
-    &#59435;
+    &amp;#59435;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_right.png" alt="" />
     ai-arrow-right<br />
     0xe825<br />
-    &#59429;
+    &amp;#59429;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_right_bottom.png" alt="" />
     ai-arrow-right-down<br />
     0xe82d<br />
-    &#59437;
+    &amp;#59437;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_right_top.png" alt="" />
     ai-arrow-right-up<br />
     0xe82a<br />
-    &#59434;
+    &amp;#59434;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_arrow_top.png" alt="" />
     ai-arrow-up<br />
     0xe828<br />
-    &#59432;
+    &amp;#59432;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_attachment.png" alt="" />
     ai-attachment<br />
     0xe845<br />
-    &#59461;
+    &amp;#59461;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_attachment_2.png" alt="" />
     ai-attachment-2<br />
     0xe846<br />
-    &#59462;
+    &amp;#59462;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_ball.png" alt="" />
     ai-ball<br />
     0xe835<br />
-    &#59445;
+    &amp;#59445;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_balloon.png" alt="" />
     ai-balloon<br />
     0xe8bc<br />
-    &#59580;
+    &amp;#59580;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_barcode_1.png" alt="" />
     ai-barcode<br />
     0xe8f0<br />
-    &#59632;
+    &amp;#59632;
   </div>
 
   <!-- 21 - 30 -->
@@ -130,61 +130,61 @@
     <img src="images/ai-mdpi/ic_action_barcode_2.png" alt="" />
     ai-qrcode<br />
     0xe8F1<br />
-    &#59633;
+    &amp;#59633;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bargraph.png" alt="" />
     ai-bargraph<br />
     0xe8F0<br />
-    &#59632;
+    &amp;#59632;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bars.png" alt="" />
     ai-bars<br />
     0xe8a0<br />
-    &#59552;
+    &amp;#59552;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_basket.png" alt="" />
     ai-basket<br />
     0xe894<br />
-    &#59540;
+    &amp;#59540;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bell.png" alt="" />
     ai-bell<br />
     0xe8ee<br />
-    &#59630;
+    &amp;#59630;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bike.png" alt="" />
     ai-bike<br />
     0xe8ab<br />
-    &#59563;
+    &amp;#59563;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_blob.png" alt="" />
     ai-blob<br />
     0xe876<br />
-    &#59510;
+    &amp;#59510;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bluetooth.png" alt="" />
     ai-bluetooth<br />
     0xe896<br />
-    &#59542;
+    &amp;#59542;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_book.png" alt="" />
     ai-book<br />
     0xe89b<br />
-    &#59547;
+    &amp;#59547;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bookmark.png" alt="" />
     ai-bookmark<br />
     0xe830<br />
-    &#59440;
+    &amp;#59440;
   </div>
 
   <!-- 31 - 40 -->
@@ -193,61 +193,61 @@
     <img src="images/ai-mdpi/ic_action_box.png" alt="" />
     ai-box<br />
     0xe84c<br />
-    &#59468;
+    &amp;#59468;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_brush.png" alt="" />
     ai-brush<br />
     0xe864<br />
-    &#59492;
+    &amp;#59492;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bug.png" alt="" />
     ai-bug<br />
     0xe865<br />
-    &#59493;
+    &amp;#59493;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bulb.png" alt="" />
     ai-bulb<br />
     0xe858<br />
-    &#59480;
+    &amp;#59480;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bus.png" alt="" />
     ai-bus<br />
     0xe8ac<br />
-    &#59564;
+    &amp;#59564;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_business.png" alt="" />
     ai-business<br />
     0xe80d<br />
-    &#59405;
+    &amp;#59405;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_calculator.png" alt="" />
     ai-calculator<br />
     0xe85b<br />
-    &#59483;
+    &amp;#59483;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_calendar_month.png" alt="" />
     ai-calendar<br />
     0xe8eb<br />
-    &#59627;
+    &amp;#59627;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_camera.png" alt="" />
     ai-camera<br />
     0xe81e<br />
-    &#59422;
+    &amp;#59422;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_cancel.png" alt="" />
     ai-cancel<br />
     0xe82f<br />
-    &#59439;
+    &amp;#59439;
   </div>
 
   <!-- 41 - 50 -->
@@ -256,61 +256,61 @@
     <img src="images/ai-mdpi/ic_action_car.png" alt="" />
     ai-car<br />
     0xe8ae<br />
-    &#59566;
+    &amp;#59566;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_cart.png" alt="" />
     ai-cart<br />
     0xe8a6<br />
-    &#59558;
+    &amp;#59558;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_circles.png" alt="" />
     ai-social-gcircles<br />
     0xe8db<br />
-    &#59611;
+    &amp;#59611;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_clock.png" alt="" />
     ai-clock<br />
     0xe806<br />
-    &#59398;
+    &amp;#59398;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_cloud.png" alt="" />
     ai-cloud<br />
     0xe8da<br />
-    &#59610;
+    &amp;#59610;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_cloudy.png" alt="" />
     ai-cloudy<br />
     0xe800<br />
-    &#59392;
+    &amp;#59392;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_coffee.png" alt="" />
     ai-coffee<br />
     0xe890<br />
-    &#59536;
+    &amp;#59536;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_coffee2go.png" alt="" />
     ai-coffee2go<br />
     0xe891<br />
-    &#59537;
+    &amp;#59537;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_collapse.png" alt="" />
     ai-collapse<br />
     0xe81a<br />
-    &#59418;
+    &amp;#59418;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_compass.png" alt="" />
     ai-compass<br />
     0xe8aa<br />
-    &#59562;
+    &amp;#59562;
   </div>
 
   <!-- 51 - 60 -->
@@ -319,61 +319,61 @@
     <img src="images/ai-mdpi/ic_action_contrast.png" alt="" />
     ai-contrast<br />
     0xe821<br />
-    &#59425;
+    &amp;#59425;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_copy.png" alt="" />
     ai-copy<br />
     0xe86c<br />
-    &#59500;
+    &amp;#59500;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_creditcard.png" alt="" />
     ai-creditcard<br />
     0xe866<br />
-    &#59494;
+    &amp;#59494;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_crop.png" alt="" />
     ai-crop<br />
     0xe84a<br />
-    &#59466;
+    &amp;#59466;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_cut.png" alt="" />
     ai-cut<br />
     0xe86d<br />
-    &#59501;
+    &amp;#59501;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_database.png" alt="" />
     ai-database<br />
     0xe842<br />
-    &#59458;
+    &amp;#59458;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dialer.png" alt="" />
     ai-dialer<br />
     0xe8e5<br />
-    &#59621;
+    &amp;#59621;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dialog.png" alt="" />
     ai-dialog<br />
     0xe8f3<br />
-    &#59635;
+    &amp;#59635;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dice1.png" alt="" />
     ai-dice1<br />
     0xe8af<br />
-    &#59567;
+    &amp;#59567;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dice2.png" alt="" />
     ai-dice2<br />
     0xe8b0<br />
-    &#59568;
+    &amp;#59568;
   </div>
 
   <!-- 61 - 70 -->
@@ -382,61 +382,61 @@
     <img src="images/ai-mdpi/ic_action_dice3.png" alt="" />
     ai-dice3<br />
     0xe8b1<br />
-    &#59569;
+    &amp;#59569;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dice4.png" alt="" />
     ai-dice4<br />
     0xe8b2<br />
-    &#59570;
+    &amp;#59570;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dice5.png" alt="" />
     ai-dice5<br />
     0xe8b3<br />
-    &#59571;
+    &amp;#59571;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dice6.png" alt="" />
     ai-dice6<br />
     0xe8b4<br />
-    &#59572;
+    &amp;#59572;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_document.png" alt="" />
     ai-document<br />
     0xe855<br />
-    &#59477;
+    &amp;#59477;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dontlike.png" alt="" />
     ai-dontlike<br />
     0xe88c<br />
-    &#59532;
+    &amp;#59532;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_download.png" alt="" />
     ai-download<br />
     0xe849<br />
-    &#59465;
+    &amp;#59465;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_drag.png" alt="" />
     ai-drag<br />
     0xe8a5<br />
-    &#59557;
+    &amp;#59557;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_drop.png" alt="" />
     ai-drop<br />
     0xe84d<br />
-    &#59469;
+    &amp;#59469;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dropbox.png" alt="" />
     ai-social-dropbox<br />
     0xe8d4<br />
-    &#59604;
+    &amp;#59604;
   </div>
 
   <!-- 71 - 80 -->
@@ -445,61 +445,61 @@
     <img src="images/ai-mdpi/ic_action_edit.png" alt="" />
     ai-edit<br />
     0xe8c4<br />
-    &#59588;
+    &amp;#59588;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_angry.png" alt="" />
     ai-emo-angry<br />
     0xe8cb<br />
-    &#59595;
+    &amp;#59595;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_basic.png" alt="" />
     ai-emo-basic<br />
     0xe8c6<br />
-    &#59590;
+    &amp;#59590;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_cool.png" alt="" />
     ai-emo-cool<br />
     0xe8c7<br />
-    &#59591;
+    &amp;#59591;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_cry.png" alt="" />
     ai-emo-cry<br />
     0xe8cf<br />
-    &#59599;
+    &amp;#59599;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_err.png" alt="" />
     ai-emo-err<br />
     0xe8cd<br />
-    &#59597;
+    &amp;#59597;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_evil.png" alt="" />
     ai-emo-evil<br />
     0xe8d1<br />
-    &#59601;
+    &amp;#59601;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_kiss.png" alt="" />
     ai-emo-kiss<br />
     0xe8ce<br />
-    &#59598;
+    &amp;#59598;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_laugh.png" alt="" />
     ai-emo-laugh<br />
     0xe8ca<br />
-    &#59594;
+    &amp;#59594;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_shame.png" alt="" />
     ai-emo-shame<br />
     0xe8c9<br />
-    &#59593;
+    &amp;#59593;
   </div>
 
   <!-- 81 - 90 -->
@@ -508,61 +508,61 @@
     <img src="images/ai-mdpi/ic_action_emo_tongue.png" alt="" />
     ai-emo-tongue<br />
     0xe8cc<br />
-    &#59596;
+    &amp;#59596;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_wink.png" alt="" />
     ai-emo-wink<br />
     0xe8d0<br />
-    &#59600;
+    &amp;#59600;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_emo_wonder.png" alt="" />
     ai-emo-wonder<br />
     0xe8c8<br />
-    &#59592;
+    &amp;#59592;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_exit.png" alt="" />
     ai-exit<br />
     0xe862<br />
-    &#59490;
+    &amp;#59490;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_expand.png" alt="" />
     ai-expand<br />
     0xe819<br />
-    &#59417;
+    &amp;#59417;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_export.png" alt="" />
     ai-export<br />
     0xe87c<br />
-    &#59516;
+    &amp;#59516;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_eye_closed.png" alt="" />
     ai-eye-closed<br />
     0xe8c1<br />
-    &#59585;
+    &amp;#59585;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_eye_open.png" alt="" />
     ai-eye-open<br />
     0xe8a3<br />
-    &#59555;
+    &amp;#59555;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_facebook.png" alt="" />
     ai-social-facebook<br />
     0xe8d5<br />
-    &#59605;
+    &amp;#59605;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_feed.png" alt="" />
     ai-social-rss<br />
     0xe8c5<br />
-    &#59589;
+    &amp;#59589;
   </div>
 
   <!-- 91 - 100 -->
@@ -571,61 +571,61 @@
     <img src="images/ai-mdpi/ic_action_filter.png" alt="" />
     ai-filter<br />
     0xe86f<br />
-    &#59503;
+    &amp;#59503;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_flag.png" alt="" />
     ai-flag<br />
     0xe802<br />
-    &#59394;
+    &amp;#59394;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_flags.png" alt="" />
     ai-flags<br />
     0xe88f<br />
-    &#59535;
+    &amp;#59535;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_flash.png" alt="" />
     ai-flash<br />
     0xe817<br />
-    &#59415;
+    &amp;#59415;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_folder_closed.png" alt="" />
     ai-folder-closed<br />
     0xe80f<br />
-    &#59407;
+    &amp;#59407;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_folder_open.png" alt="" />
     ai-folder-open<br />
     0xe80e<br />
-    &#59406;
+    &amp;#59406;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_folder_tabs.png" alt="" />
     ai-folder-tabs<br />
     0xe810<br />
-    &#59408;
+    &amp;#59408;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_font_bigger.png" alt="" />
     ai-font-bigger<br />
     0xe8b7<br />
-    &#59575;
+    &amp;#59575;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_font_bold.png" alt="" />
     ai-font-bold<br />
     0xe8b9<br />
-    &#59577;
+    &amp;#59577;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_font_faces.png" alt="" />
     ai-font-faces<br />
     0xe8bb<br />
-    &#59579;
+    &amp;#59579;
   </div>
 
   <!-- 101 - 110 -->
@@ -634,61 +634,61 @@
     <img src="images/ai-mdpi/ic_action_font_italic.png" alt="" />
     ai-font-italic<br />
     0xe8c2<br />
-    &#59586;
+    &amp;#59586;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_font_smaller.png" alt="" />
     ai-font-smaller<br />
     0xe8b8<br />
-    &#59576;
+    &amp;#59576;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_font_underline.png" alt="" />
     ai-font-underline<br />
     0xe8ba<br />
-    &#59578;
+    &amp;#59578;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_foursquare.png" alt="" />
     ai-social-foursquare<br />
     0xe8de<br />
-    &#59614;
+    &amp;#59614;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_gear.png" alt="" />
     ai-gear<br />
     0xe868<br />
-    &#59496;
+    &amp;#59496;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_github.png" alt="" />
     ai-social-github<br />
     0xe8d6<br />
-    &#59606;
+    &amp;#59606;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_glasses.png" alt="" />
     ai-glasses<br />
     0xe839<br />
-    &#59449;
+    &amp;#59449;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_globe.png" alt="" />
     ai-globe<br />
     0xe83a<br />
-    &#59450;
+    &amp;#59450;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_gmail.png" alt="" />
     ai-social-gmail<br />
     0xe8d7<br />
-    &#59607;
+    &amp;#59607;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_goleft.png" alt="" />
     ai-goleft<br />
     0xe88a<br />
-    &#59530;
+    &amp;#59530;
   </div>
 
   <!-- 111 - 120 -->
@@ -697,61 +697,61 @@
     <img src="images/ai-mdpi/ic_action_google_play.png" alt="" />
     ai-social-gplay<br />
     0xe8d8<br />
-    &#59608;
+    &amp;#59608;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_goright.png" alt="" />
     ai-goright<br />
     0xe889<br />
-    &#59529;
+    &amp;#59529;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_gplus.png" alt="" />
     ai-social-gplus<br />
     0xe8df<br />
-    &#59615;
+    &amp;#59615;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_grow.png" alt="" />
     ai-grow<br />
     0xe834<br />
-    &#59444;
+    &amp;#59444;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_guitar.png" alt="" />
     ai-guitar<br />
     0xe892<br />
-    &#59538;
+    &amp;#59538;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_halt.png" alt="" />
     ai-halt<br />
     0xe874<br />
-    &#59508;
+    &amp;#59508;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_headphones.png" alt="" />
     ai-headphones<br />
     0xe80a<br />
-    &#59402;
+    &amp;#59402;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_heart.png" alt="" />
     ai-heart<br />
     0xe8ef<br />
-    &#59631;
+    &amp;#59631;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_help.png" alt="" />
     ai-help<br />
     0xe84e<br />
-    &#59470;
+    &amp;#59470;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_home.png" alt="" />
     ai-home<br />
     0xe84b<br />
-    &#59467;
+    &amp;#59467;
   </div>
 
   <!-- 121 - 130 -->
@@ -760,61 +760,61 @@
     <img src="images/ai-mdpi/ic_action_html5.png" alt="" />
     ai-social-html5<br />
     0xe8D3<br />
-    &#59603;
+    &amp;#59603;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_import.png" alt="" />
     ai-import<br />
     0xe87b<br />
-    &#59515;
+    &amp;#59515;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_inbox.png" alt="" />
     ai-inbox<br />
     0xe84c<br />
-    &#59468;
+    &amp;#59468;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_info.png" alt="" />
     ai-info<br />
     0xe84f<br />
-    &#59471;
+    &amp;#59471;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_io.png" alt="" />
     ai-power<br />
     0xe875<br />
-    &#59509;
+    &amp;#59509;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_joypad.png" alt="" />
     ai-joypad<br />
     0xe87a<br />
-    &#59514;
+    &amp;#59514;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_key.png" alt="" />
     ai-key<br />
     0xe89e<br />
-    &#59550;
+    &amp;#59550;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_knight.png" alt="" />
     ai-knight<br />
     0xe88e<br />
-    &#59534;
+    &amp;#59534;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_lab.png" alt="" />
     ai-lab<br />
     0xe831<br />
-    &#59441;
+    &amp;#59441;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_laptop.png" alt="" />
     ai-laptop<br />
     0xe83e<br />
-    &#59454;
+    &amp;#59454;
   </div>
 
   <!-- 131 - 140 -->
@@ -823,61 +823,61 @@
     <img src="images/ai-mdpi/ic_action_like.png" alt="" />
     ai-like<br />
     0xe88b<br />
-    &#59531;
+    &amp;#59531;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_line_chart.png" alt="" />
     ai-line-chart<br />
     0xe805<br />
-    &#59397;
+    &amp;#59397;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_link.png" alt="" />
     ai-link<br />
     0xe869<br />
-    &#59497;
+    &amp;#59497;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_linkedin.png" alt="" />
     ai-social-linkedin<br />
     0xe8e0<br />
-    &#59616;
+    &amp;#59616;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_list.png" alt="" />
     ai-list<br />
     0xe8a1<br />
-    &#59553;
+    &amp;#59553;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_list_2.png" alt="" />
     ai-list-2<br />
     0xe8a2<br />
-    &#59554;
+    &amp;#59554;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_location.png" alt="" />
     ai-location<br />
     0xe860<br />
-    &#59488;
+    &amp;#59488;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_location_2.png" alt="" />
     ai-location-2<br />
     0xe8c3<br />
-    &#59587;
+    &amp;#59587;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_lock_closed.png" alt="" />
     ai-lock-closed<br />
     0xe89c<br />
-    &#59548;
+    &amp;#59548;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_lock_open.png" alt="" />
     ai-lock-open<br />
     0xe89d<br />
-    &#59549;
+    &amp;#59549;
   </div>
 
   <!-- 141 - 150 -->
@@ -886,61 +886,61 @@
     <img src="images/ai-mdpi/ic_action_magnet.png" alt="" />
     ai-magnet<br />
     0xe804<br />
-    &#59396;
+    &amp;#59396;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mail.png" alt="" />
     ai-mail<br />
     0xe83b<br />
-    &#59451;
+    &amp;#59451;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_map.png" alt="" />
     ai-map<br />
     0xe85f<br />
-    &#59487;
+    &amp;#59487;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mic.png" alt="" />
     ai-mic<br />
     0xe877<br />
-    &#59511;
+    &amp;#59511;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_micoff.png" alt="" />
     ai-micoff<br />
     0xe878<br />
-    &#59512;
+    &amp;#59512;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_minus.png" alt="" />
     ai-minus<br />
     0xe81c<br />
-    &#59420;
+    &amp;#59420;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mist.png" alt="" />
     ai-mist<br />
     0xe801<br />
-    &#59393;
+    &amp;#59393;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_monitor.png" alt="" />
     ai-monitor<br />
     0xe83f<br />
-    &#59455;
+    &amp;#59455;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_monolog.png" alt="" />
     ai-monolog<br />
     0xe8f2<br />
-    &#59634;
+    &amp;#59634;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_more.png" alt="" />
     ai-more<br />
     0xe888<br />
-    &#59528;
+    &amp;#59528;
   </div>
 
   <!-- 151 - 160 -->
@@ -949,61 +949,61 @@
     <img src="images/ai-mdpi/ic_action_mouse.png" alt="" />
     ai-mouse<br />
     0xe8a8<br />
-    &#59560;
+    &amp;#59560;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_movie.png" alt="" />
     ai-movie<br />
     0xe857<br />
-    &#59479;
+    &amp;#59479;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_music_1.png" alt="" />
     ai-music-1<br />
     0xe808<br />
-    &#59400;
+    &amp;#59400;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_music_2.png" alt="" />
     ai-music-2<br />
     0xe809<br />
-    &#59401;
+    &amp;#59401;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_mustache.png" alt="" />
     ai-mustache<br />
     0xe8b6<br />
-    &#59574;
+    &amp;#59574;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_navigate.png" alt="" />
     ai-navigate<br />
     0xe8ea<br />
-    &#59626;
+    &amp;#59626;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_news.png" alt="" />
     ai-news<br />
     0xe859<br />
-    &#59481;
+    &amp;#59481;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_overflow.png" alt="" />
     ai-overflow<br />
     0xe8ec<br />
-    &#59628;
+    &amp;#59628;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_paste.png" alt="" />
     ai-paste<br />
     0xe86e<br />
-    &#59502;
+    &amp;#59502;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_paypal.png" alt="" />
     ai-social-paypal<br />
     0xe8e1<br />
-    &#59617;
+    &amp;#59617;
   </div>
 
   <!-- 161 - 170 -->
@@ -1012,61 +1012,61 @@
     <img src="images/ai-mdpi/ic_action_phone.png" alt="" />
     ai-phone<br />
     0xe80a<br />
-    &#59402;
+    &amp;#59402;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_end.png" alt="" />
     ai-phone-end<br />
     0xe811<br />
-    &#59409;
+    &amp;#59409;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_incoming.png" alt="" />
     ai-phone-incoming<br />
     0xe813<br />
-    &#59411;
+    &amp;#59411;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_missed.png" alt="" />
     ai-phone-missed<br />
     0xe815<br />
-    &#59413;
+    &amp;#59413;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_outgoing.png" alt="" />
     ai-phone-outgoing<br />
     0xe814<br />
-    &#59412;
+    &amp;#59412;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_phone_start.png" alt="" />
     ai-phone-start<br />
     0xe812<br />
-    &#59410;
+    &amp;#59410;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_picker.png" alt="" />
     ai-picker<br />
     0xe863<br />
-    &#59491;
+    &amp;#59491;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_picture.png" alt="" />
     ai-picture<br />
     0xe856<br />
-    &#59478;
+    &amp;#59478;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pie_chart.png" alt="" />
     ai-pie-chart<br />
     0xe805<br />
-    &#59397;
+    &amp;#59397;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pill.png" alt="" />
     ai-pill<br />
     0xe8b5<br />
-    &#59573;
+    &amp;#59573;
   </div>
 
   <!-- 171 - 180 -->
@@ -1075,61 +1075,61 @@
     <img src="images/ai-mdpi/ic_action_pin.png" alt="" />
     ai-pin<br />
     0xe838<br />
-    &#59448;
+    &amp;#59448;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pinterest.png" alt="" />
     ai-social-pinterest<br />
     0xe8d9<br />
-    &#59609;
+    &amp;#59609;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plane.png" alt="" />
     ai-plane<br />
     0xe816<br />
-    &#59414;
+    &amp;#59414;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_planet.png" alt="" />
     ai-planet<br />
     0xe88d<br />
-    &#59533;
+    &amp;#59533;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_forw.png" alt="" />
     ai-playback-forw<br />
     0xe883<br />
-    &#59523;
+    &amp;#59523;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_next.png" alt="" />
     ai-playback-next<br />
     0xe884<br />
-    &#59524;
+    &amp;#59524;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_pause.png" alt="" />
     ai-playback-pause<br />
     0xe87f<br />
-    &#59519;
+    &amp;#59519;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_play.png" alt="" />
     ai-playback-play<br />
     0xe87e<br />
-    &#59518;
+    &amp;#59518;
   </div>
   <div class="col-10">
-    <img src="images/ai-mdpi/ic_action_playback_prev.png" alt="" />
-    ai-playback-prev<br />
+    <img src="images/ai-mdpi/ic_action_playback_codev.png" alt="" />
+    ai-playback-codev<br />
     0xe882<br />
-    &#59522;
+    &amp;#59522;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_repeat.png" alt="" />
     ai-playback-repeat<br />
     0xe886<br />
-    &#59526;
+    &amp;#59526;
   </div>
 
   <!-- 181 - 190 -->
@@ -1138,61 +1138,61 @@
     <img src="images/ai-mdpi/ic_action_playback_repeat_1.png" alt="" />
     ai-playback-repeat-1<br />
     0xe887<br />
-    &#59527;
+    &amp;#59527;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_rew.png" alt="" />
     ai-playback-rew<br />
     0xe881<br />
-    &#59521;
+    &amp;#59521;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_schuffle.png" alt="" />
     ai-playback-shuffle<br />
     0xe885<br />
-    &#59525;
+    &amp;#59525;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_playback_stop.png" alt="" />
     ai-playback-stop<br />
     0xe880<br />
-    &#59520;
+    &amp;#59520;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plug.png" alt="" />
     ai-plug<br />
     0xe8a9<br />
-    &#59561;
+    &amp;#59561;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_plusone.png" alt="" />
     ai-plusone<br />
     0xe850<br />
-    &#59472;
+    &amp;#59472;
   </div>
   <div class="col-10">
-    <img src="images/ai-mdpi/ic_action_present.png" alt="" />
-    ai-present<br />
+    <img src="images/ai-mdpi/ic_action_codesent.png" alt="" />
+    ai-codesent<br />
     0xe87d<br />
-    &#59517;
+    &amp;#59517;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_end.png" alt="" />
     ai-process-end<br />
     0xe8bd<br />
-    &#59581;
+    &amp;#59581;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_save.png" alt="" />
     ai-process-save<br />
     0xe8be<br />
-    &#59582;
+    &amp;#59582;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_process_start.png" alt="" />
     ai-process-start<br />
     0xe8bf<br />
-    &#59583;
+    &amp;#59583;
   </div>
 
   <!-- 191 - 200 -->
@@ -1201,123 +1201,124 @@
     <img src="images/ai-mdpi/ic_action_puzzle.png" alt="" />
     ai-puzzle<br />
     0xe843<br />
-    &#59459;
+    &amp;#59459;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_rain.png" alt="" />
     ai-rain<br />
     0xe8ad<br />
-    &#59565;
+    &amp;#59565;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_record.png" alt="" />
     ai-record<br />
     0xe893<br />
-    &#59539;
+    &amp;#59539;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_redo.png" alt="" />
     ai-redo<br />
     0xe852<br />
-    &#59474;
+    &amp;#59474;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_reload.png" alt="" />
     ai-reload<br />
     0xe844<br />
-    &#59460;
+    &amp;#59460;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_restaurant.png" alt="" />
     ai-restaurant<br />
     0xe897<br />
-    &#59543;
+    &amp;#59543;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_rocket.png" alt="" />
     ai-rocket<br />
     0xe89a<br />
-    &#59546;
+    &amp;#59546;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_ruler.png" alt="" />
     ai-ruler<br />
     0xe81f<br />
-    &#59423;
+    &amp;#59423;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_save.png" alt="" />
     ai-save<br />
     0xe8a4<br />
-    &#59556;
+    &amp;#59556;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_search.png" alt="" />
     ai-search<br />
     0xe827<br />
-    &#59431;
+    &amp;#59431;
   </div>
 
   <!-- 201 - 210 -->
 
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_send.png" alt="" />
+    ai-send<br />
     0xe8ed<br />
-    &#59629;
+    &amp;#59629;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_settings.png" alt="" />
     ai-settings<br />
     0xe807<br />
-    &#59399;
+    &amp;#59399;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_share.png" alt="" />
     ai-share<br />
     0xe8e6<br />
-    &#59622;
+    &amp;#59622;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_share_2.png" alt="" />
     ai-share-2<br />
     0xe83c<br />
-    &#59452;
+    &amp;#59452;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_shield.png" alt="" />
     ai-shield<br />
     0xe823<br />
-    &#59427;
+    &amp;#59427;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_signal.png" alt="" />
     ai-signal<br />
     0xe837<br />
-    &#59447;
+    &amp;#59447;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sms.png" alt="" />
     ai-sms<br />
     0xe895<br />
-    &#59541;
+    &amp;#59541;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sort_1.png" alt="" />
     ai-sort-1<br />
     0xe853<br />
-    &#59475;
+    &amp;#59475;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sort_2.png" alt="" />
     ai-sort-2<br />
     0xe854<br />
-    &#59476;
+    &amp;#59476;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_soundcloud.png" alt="" />
     ai-social-soundcloud<br />
     0xe8da<br />
-    &#59610;
+    &amp;#59610;
   </div>
 
   <!-- 211 - 220 -->
@@ -1326,61 +1327,61 @@
     <img src="images/ai-mdpi/ic_action_stamp.png" alt="" />
     ai-stamp<br />
     0xe85c<br />
-    &#59484;
+    &amp;#59484;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_0.png" alt="" />
     ai-star-0<br />
     0xe8e7<br />
-    &#59623;
+    &amp;#59623;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_5.png" alt="" />
     ai-star-5<br />
     0xe8e8<br />
-    &#59624;
+    &amp;#59624;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_star_10.png" alt="" />
     ai-star-10<br />
     0xe8e9<br />
-    &#59625;
+    &amp;#59625;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_stumbleupon.png" alt="" />
     ai-social-stumbleupon<br />
     0xe8e2<br />
-    &#59618;
+    &amp;#59618;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_sun.png" alt="" />
     ai-sun<br />
     0xe8f6<br />
-    &#59638;
+    &amp;#59638;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tablet.png" alt="" />
     ai-tablet<br />
     0xe840<br />
-    &#59456;
+    &amp;#59456;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tag.png" alt="" />
     ai-tag<br />
     0xe86a<br />
-    &#59498;
+    &amp;#59498;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tags.png" alt="" />
     ai-tags<br />
     0xe86b<br />
-    &#59499;
+    &amp;#59499;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_temperature.png" alt="" />
     ai-temperature<br />
     0xe833<br />
-    &#59443;
+    &amp;#59443;
   </div>
 
   <!-- 221 - 230 -->
@@ -1389,61 +1390,61 @@
     <img src="images/ai-mdpi/ic_action_tick.png" alt="" />
     ai-tick<br />
     0xe82e<br />
-    &#59438;
+    &amp;#59438;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_ticket.png" alt="" />
     ai-ticket<br />
     0xe899<br />
-    &#59545;
+    &amp;#59545;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tiles_large.png" alt="" />
     ai-tiles-large<br />
     0xe80b<br />
-    &#59403;
+    &amp;#59403;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tiles_small.png" alt="" />
     ai-tiles-small<br />
     0xe80c<br />
-    &#59404;
+    &amp;#59404;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_train.png" alt="" />
     ai-train<br />
     0xe8ad<br />
-    &#59565;
+    &amp;#59565;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_trash.png" alt="" />
     ai-trash<br />
     0xe847<br />
-    &#59463;
+    &amp;#59463;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tshirt.png" alt="" />
     ai-tshirt<br />
     0xe898<br />
-    &#59544;
+    &amp;#59544;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tumblr.png" alt="" />
     ai-social-tumblr<br />
     0xe8e3<br />
-    &#59619;
+    &amp;#59619;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_turn_left.png" alt="" />
     ai-turn-left<br />
     0xe85d<br />
-    &#59485;
+    &amp;#59485;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_turn_right.png" alt="" />
     ai-turn-right<br />
     0xe85e<br />
-    &#59486;
+    &amp;#59486;
   </div>
 
   <!-- 231 - 240 -->
@@ -1452,61 +1453,61 @@
     <img src="images/ai-mdpi/ic_action_tv.png" alt="" />
     ai-tv<br />
     0xe841<br />
-    &#59457;
+    &amp;#59457;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_twitter.png" alt="" />
     ai-social-twitter<br />
     0xe8e4<br />
-    &#59620;
+    &amp;#59620;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_umbrella.png" alt="" />
     ai-umbrella<br />
     0xe803<br />
-    &#59395;
+    &amp;#59395;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_undo.png" alt="" />
     ai-undo<br />
     0xe851<br />
-    &#59473;
+    &amp;#59473;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_upload.png" alt="" />
     ai-upload<br />
     0xe848<br />
-    &#59464;
+    &amp;#59464;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_user.png" alt="" />
     ai-user<br />
     0xe8f4<br />
-    &#59636;
+    &amp;#59636;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_users.png" alt="" />
     ai-users<br />
     0xe8f5<br />
-    &#59637;
+    &amp;#59637;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_video.png" alt="" />
     ai-video<br />
     0xe81d<br />
-    &#59421;
+    &amp;#59421;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_vimeo.png" alt="" />
     ai-social-vimeo<br />
     0xe8dc<br />
-    &#59612;
+    &amp;#59612;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume.png" alt="" />
     ai-volume<br />
     0xe870<br />
-    &#59504;
+    &amp;#59504;
   </div>
 
   <!-- 241 - 250 -->
@@ -1515,55 +1516,55 @@
     <img src="images/ai-mdpi/ic_action_volume_down.png" alt="" />
     ai-volume-down<br />
     0xe873<br />
-    &#59507;
+    &amp;#59507;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume_mute.png" alt="" />
     ai-volume-mute<br />
     0xe871<br />
-    &#59505;
+    &amp;#59505;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_volume_up.png" alt="" />
     ai-volume-up<br />
     0xe872<br />
-    &#59506;
+    &amp;#59506;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_warning.png" alt="" />
     ai-warning<br />
     0xe879<br />
-    &#59513;
+    &amp;#59513;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wheel.png" alt="" />
     ai-steering-wheel<br />
     0xe836<br />
-    &#59446;
+    &amp;#59446;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wifi.png" alt="" />
     ai-wifi<br />
     0xe89f<br />
-    &#59551;
+    &amp;#59551;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_wizard.png" alt="" />
     ai-wizard<br />
     0xe832<br />
-    &#59442;
+    &amp;#59442;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_yinyang.png" alt="" />
     ai-yingyang<br />
     0xe822<br />
-    &#59426;
+    &amp;#59426;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_youtube.png" alt="" />
     ai-social-youtube<br />
     0xe8dd<br />
-    &#59613;
+    &amp;#59613;
   </div>
   <div class="col-10">
     
