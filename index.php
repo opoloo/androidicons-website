@@ -50,18 +50,33 @@
       <button class="buy-set">Buy the iconfont 9$</button>
     </div>
     <div class="glyphs">
-      <div class="tutorial">
-        <h1>How to use the iconfont</h1>
-        <h2>Step 1</h2>
-        <p>Copy the font-files into your project folder</p>
-        <h2>Step 2</h2>
-        <p>Add the font CSS files to your HTML document</p>
-        <h2>Step 3</h2>
-        <p>Use classes to display the icons. Style them with CSS:</p>
-        <pre>&lt;span class="ai-achievement"&gt;&lt;/span&gt;</pre>
-        <p>Result:</p>
-        <p><img src="images/ai-mdpi/ic_action_achievement.png" alt="" /></p>
+      <h1>How to use the iconfont</h1>
+
+      <div class="row">
+        <div class="col-4">
+          <div class="image">
+            <img src="images/aifont_step1.png" alt="" />
+          </div>
+          <h2>STEP 1</h2>
+          <p>Copy the font-files (.ttf, .eot, .svg and .woff) and the CSS file into your project folder.</p>
+        </div>
+        <div class="col-4">
+          <div class="image">
+            <img src="images/aifont_step2.png" alt="" />
+          </div>
+          <h2>STEP 2</h2>
+          <p>Add the font CSS file (androidicons.css) to your HTML document or import it to your exsiting CSS file.</p>
+        </div>
+        <div class="col-4">
+          <div class="image">
+            <img src="images/aifont_step3.png" alt="" />
+          </div>
+          <h2>STEP 3</h2>
+          <p>Use CSS-classes, Unicodes or HTML-Entities to display the icons. Style them with CSS (font-size, color, etc.).</p>
+        </div>
       </div>
+
+      <h1>All glyphs &amp; codes</h1>
       <?php require_once('glyphs.php'); ?>
     </div>
   </div>

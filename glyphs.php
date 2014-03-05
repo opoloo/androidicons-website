@@ -8,7 +8,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_add.png" alt="" />
-    ai-add<br />
+    ai-plus<br />
     0xe81b<br />
     &amp;#59419;
   </div>
@@ -20,7 +20,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_amazon.png" alt="" />
-    ai-social-amazon<br />
+    ai-amazon<br />
     0xe8d2<br />
     &amp;#59602;
   </div>
@@ -266,7 +266,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_circles.png" alt="" />
-    ai-social-gcircles<br />
+    ai-gcircles<br />
     0xe8db<br />
     &amp;#59611;
   </div>
@@ -434,7 +434,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_dropbox.png" alt="" />
-    ai-social-dropbox<br />
+    ai-dropbox<br />
     0xe8d4<br />
     &amp;#59604;
   </div>
@@ -554,13 +554,13 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_facebook.png" alt="" />
-    ai-social-facebook<br />
+    ai-facebook<br />
     0xe8d5<br />
     &amp;#59605;
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_feed.png" alt="" />
-    ai-social-rss<br />
+    ai-rss<br />
     0xe8c5<br />
     &amp;#59589;
   </div>
@@ -650,7 +650,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_foursquare.png" alt="" />
-    ai-social-foursquare<br />
+    ai-foursquare<br />
     0xe8de<br />
     &amp;#59614;
   </div>
@@ -662,7 +662,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_github.png" alt="" />
-    ai-social-github<br />
+    ai-github<br />
     0xe8d6<br />
     &amp;#59606;
   </div>
@@ -680,7 +680,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_gmail.png" alt="" />
-    ai-social-gmail<br />
+    ai-gmail<br />
     0xe8d7<br />
     &amp;#59607;
   </div>
@@ -695,7 +695,7 @@
 
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_google_play.png" alt="" />
-    ai-social-gplay<br />
+    ai-gplay<br />
     0xe8d8<br />
     &amp;#59608;
   </div>
@@ -707,7 +707,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_gplus.png" alt="" />
-    ai-social-gplus<br />
+    ai-gplus<br />
     0xe8df<br />
     &amp;#59615;
   </div>
@@ -758,7 +758,7 @@
 
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_html5.png" alt="" />
-    ai-social-html5<br />
+    ai-html5<br />
     0xe8D3<br />
     &amp;#59603;
   </div>
@@ -839,7 +839,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_linkedin.png" alt="" />
-    ai-social-linkedin<br />
+    ai-linkedin<br />
     0xe8e0<br />
     &amp;#59616;
   </div>
@@ -1001,7 +1001,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_paypal.png" alt="" />
-    ai-social-paypal<br />
+    ai-paypal<br />
     0xe8e1<br />
     &amp;#59617;
   </div>
@@ -1079,7 +1079,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_pinterest.png" alt="" />
-    ai-social-pinterest<br />
+    ai-pinterest<br />
     0xe8d9<br />
     &amp;#59609;
   </div>
@@ -1120,8 +1120,8 @@
     &amp;#59518;
   </div>
   <div class="col-10">
-    <img src="images/ai-mdpi/ic_action_playback_codev.png" alt="" />
-    ai-playback-codev<br />
+    <img src="images/ai-mdpi/ic_action_playback_prev.png" alt="" />
+    ai-playback-prev<br />
     0xe882<br />
     &amp;#59522;
   </div>
@@ -1171,8 +1171,8 @@
     &amp;#59472;
   </div>
   <div class="col-10">
-    <img src="images/ai-mdpi/ic_action_codesent.png" alt="" />
-    ai-codesent<br />
+    <img src="images/ai-mdpi/ic_action_present.png" alt="" />
+    ai-present<br />
     0xe87d<br />
     &amp;#59517;
   </div>
@@ -1316,7 +1316,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_soundcloud.png" alt="" />
-    ai-social-soundcloud<br />
+    ai-soundcloud<br />
     0xe8da<br />
     &amp;#59610;
   </div>
@@ -1349,7 +1349,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_stumbleupon.png" alt="" />
-    ai-social-stumbleupon<br />
+    ai-stumbleupon<br />
     0xe8e2<br />
     &amp;#59618;
   </div>
@@ -1430,7 +1430,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_tumblr.png" alt="" />
-    ai-social-tumblr<br />
+    ai-tumblr<br />
     0xe8e3<br />
     &amp;#59619;
   </div>
@@ -1457,7 +1457,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_twitter.png" alt="" />
-    ai-social-twitter<br />
+    ai-twitter<br />
     0xe8e4<br />
     &amp;#59620;
   </div>
@@ -1499,7 +1499,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_vimeo.png" alt="" />
-    ai-social-vimeo<br />
+    ai-vimeo<br />
     0xe8dc<br />
     &amp;#59612;
   </div>
@@ -1562,7 +1562,7 @@
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_youtube.png" alt="" />
-    ai-social-youtube<br />
+    ai-youtube<br />
     0xe8dd<br />
     &amp;#59613;
   </div>
