@@ -60,6 +60,6 @@ $(document).ready(function(){
   });
 
   $('.glyphs-box .buy-set').click(function() {
-    window.location.href = "#";
+    window.location.href = "http://pul.ly/b/98419";
   });
 });

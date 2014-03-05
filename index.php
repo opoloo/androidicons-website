@@ -176,7 +176,7 @@
           <a name="iconfinder" id="iconfinder"></a>  
           <h2>The Androidicons-Font</h2>
           <p>We truly believe that our Android Developer Iconset 2.5 offers an unbeatable price/performance ratio for every developer. But if you need just one or two icons to round out your experience, hop over to <a href="https://www.iconfinder.com/cloudif">Iconfinder.com</a> and get each icon for just $1, including sources.</p>
-          <a href="#" class="btn">Buy the iconfont for only $9</a>
+          <a href="http://pul.ly/b/98419" class="btn">Buy the iconfont for only $9</a>
           <a href="#" class="btn-all-glyphs">See all glyphs</a>
         </div>
         <div class="clearfix"></div>
