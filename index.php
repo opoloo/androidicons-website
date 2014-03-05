@@ -104,7 +104,7 @@
 
   <div class="wrapper">
     <div id="intro">
-      <h1 class="firstheader">Android Developer Icons<span>Update 2.5</span></h1>
+      <h1 class="firstheader">Android Developer Icons <?php #<span>Update 2.5</span> ?></h1>
       <div id="teaser" class="hide_mobile">
         <p>250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.</p>
         <span>Optimized for Ice Cream Sandwich, Jelly Bean &amp; the Web</span>
@@ -175,7 +175,7 @@
         <div class="two-cols">
           <a name="iconfinder" id="iconfinder"></a>  
           <h2>The Androidicons-Font</h2>
-          <p>We truly believe that our Android Developer Iconset 2.5 offers an unbeatable price/performance ratio for every developer. But if you need just one or two icons to round out your experience, hop over to <a href="https://www.iconfinder.com/cloudif">Iconfinder.com</a> and get each icon for just $1, including sources.</p>
+          <p>The new icon font consists of 249 lovely icons from the Androidicons set. Now you can easily style the icons according to your needs — with your CSS, without implementing graphics. We recommend this selection for introducing color and beautiful, immediate visual communication to your web projects.</p>
           <a href="http://pul.ly/b/98419" class="btn">Buy the iconfont for only $9</a>
           <a href="#" class="btn-all-glyphs">See all glyphs</a>
         </div>
@@ -550,7 +550,7 @@ PS: I love your foxy icons.">
       </div>
       <div id="copyright">
         <span class="about">The set was created by <a href="https://plus.google.com/u/0/109726284197282147930/posts">Guenther Beyer</a> and <a href="http://www.opoloo.com">Opoloo</a>. If you're looking for Android design and development services, feel free to <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%6f%70%6f%6c%6f%6f%2e%63%6f%6d%5c%22%3e%63%6f%6e%74%61%63%74%20%75%73%3c%5c%2f%61%3e%27%29%3b'))</script>.</span>
-        <span>All rights reserved &copy; 2013 <a href="http://www.opoloo.com">Opoloo GbR</a>. Lovingly created in Mayence | <a href="http://www.opoloo.de/impressum">Imprint</a></span>
+        <span>All rights reserved &copy; 2014 <a href="http://www.opoloo.com">Opoloo GbR</a>. Lovingly created in Mayence | <a href="http://www.opoloo.de/impressum">Imprint</a></span>
         <span class="signet"><a href="http://www.opoloo.com/"></a></span>
       </div>
     </div>
