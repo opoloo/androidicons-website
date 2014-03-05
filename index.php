@@ -6,6 +6,7 @@
 <meta name="description" content="Android Icons offers free icons and a professional handcrafted icon set with 200 icons in 14 different colors and 4 sizes." />
 <meta name="keywords" content="android,icon,icons,icondesign,free,download,icon set,iconset, ics, jellybean, Honeycomb, mayence, new york, sources, royalty free" />
 <meta http-equiv="Content-Type"	content="text/html; charset=UTF-8" />
+<meta http-equiv="expires" content="Tue, 04 Mar 2014 12:00:00 GMT">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,400italic,300italic,700|Roboto+Condensed:400,700,400italic,300italic,300|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 
