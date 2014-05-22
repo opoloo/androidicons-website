@@ -135,8 +135,8 @@
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bargraph.png" alt="" />
     ai-bargraph<br />
-    0xe8F0<br />
-    &amp;#59632;
+    0xe867<br />
+    &amp;#59495
   </div>
   <div class="col-10">
     <img src="images/ai-mdpi/ic_action_bars.png" alt="" />
