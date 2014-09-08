@@ -30,6 +30,10 @@
 <script type="text/javascript" src="scripts/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="scripts/idangerous.swiper.js"></script>
 <script type="text/javascript" src="scripts/application.js"></script>
+<script type="text/javascript">
+    var _bftn_options = { animation: 'banner', theme: 'dark' }
+</script>
+<script src="//widget.battleforthenet.com/widget.min.js" async></script>
 </head>
 
 
