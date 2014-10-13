@@ -109,6 +109,9 @@
 
   <div class="wrapper">
     <div id="intro">
+      <div class="info">
+        The Android Developer Iconset will go open source in early December. Thanks to everybody who supported us and the Android community over the years.
+      </div>
       <h1 class="firstheader">Android Developer Icons <?php #<span>Update 2.5</span> ?></h1>
       <div id="teaser" class="hide_mobile">
         <p>250 icons in 5 sizes and 14 colors. Handcrafted, pixel perfect.</p>
