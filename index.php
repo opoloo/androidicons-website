@@ -181,7 +181,7 @@
         </div>
         <div class="right">
           &copy; by opoloo<br />
-          <a href="http://www.opoloo.com/impressum">Imprint</a>
+          <a href="https://www.opoloo.com/impressum">Imprint</a> &middot; <a href="https://www.opoloo.com/privacy">Privacy Policy</a>
         </div>
       </div>
       <div class="row">
