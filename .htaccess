@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^androidicons\.com
+RewriteRule ^(.*)$ http://www.androidicons.com/$1 [R=permanent,L]
+
